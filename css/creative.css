@@ -429,30 +429,19 @@ header .header-content .header-content-inner h1 {
   padding: 0;
 }
 
-.about-section {
-  background-color: blue;
-}
-
-.test-section {
-  background-color: pink;
-}
-
-.work-section {
-  background-color: purple;
-}
-
-.work-image-section {
-  background-color: green;
-}
-
-.contact-section {
-  background-color: yellow;
-}
-
 .portfolio-hands {
   margin: 0 auto;
 }
 
 .contact-blurb-section {
   background-color: violet;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.section-title h2 {
+  font-weight: 800;
+  padding-top: 50%;
 }

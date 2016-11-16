@@ -26,6 +26,7 @@
         $(window).bind('resize', thirty_pc);
     });
 
+
     // Highlight the top nav as scrolling occurs
     $('body').scrollspy({
         target: '.navbar-fixed-top',
