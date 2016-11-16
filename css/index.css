@@ -1,0 +1,32 @@
+.about-section h2 {
+	margin: 0;
+	color: #FFF;
+}
+
+.about-section {
+	background-color: blue;
+}
+
+.about-section-blurb {
+	background-color: #FFF;
+}
+
+.about-section-blurb p {
+	padding: 2% 2% 2% 2%;
+}
+
+.work-section {
+	background-color: #F4F4F4;
+}
+
+.contact-section {
+	background-color: #D8D8D8;
+}
+
+.contact-blurb-section {
+	background-color: #fff;
+}
+
+.contact-blurb-section p {
+	padding: 2% 2% 2% 2%;
+}

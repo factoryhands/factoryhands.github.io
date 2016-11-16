@@ -1,0 +1,45 @@
+/*Custom Styles for Oh-Hey page*/
+
+.col-lg-12 {
+	padding: 0;
+}
+
+h2 {
+	margin: 0;
+}
+
+.about-section {
+}
+
+.project-role{
+	padding: 2% 0px 2% 2%;
+	background-color: #EFEFEF;
+}
+
+.project-role p {
+	font-size: 1em;
+	margin: 0;
+	font-weight: 200;
+}
+
+.project-description-1 {
+	background-color: #fff;
+}
+
+.project-description-1 p {
+	color: #1E130A;
+	padding: 2% 2% 2% 2%;
+}
+
+.project-img {
+	background-color: #E9E9E9;
+}
+
+.project-description-2 {
+	background-color: #fff;
+}
+
+.project-description-2 p {
+	color: #1E130A;
+	padding: 2% 2% 2% 2%;
+}

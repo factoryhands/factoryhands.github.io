@@ -13,6 +13,19 @@
         event.preventDefault();
     });
 
+    // Scale div to be size of viewport
+    function thirty_pc() {
+        var height = $(window).height();
+        var thirtypc = (100 * height) / 100 - 50;
+        thirtypc = parseInt(thirtypc) + 'px';
+        $(".full").css('height',thirtypc);
+    }
+
+    $(document).ready(function() {
+        thirty_pc();
+        $(window).bind('resize', thirty_pc);
+    });
+
     // Highlight the top nav as scrolling occurs
     $('body').scrollspy({
         target: '.navbar-fixed-top',

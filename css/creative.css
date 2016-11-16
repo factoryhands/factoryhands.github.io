@@ -14,7 +14,7 @@ body {
 hr {
   border-color: #F05F40;
   border-width: 3px;
-  max-width: 50px;
+  max-width: 50px;  
 }
 hr.light {
   border-color: white;
@@ -421,14 +421,13 @@ body {
 }
 
 header .header-content .header-content-inner h1 {
-  margin-bottom: 110px;
+  margin: 50px 0 110px 0;
   font-size: 1.5em;
 }
 
-/*.full-screen {
-  height: 100vh;
+.col-lg-6 {
   padding: 0;
-}*/
+}
 
 .about-section {
   background-color: blue;
@@ -436,4 +435,24 @@ header .header-content .header-content-inner h1 {
 
 .test-section {
   background-color: pink;
+}
+
+.work-section {
+  background-color: purple;
+}
+
+.work-image-section {
+  background-color: green;
+}
+
+.contact-section {
+  background-color: yellow;
+}
+
+.portfolio-hands {
+  margin: 0 auto;
+}
+
+.contact-blurb-section {
+  background-color: violet;
 }
