@@ -18,7 +18,7 @@
         var height = $(window).height();
         var thirtypc = (100 * height) / 100 - 50;
         thirtypc = parseInt(thirtypc) + 'px';
-        $(".full").css('height',thirtypc);
+        $(".full, .header-content").css('height',thirtypc);
     }
 
     $(document).ready(function() {
