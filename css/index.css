@@ -7,9 +7,6 @@
 	background-color: blue;
 }
 
-.about-section-blurb p {
-}
-
 .work-section {
 	background-color: #F4F4F4;
 }
@@ -20,10 +17,6 @@
 
 .contact-blurb-section {
 	background-color: #fff;
-}
-
-.contact-blurb-section p {
-	padding: 2% 2% 2% 2%;
 }
 
 #homeHeading {

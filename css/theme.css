@@ -33,15 +33,6 @@ p {
   padding: 0;
 }
 
-/*NAVBAR*/
-/*.navbar-default {
-  background-color: white;
-  border-color: rgba(34, 34, 34, 0.05);
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-  -webkit-transition: all 0.35s;
-  -moz-transition: all 0.35s;
-  transition: all 0.35s;
-}*/
 /*NAVBAR FONT*/
 .navbar-default .navbar-header .navbar-brand {
   color: #333333;
@@ -59,6 +50,26 @@ p {
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
   color: blue;
+}
+
+/*MOBILE NAVBAR TRANSPARENT*/
+ @media only screen and (max-width : 480px) {
+  .navbar-default {
+    background-color: transparent;
+    border-color: transparent;  
+  }
+  .navbar-brand {
+    display: none;
+  }
+
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+  }
+}
+
+/*Mobile Navbar Button Bootstrap Overrides*/
+.navbar-default .navbar-toggle {
+  border-color: transparent; 
 }
 
 /* Portrait tablets and small desktops */
@@ -104,6 +115,13 @@ p {
   }
 }
 
+  @media only screen and (min-width : 480px) {
+    .navbar-default {
+      background-color: none;
+      border-color: none;
+    }
+  }
+
 header {
   width: 100%;
   min-height: auto;
@@ -119,7 +137,7 @@ header .header-content {
   width: 100%;
 }
 
-/* Portrait tablets and small desktops */
+/* Portrait tablets and small desktops 
 @media (min-width: 768px) {
   header {
     min-height: 100%;
@@ -317,18 +335,6 @@ header .header-content .header-content-inner h1 {
   font-size: 1.5em;
 }
 
-.col-lg-6 {
-  padding: 0;
-}
-
-.portfolio-hands {
-  margin: 0 auto;
-}
-
-.contact-blurb-section {
-  background-color: violet;
-}
-
 .section-title {
   text-align: center;
 }
@@ -337,3 +343,7 @@ header .header-content .header-content-inner h1 {
   font-weight: 800;
   padding-top: 50%;
 }
+
+/*.description {
+  padding: 12%;
+}*/
