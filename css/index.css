@@ -7,11 +7,6 @@
 	background-color: blue;
 }
 
-.about-section-blurb {
-	background-color: #FFF;
-	padding: 5% 3% 0% 5%;
-}
-
 .about-section-blurb p {
 }
 
@@ -36,4 +31,16 @@
 	text-align: center;
 	font-weight: 600;
     font-size: 1.5em;
+}
+
+.work-image-section {
+	background: url('../img/portfolio/thumbnails/oh-hey.jpg') no-repeat;
+	background-size: 330%;
+}
+
+/*SMALL SCREEN SVG WIDTH*/
+@media (max-width: 480px) {
+	.hand-illustration svg {
+		max-width: 100%;
+	}
 }
