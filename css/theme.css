@@ -16,6 +16,10 @@ a:hover,
 a:focus {
   color: blue;
 }
+h2 {
+  font-size: 1.5em;
+  font-weight: 700;
+}
 h1,
 h2,
 h3,
@@ -73,8 +77,21 @@ header .header-content {
   }
 }
 
-.section-heading {
-  margin-top: 0;
+.white {
+  color: #fff;
+}
+
+.section-header {
+  font-size:4em;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 45%;
+}
+
+.section-nav {
+
 }
 
 /* Project Name & Description */

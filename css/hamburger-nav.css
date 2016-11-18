@@ -23,7 +23,7 @@
 /* Position the content inside the overlay */
 .overlay-content {
     position: relative;
-    top: 25%; /* 25% from the top */
+    top: 10%; /* 25% from the top */
     width: 100%; /* 100% width */
     text-align: center; /* Centered text/links */
     margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
@@ -31,12 +31,13 @@
 
 /* The navigation links inside the overlay */
 .overlay a {
-    padding: 8px;
+    padding: 1px;
     text-decoration: none;
-    font-size: 36px;
-    color: #818181;
-    display: block; /* Display block instead of inline */
-    transition: 0.3s; /* Transition effects on hover (color) */
+    font-size: 86px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+    font-weight: 700;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -47,9 +48,8 @@
 /* Position the close button (top right corner) */
 .overlay .closebtn {
     position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
+    right: 40px;
+    font-size: 4em;
 }
 
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
