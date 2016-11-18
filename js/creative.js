@@ -1,8 +1,6 @@
 (function($) {
     "use strict"; // Start of use strict
 
-    console.log($('#contact').offset());
-
     // jQuery for page scrolling feature - requires jQuery Easing plugin
     $('a.page-scroll').on('click', function(event) {
         var $anchor = $(this);
