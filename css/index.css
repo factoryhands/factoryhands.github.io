@@ -28,7 +28,7 @@
 
 .work-image-section {
 	background: url('../img/portfolio/thumbnails/oh-hey.jpg') no-repeat;
-	background-size: 330%;
+	background-size: 350%;
 }
 
 /*SMALL SCREEN SVG WIDTH*/
@@ -36,4 +36,9 @@
 	.hand-illustration svg {
 		max-width: 100%;
 	}
+
+	header {
+		height: 100%;
+	}
 }
+
