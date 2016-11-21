@@ -42,23 +42,27 @@
    flex-direction: column;
 }
 
+.portfolio-images li {
+	flex: 1;
+}
+
 .oh-hey {
-	height: 100px;
+	min-height: 100%;
 	background-color: purple;
 }
 
 .seismic-hero {
-	height: 100px;
+	min-height: 100%;
 	background-color: yellow;
 }
 
 .gogo-travel {
-	height: 100px;
+	min-height: 100%;
 	background-color: blue;
 }
 
 .logos {
-	height: 100px;
+	min-height: 100%;
 	background-color: violet;
 }
 
