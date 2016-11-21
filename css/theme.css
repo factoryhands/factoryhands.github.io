@@ -275,3 +275,12 @@ header .header-content .header-content-inner h1 {
 .description {
   padding: 12%;
 }
+
+/*Hamburger Menu Small Screens*/
+/*SMALL SCREEN FIXES*/
+@media (max-width: 480px) {
+  .hamburger-menu {
+    right: 6px;
+    top: 6px;;
+  }
+}
