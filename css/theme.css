@@ -10,7 +10,8 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #1E130A;
+  color: #333;
+  text-decoration: underline;
 }
 a:hover,
 a:focus {
@@ -270,9 +271,31 @@ header .header-content .header-content-inner h1 {
   padding: 12% 12% 7% 12%;
 }
 
+/*Future Contact Form*/
 .contact-form {
   width: 75%;
   margin: 0 auto;
+}
+
+/*Social Icons*/
+.social-icons svg {
+  margin-right: 3%;
+  width: 8%;
+}
+
+.social-icons a {
+  text-decoration: none;
+}
+
+a svg:hover {
+  fill: blue;
+}
+
+a svg { 
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
 }
 
 /*Hamburger Menu Small Screens*/
