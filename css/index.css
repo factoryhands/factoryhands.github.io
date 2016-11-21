@@ -35,29 +35,29 @@
 }
 
 .portfolio-images {
+	display: -webkit-flex;
+	display: flex;
 	list-style: none;
+	-webkit-flex-direction: column;
+   flex-direction: column;
 }
 
 .oh-hey {
-	width: 100px;
 	height: 100px;
 	background-color: purple;
 }
 
 .seismic-hero {
-	width: 100px;
 	height: 100px;
 	background-color: yellow;
 }
 
 .gogo-travel {
-	width: 100px;
 	height: 100px;
 	background-color: blue;
 }
 
 .logos {
-	width: 100px;
 	height: 100px;
 	background-color: violet;
 }
