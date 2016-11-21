@@ -186,8 +186,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: white;
-  background-color: #F05F40;
-  border-color: #F05F40;
+  background-color: blue;
+  border-color: transparent;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -199,8 +199,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #ee4b28;
-  border-color: #ed431f;
+  background-color: pink;
+  border-color: transparent;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -235,17 +235,11 @@ fieldset[disabled] .btn-primary.active {
 .btn {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   border: none;
-  border-radius: 300px;
   font-weight: 700;
 }
 .btn-xl {
   padding: 15px 30px;
 }
-
-/*Jenn's CSS*/
-/*.main-nav {
-  margin: 7% 0 0 0;
-}*/
 
 .main-nav ul li {
   list-style: none;
@@ -273,7 +267,12 @@ header .header-content .header-content-inner h1 {
 }
 
 .description {
-  padding: 12%;
+  padding: 12% 12% 7% 12%;
+}
+
+.contact-form {
+  width: 75%;
+  margin: 0 auto;
 }
 
 /*Hamburger Menu Small Screens*/
