@@ -12,7 +12,11 @@
 }
 
 .contact-section {
-	background-color: #D8D8D8;
+	background-color: #FFC8D0;
+}
+
+.contact-section .section-header {
+	color: white;
 }
 
 .contact-blurb-section {
@@ -27,7 +31,7 @@
 }
 
 .work-image-section {
-	background-color: pink;
+	background-color: aqua;
 }
 
 .portfolio-images {
