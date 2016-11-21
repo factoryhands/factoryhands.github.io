@@ -4,6 +4,8 @@
     right: 40px;
     color: blue;
     z-index: 1;
+    background-color: white;
+    padding: 0px 9px 0px 9px; 
 }
 
 /* The Overlay (background) */

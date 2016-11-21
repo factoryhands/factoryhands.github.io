@@ -5,7 +5,7 @@ body {
 }
 body {
   font-family: 'Helvetica Neue', Arial, sans-serif;
-}
+} 
 a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -244,7 +244,7 @@ fieldset[disabled] .btn-primary.active {
 
 /*Jenn's CSS*/
 .main-nav {
-  margin: 4% 0 0 0;
+  margin: 7% 0 0 0;
 }
 
 .main-nav ul li {
