@@ -79,6 +79,12 @@
 	margin-top: 4%;
 }
 
+.section-header .nav>li a {
+	list-style: none;
+    font-size: .5em;
+    color: white;
+}
+
 /*SMALL SCREEN FIXES*/
 @media (max-width: 480px) {
 	.hand-illustration svg {
