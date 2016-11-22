@@ -61,24 +61,28 @@
 	background-image: url('../img/portfolio/thumbnails/oh-hey.jpg');
 	background-size: 100%;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .seismic-hero {
 	background-image: url('../img/portfolio/thumbnails/seismic-hero.jpeg');
 	background-size: 100%;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .gogo-travel {
 	background-image: url('../img/portfolio/thumbnails/gogotravel.jpeg');
 	background-size: 100%;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .logos {
 	background-image: url('../img/portfolio/thumbnails/logos.jpg');
 	background-size: 100%;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .main-headline {
