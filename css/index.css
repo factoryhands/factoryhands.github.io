@@ -59,21 +59,26 @@
 
 .work-image-section a.oh-hey {
 	background-image: url('../img/portfolio/thumbnails/oh-hey.jpg');
+	background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .seismic-hero {
-	min-height: 100%;
-	background-color: yellow;
+	background-image: url('../img/portfolio/thumbnails/seismic-hero.jpeg');
+	background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .gogo-travel {
-	min-height: 100%;
-	background-color: blue;
+	background-image: url('../img/portfolio/thumbnails/gogotravel.jpeg');
+	background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .logos {
-	min-height: 100%;
-	background-color: violet;
+	background-image: url('../img/portfolio/thumbnails/logos.jpg');
+	background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .main-headline {
