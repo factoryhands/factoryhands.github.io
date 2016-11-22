@@ -62,7 +62,6 @@ header .header-content {
   }
   header .header-content {
     top: 50%;
-    padding: 0 50px;
   }
   header .header-content .header-content-inner {
     max-width: 1000px;
@@ -267,6 +266,18 @@ header .header-content .header-content-inner h1 {
 
 .description {
   padding: 12% 12% 7% 12%;
+}
+
+.contact-section {
+  background-color: #FFC8D0;
+}
+
+.contact-section .section-header {
+  color: white;
+}
+
+.contact-blurb-section {
+  background-color: #fff;
 }
 
 /*Future Contact Form*/

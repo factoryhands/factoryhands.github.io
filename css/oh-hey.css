@@ -1,12 +1,16 @@
 /*Custom Styles for Oh-Hey page*/
+.oh-hey-img {
+	width: 100%;
+}
+
 h2 {
 	margin: 0;
 }
 
 .project-role{
-	padding: 2% 0px 2% 2%;
+	padding: 2% 2% 2% 16%;
 	background-color: #EFEFEF;
-}
+} 
 
 .project-role p {
 	font-size: 1em;
@@ -14,24 +18,31 @@ h2 {
 	font-weight: 200;
 }
 
-.project-description-1 {
+.project-description {
 	background-color: #fff;
 }
 
-.project-description-1 p {
+.project-description p {
 	color: #1E130A;
-	padding: 2% 2% 2% 2%;
+	padding: 2% 16% 2% 16%;
 }
 
 .project-img {
 	background-color: #E9E9E9;
 }
 
-.project-description-2 {
-	background-color: #fff;
-}
-
 .project-description-2 p {
 	color: #1E130A;
 	padding: 2% 2% 2% 2%;
+}
+
+/*SMALL SCREEN FIXES*/
+@media (max-width: 480px) {
+	.project-description p {
+		padding: 5%;
+	}
+
+	.project-role {
+		padding: 5%;
+	}
 }

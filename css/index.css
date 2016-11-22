@@ -11,18 +11,6 @@
 	background-color: #F4F4F4;
 }
 
-.contact-section {
-	background-color: #FFC8D0;
-}
-
-.contact-section .section-header {
-	color: white;
-}
-
-.contact-blurb-section {
-	background-color: #fff;
-}
-
 #homeHeading {
 	padding: 2% 0px 6% 0;
 	text-align: center;
@@ -60,7 +48,7 @@
 }
 
 .work-image-section a.oh-hey {
-	background-image: url('../img/portfolio/thumbnails/oh-hey.jpg');
+	background-image: url('../img/portfolio/thumbnails/OhHey_iPhone_Mockup.jpg');
 	background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
