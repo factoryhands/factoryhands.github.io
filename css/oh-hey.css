@@ -3,10 +3,15 @@
     position: absolute;
     z-index: 1;
     width: 190px;
-    top: 20%;
+    top: 2%;
     right: 0;
     left: 0;
     margin: auto;
+}
+
+.project-image-title h1 {
+	font-weight: 900;
+    font-size: 3em;
 }
 
 .oh-hey-img {
@@ -16,6 +21,7 @@
 
 h2 {
 	margin: 0;
+	color: blue;
 } 
 
 .project-role{

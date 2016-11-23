@@ -5,7 +5,7 @@ body {
 }
 body {
 /*  font-family: 'Helvetica Neue', Arial, sans-serif;*/
-  font-family: 'lato', sans-serif;
+  font-family: "sofia-pro",sans-serif;
   color: rgb(68, 71, 69);
 }  
 a {
@@ -29,12 +29,18 @@ h4,
 h5,
 h6 {
 /*  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;*/
-  font-family: 'lato', sans-serif;
+  font-family: "sofia-pro",sans-serif;
 }
 
 h3 {
   font-size: 2em;
   font-weight: 600;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 1em;
+  color: blue;
 }
 
 p {
@@ -113,7 +119,7 @@ header .header-content {
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: "sofia-pro",sans-serif;
   padding: 0 15px;
 }
 
