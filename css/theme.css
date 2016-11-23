@@ -50,6 +50,10 @@ p {
   margin: 0;
 }
 
+.centered {
+  margin: 0 auto;
+}
+
 header {
   width: 100%;
   min-height: auto;
@@ -196,7 +200,7 @@ header .header-content .header-content-inner h1 {
 }
 
 .description {
-  padding: 12% 12% 7% 12%;
+  padding: 5% 12% 7% 10%;
 }
 
 .contact-section {
@@ -209,6 +213,10 @@ header .header-content .header-content-inner h1 {
 
 .contact-blurb-section {
   background-color: #fff;
+}
+
+.contact-blurb-section .description {
+  padding: 11% 12% 7% 10%;
 }
 
 /*Future Contact Form*/
