@@ -17,7 +17,7 @@
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'> 
     <!-- Typekit Lato Font -->
     <script src="https://use.typekit.net/gzm3kkz.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
@@ -97,7 +97,13 @@
     <!-- End Hamburger Menu -->
 
     <header class="container-fluid no-padding">
-            <img src="img/portfolio/thumbnails/Mockup_Screens_ZoomOut.jpg" class="oh-hey-img img-responsive">      
+        <div class="project-image">
+            <div class="project-image-title">
+                <h1>Oh Hey</h1>
+                <h2>Web Application</h2>
+            </div>
+            <img src="img/portfolio/thumbnails/Mockup_Screens_ZoomOut.jpg" class="oh-hey-img img-responsive">
+        </div>
     </header>
 
     <div class="container-fluid">
@@ -110,14 +116,19 @@
                 </div>
                 <div class="project-description">
                     <p>Tinder revolutionized the online dating world with swiping right, but some of us still think a swipe is rather aggressive.
-                    <br><strong><i>Oh Hey</i></strong> is the passive romantic's answer to online dating. Modeled to capture the wistful sentiment of a Cragislist Missed Connections, it's a romantic way to reach out into the vast sea of human hearts and see if anyone answers back.</p>
+                    <br><strong><i>Oh Hey</i></strong> is the passive romantic's answer to online dating. Modeled to capture the wistful sentiment of a Cragislist Missed Connections, it's a romantic way to reach out into the vast sea of human hearts and see if anyone answers back.</br>
+                    <br>The focus of the project was creating a web application as quickly as we could. We built the project primarily for an in-browser experience, but with a mobile-first strategy.
+                    </p>
                 </div>
             </div>
         </section>
 
         <div class="row">
             <div class="project-img">
-                <h2 class="section-heading">Wireframes</h2>
+                <div class="project-img-description">
+                    <h2>Wireframes</h2>
+                    <h4>Mobile Application</h4>
+                </div>
             </div>
         </div>
 
@@ -137,8 +148,38 @@
 
         <div class="row">
             <div class="project-img">
-                <h2 class="section-heading">UI-Design</h2>
+                <div class="project-img-description">
+                    <h2>UI Design</h2>
+                    <h4>Mobile Application</h4>
+                </div>
                 <img src="img/portfolio/fullsize/Oh-Hey-UI-01.jpg" class="img-responsive centered">
+            </div>
+        </div>
+
+        <section id="about" class='row'>
+            <div class="about-section">
+                <div class="project-description">
+                    <h2>Application Highlights</h2>
+                    <h4>The Public Forum</h4>
+                    <p>
+                        Oh Hey explores the idea of the public forum. Most dating application activity exists in individual user-silos, unless two users are directly messaging eachother. Oh Hey's reliance on the public post invites the user to sift, and engages a sense of romantic curiousity.</br>
+                        <br>The hope of a user to see a message specifically for them drives them to search through the posts, but an amusement of public and anonymous displays of affection makes them stay. Even if none of the messages are for the user specifically during their visit, Oh Hey is a nice confirmation that the drive to seek romanticism is alive and well.
+                    </p>
+                    <h4>Location-Specific Data</h4>
+                    <p>
+                        Oh-Hey's posts are attached to locations, and can be searched through depending on the user's specifications. 
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <div class="row">
+            <div class="project-img">
+                <div class="project-img-description">
+                    <h2>In-Application Messaging</h2>
+                    <h4>Concept</h4>
+                </div>
+                <!-- <img src="img/portfolio/fullsize/Oh-Hey-UI-01.jpg" class="img-responsive centered"> -->
             </div>
         </div>
 
@@ -146,7 +187,20 @@
             <section id="contact" class="row">
                     <div class="col-md-6 col-lg-6 no-padding">
                         <div class="contact-section full">
-                            <div class="section-header">Contact</div>
+                            <ul class="block-nav">
+                                <li>
+                                    <a class="page-scroll" href="#about">About</a>
+                                </li>
+                                <li>
+                                    <a class="page-scroll" href="#work">Work</a>
+                                </li>
+                                <li>
+                                    <h3 class="no-margin">Contact</h3>
+                                </li>
+                                <li>
+                                    <a class="page-scroll" href="http://factoryhands.design/blog" target="_blank">Blog</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 no-padding">

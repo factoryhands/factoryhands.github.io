@@ -1,11 +1,21 @@
 /*Custom Styles for Oh-Hey page*/
+.project-image-title {
+    position: absolute;
+    z-index: 1;
+    width: 190px;
+    top: 20%;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
 .oh-hey-img {
 	width: 100%;
+	position: relative;
 }
 
 h2 {
 	margin: 0;
-	text-align: center;
 } 
 
 .project-role{
@@ -21,30 +31,23 @@ h2 {
 
 .project-description {
 	background-color: #fff;
-}
-
-.project-description p {
 	color: rgb(68, 71, 69);;
 	padding: 2% 16% 2% 16%;
 }
+
 
 .project-img {
 	background-color: #F9F9F9;
 	padding: 4% 0 4% 0;
 }
 
-.project-description-2 p {
-	color: rgb(68, 71, 69);
-	padding: 2% 2% 2% 2%;
-}
-
-.project-description h2 {
-	padding: 2% 16% 0 16%;
+.project-img-description {
+	text-align: center;
 }
 
 /*SMALL SCREEN FIXES*/
 @media (max-width: 480px) {
-	.project-description p {
+	.project-description {
 		padding: 5%;
 	}
 
