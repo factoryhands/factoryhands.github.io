@@ -41,10 +41,21 @@ h2 {
 	padding: 2% 16% 2% 16%;
 }
 
+.text-centered {
+	text-align: center;
+}
+
 
 .project-img {
-	background-color: #F9F9F9;
 	padding: 4% 0 4% 0;
+}
+
+.light-grey-bg {
+	background-color: #F9F9F9;
+}
+
+.dark-grey-bg {
+	background-color: #dbdbdb;
 }
 
 .project-img-description {
