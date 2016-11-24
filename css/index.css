@@ -91,6 +91,10 @@
 
 /*SMALL SCREEN FIXES*/
 @media (max-width: 480px) {
+	 .main-headline {
+    	margin-top: 18%;
+  	} 
+
 	.hand-illustration svg {
 		max-width: 100%;
 	}
@@ -99,9 +103,7 @@
 		height: 100%;
 	}
 
-	#homeHeading {
-    padding: 18% 0px 6% 0px;
-    font-size: 2em;
+	.header-nav {
+		font-size: 1.5em;
 	}
 }
-
