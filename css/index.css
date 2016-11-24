@@ -1,21 +1,29 @@
-.about-section h2 {
-	margin: 0;
-	color: #FFF;
+.main-headline {
+	margin-top: 3%;
+}
+
+.hand-illustration {
+	margin-top: 10%;
 }
 
 .about-section {
-	background-color: blue;
+	background-color: blue; 
 }
 
 .work-section {
 	background-color: #F4F4F4;
 }
 
-#homeHeading {
-	padding: 2% 0px 6% 0;
-	text-align: center;
-	font-weight: 600;
-    font-size: 2.5em;
+.work-section .block-nav {
+  color: blue;
+}
+
+.work-section .block-nav a {
+  color: blue;
+}
+
+.work-image-section h1 {
+	color: rgb(68, 71, 69);
 }
 
 .portfolio-images {
@@ -73,10 +81,6 @@
 	background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-}
-
-.main-headline {
-	margin-top: 4%;
 }
 
 .section-header .nav>li a {
