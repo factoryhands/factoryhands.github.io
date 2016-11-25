@@ -3,10 +3,14 @@
     position: fixed;
     top: 5px;
     right: 5px;
-    color: blue;
+    color: blue; 
     z-index: 1;
     background-color: white;
     padding: 0px 9px 0px 9px;  
+}
+
+.hamburger-menu:hover {
+    cursor: pointer;
 }
 
 /* The Overlay (background) */

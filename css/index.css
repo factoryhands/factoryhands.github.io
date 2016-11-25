@@ -3,11 +3,11 @@
 }
 
 .hand-illustration {
-	margin-top: 10%;
+	margin-top: 5%;
 }
 
 .about-section {
-	background-color: blue; 
+	background-color: blue;  
 }
 
 .work-section {
@@ -63,7 +63,7 @@
 }
 
 .seismic-hero {
-	background-image: url('../img/portfolio/thumbnails/seismic-hero.jpeg');
+	background-image: url('../img/portfolio/fullsize/Seismic-Hero.jpg');
 	background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;

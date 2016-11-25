@@ -1,7 +1,7 @@
 html,
 body {
   height: 100%;
-  width: 100%;
+  width: 100%; 
 }
 
 body {
@@ -9,7 +9,7 @@ body {
   color: rgb(68, 71, 69);
 }  
 
-h1 {
+h1 { 
   font-weight: 900;
   font-size: 3em;
 }
@@ -37,6 +37,7 @@ p {
 
 a {
   color: blue;
+  cursor: pointer;
 }
 
 a:hover {
@@ -60,6 +61,10 @@ a:active {
   margin: 0 auto;
 }
 
+.full-width {
+  width: 100%;
+}
+
 .white {
   color: #fff;
 }
@@ -80,7 +85,7 @@ header {
   list-style: none;
   font-size: 2em;
   font-weight: 700;
-  margin-top: 10%;
+  margin-top: 3%;
 }
 
 .header-nav li {
@@ -148,6 +153,27 @@ a svg {
   transition-timing-function: ease-in-out;
   -webkit-transition: 200ms;
   -webkit-transition-timing-function: ease-in-out;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: none;
+  margin: 1.5em 0 1.5em 0;
+  padding: 1em;
+  quotes: "\201C""\201D""\2018""\2019";
+  font-size: 3.5em;
+  font-weight: 600;
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.1em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
 }
 
 /*Hamburger Menu Small Screens*/
