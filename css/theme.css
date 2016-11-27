@@ -159,7 +159,7 @@ blockquote {
   background: #f9f9f9;
   border-left: none;
   margin: 1.5em 0 1.5em 0;
-  padding: 1em;
+  padding: 1em 10%;
   quotes: "\201C""\201D""\2018""\2019";
   font-size: 3.5em;
   font-weight: 600;
