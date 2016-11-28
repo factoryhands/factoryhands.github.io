@@ -2,7 +2,7 @@
 .project-image-title {
     position: absolute; 
     z-index: 1;
-    width: 190px;
+    width: 190px; 
     top: 2%;
     right: 0;
     left: 0;
@@ -84,6 +84,10 @@ img.user-profile-image {
 
 .dark-grey-bg {
 	background-color: #dbdbdb;
+}
+
+.blue-bg {
+	background-color: #0090cd;
 }
 
 .project-img-description {

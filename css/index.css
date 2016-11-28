@@ -1,5 +1,5 @@
 .main-headline {
-	margin-top: 3%;
+	margin-top: 3%; 
 }
 
 .hand-illustration {
@@ -15,11 +15,11 @@
 }
 
 .work-section .block-nav {
-  color: blue;
+  color: rgb(68, 71, 69);
 }
 
 .work-section .block-nav a {
-  color: blue;
+  color: rgb(68, 71, 69);
 }
 
 .work-image-section h1 {
@@ -56,21 +56,21 @@
 }
 
 .work-image-section a.oh-hey {
-	background-image: url('../img/portfolio/thumbnails/OhHey_iPhone_Mockup.jpg');
+	background-image: url('../img/portfolio/oh_hey/Oh_Hey-Mockup-Small.jpg');
 	background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .seismic-hero {
-	background-image: url('../img/portfolio/fullsize/Seismic-Hero.jpg');
+	background-image: url('../img/portfolio/seismic_hero/Seismic-Hero-Mockup-Small.jpg');
 	background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .gogo-travel {
-	background-image: url('../img/portfolio/thumbnails/gogotravel.jpeg');
+	background-image: url('../img/portfolio/gogo_travel/GoGoTravel-Mockup-Small.jpg');
 	background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;

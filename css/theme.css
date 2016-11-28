@@ -1,7 +1,7 @@
 html,
 body {
   height: 100%;
-  width: 100%; 
+  width: 100%;  
 }
 
 body {
@@ -104,7 +104,7 @@ header {
   text-align: center;
   font-size: 2em;
   margin: 0;
-  padding: 50% 0 0 0;
+  padding: 40% 0 0 0;
 }
 
 .block-nav a {
@@ -115,12 +115,20 @@ header {
   padding: 5% 12% 7% 10%;
 }
 
-.contact-section {
-  background-color: #FFC8D0;
+.work-image-section a {
+  color: rgb(68, 71, 69);
 }
 
-.contact-section .block-nav a:hover {
-  color: blue;
+.work-image-section h2 {
+  color: rgb(68, 71, 69);
+}
+
+.work-image-section h4 {
+  color: rgb(68, 71, 69);
+}
+
+.contact-section {
+  background-color: #FFC8D0;
 }
 
 .contact-blurb-section .description {
