@@ -5,7 +5,7 @@
 }
 
 .dark-grey-bg {
-	background-color: #dbdbdb;
+	background-color: #dbdbdb; 
 }
 
 .main-headline {
@@ -87,7 +87,7 @@
 }
 
 .logos {
-	background-image: url('../img/portfolio/logos_illustration/Logo-Illustration-Small-01-03.png');
+	background-image: url('../img/portfolio/logos_illustration/Logo-Illustration-Small.png');
 	background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
