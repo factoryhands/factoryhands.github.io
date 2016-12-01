@@ -1,4 +1,4 @@
-.hamburger-menu {
+.hamburger-menu { 
     font-size: 3em;
     position: fixed;
     top: 5px;
@@ -88,5 +88,11 @@
         font-size: 40px;
         top: 15px;
         right: 35px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hamburger-menu {
+        background-color: white;
     }
 }

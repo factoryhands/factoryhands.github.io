@@ -107,11 +107,12 @@
 /*SMALL SCREEN FIXES*/
 @media (max-width: 480px) {
 	 .main-headline {
-    	margin-top: 4%;
+    	margin-top: 12%;
   	} 
 
 	.hand-illustration {
-		max-width: 51%;
+		max-width: 57%;
+    	margin: 15% auto 0;
 	}
 
 	header {
@@ -120,5 +121,14 @@
 
 	.header-nav {
 		font-size: 1.5em;
-	}
+    	margin-top: 23%;
+  	}
+
+  	.work-image-section a.oh-hey, .seismic-hero, .logos {
+  		background-size: 130%;
+  	}
+
+  	.project-description {
+  		padding: 1% 1% 8% 5%;
+  	}
 }
