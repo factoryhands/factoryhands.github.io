@@ -103,4 +103,12 @@ img.user-profile-image {
 	.project-role {
 		padding: 5%;
 	}
+
+	.project-image-title {
+		width: 180px;
+	}
+
+	blockquote {
+		font-size: 2em;
+	}
 }
