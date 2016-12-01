@@ -14,7 +14,7 @@
     font-size: 3em;
 }
 
-.oh-hey-img {
+.oh-hey-img { 
 	width: 100%;
 	position: relative;
 }
@@ -87,7 +87,7 @@ img.user-profile-image {
 }
 
 .blue-bg {
-	background-color: #0090cd;
+	background-color: #027dc2;
 }
 
 .project-img-description {
