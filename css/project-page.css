@@ -111,4 +111,8 @@ img.user-profile-image {
 	blockquote {
 		font-size: 2em;
 	}
+
+	.smaller-photo {
+		max-width: 93%;
+	}
 }
