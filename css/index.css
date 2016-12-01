@@ -131,4 +131,16 @@
   	.project-description {
   		padding: 1% 1% 8% 5%;
   	}
+
+  	.about-section {
+    	display: none;
+  	}
+
+  .work-section {
+    display: none;
+  }
+
+  .contact-section {
+    display: none;
+  }
 }
