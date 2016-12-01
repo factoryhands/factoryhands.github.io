@@ -1,5 +1,5 @@
 /*Custom Styles for Oh-Hey page*/
-.project-image-title {
+.project-image-title { 
     position: absolute; 
     z-index: 1;
     width: 580px; 
@@ -114,5 +114,13 @@ img.user-profile-image {
 
 	.smaller-photo {
 		max-width: 93%;
+	}
+
+	.user-profile {
+		margin: 2% 7% 2% 7%;
+	}
+
+	.project-description iframe {
+		display: none;
 	}
 }
