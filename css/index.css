@@ -1,7 +1,7 @@
 .project-description {
 	background-color: #fff;
 	color: rgb(68, 71, 69);;
-	padding: 2% 16% 2% 16%;
+	padding: 2% 16% 2% 16%;  
 }
 
 .dark-grey-bg {
@@ -9,11 +9,11 @@
 }
 
 .main-headline {
-	margin-top: 3%; 
+	margin-top: 1%; 
 }
 
 .hand-illustration {
-	margin-top: 5%;
+	margin: 2% 12% 0 0;
 }
 
 .about-section {
@@ -99,14 +99,19 @@
     color: white;
 }
 
+.hand-illustration {
+  max-width: 22%;
+  margin: 5% auto;
+}
+
 /*SMALL SCREEN FIXES*/
 @media (max-width: 480px) {
 	 .main-headline {
-    	margin-top: 18%;
+    	margin-top: 4%;
   	} 
 
-	.hand-illustration svg {
-		max-width: 100%;
+	.hand-illustration {
+		max-width: 51%;
 	}
 
 	header {
