@@ -6,6 +6,10 @@
 
 .dark-grey-bg {
 	background-color: #dbdbdb; 
+} 
+
+.resume-btn {
+  display: none;
 }
 
 .main-headline {
@@ -142,5 +146,9 @@
 
   .contact-section {
     display: none;
+  }
+
+  .resume-btn {
+    display: block;
   }
 }

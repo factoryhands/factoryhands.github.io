@@ -1,7 +1,7 @@
 html,  
 body {
   height: 100%;
-  width: 100%;  
+  width: 100%;   
 }
 
 body {
@@ -52,6 +52,18 @@ a:hover {
 a:active {
   color: blue;
   text-decoration: none;
+}
+
+.btn {
+  color: blue;
+  border-color: blue;
+  background-color: white;
+}
+
+.btn:hover {
+  color: white;
+  border-color: blue;
+  background-color: blue;
 }
 
 .no-padding {
