@@ -7,7 +7,15 @@
     right: 0;
     left: 0;
     margin: auto;
-} 
+}  
+
+.back-to-work {
+	position: absolute;
+    z-index: 1;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
 
 .project-image-title h1 {
 	font-weight: 900;
