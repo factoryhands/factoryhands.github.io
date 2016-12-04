@@ -1,15 +1,26 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">  
 
-<head>  
+<head>   
 
-    <meta charset="utf-8">  
+    <meta charset="utf-8">   
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Seismic Hero</title>  
+    <title>Seismic Hero</title> 
+
+    <!-- Google Analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-88387053-1', 'auto');
+        ga('send', 'pageview');
+    </script>   
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -99,6 +110,9 @@
 
     <header class="container-fluid no-padding">
         <div class="project-image">
+            <div class="back-to-work">
+                <a href="../index.html#work">&larr; Back To Projects</a>
+            </div>
             <div class="project-image-title">
                 <h1>Seismic Hero</h1>
                 <h4>UX/UI Design/Mobile Game</h4>
@@ -113,7 +127,7 @@
                 <p><strong>Role:</strong> Designer</p>
                 <p><strong>Team:</strong> SEISMICdesigns</p>
                 <p><strong>Tools:</strong> Sketch, Illustrator, Invision</p>
-                <p><strong>Project Completed:</strong>November 2016</p>
+                <p><strong>Project Completed:</strong> November 2016</p>
             </div>
             <div class="project-description">
                 <p>FEMA projects that the Cascadia subduction zone earthquake will destroy more than a million buildings on the west coast. At least 27,000 people are expected to die in the initial event, a figure that pales in comparison to what will happen in the subsequent days and weeks. Seattle’s residents are not prepared.</br>
@@ -398,7 +412,7 @@
                 <div class="project-img-description">
                     <h2></h2>
                 </div>
-                <img src="img/portfolio/seismic_hero/Seismic-Hero-Revisions.png" class="img-responsive centered">
+                <img src="img/portfolio/seismic_hero/Seismic-Hero-Revisions.png" class="img-responsive centered smaller-photo">
             </div>
         </div>
 
@@ -408,7 +422,7 @@
                 <h2>High Definition Prototype</h2>
                     <p>
                         After a few rounds of user-testing we gradually made our way to a high-definition prototype. We took a ton of inspiration from old video games and decided an 8-bit look/tone/feel was spot-on for Seismic Hero.</br>
-                        <br>You can check out the final prototype on Invision.</br>
+                        <br>You can check out the <a href="https://invis.io/WP98U1VHX" target="_blank">final prototype</a> on Invision.</br>
                         <br><iframe width="438" height="930" src="//invis.io/YC98U5CGE" frameborder="0" allowfullscreen></iframe>
                     </p>
                 </div>
@@ -421,10 +435,10 @@
                             <div class="contact-section full">
                                 <ul class="block-nav">
                                     <li>
-                                        <a class="page-scroll" href="#about">About</a>
+                                        <a class="page-scroll" href="../index.html#about">About</a>
                                     </li>
                                     <li>
-                                        <a class="page-scroll" href="#work">Work</a>
+                                        <a class="page-scroll" href="../index.html#work">Work</a>
                                     </li>
                                     <li>
                                         <h3 class="no-margin">Contact</h3>
@@ -490,13 +504,9 @@
                             </div>
                         </div>
                 </section>
-                <section id="about" class='row'>
-                    <div class="about-section">
-                        <div class="project-description text-centered dark-grey-bg">
-                            <br><h2>This portfolio is an open-source project and can be found <a href="https://github.com/factoryhands/jenniferlspriggs" target="_blank">here</a>.</h2>
-                    </div>
+                <div class="row github-section text-centered dark-grey-bg">
+                    <br><h2>This portfolio is an open-source project and can be found <a href="https://github.com/factoryhands/jenniferlspriggs" target="_blank">here</a>.</h2>
                 </div>
-            </section>
             </footer>
     </div>
     </div>

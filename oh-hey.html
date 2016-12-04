@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">  
 
-<head> 
+<head>  
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +9,18 @@
     <meta name="description" content="">
     <meta name="author" content=""> 
 
-    <title>Jennifer Spriggs</title>   
+    <title>Jennifer Spriggs</title> 
+
+    <!-- Google Analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-88387053-1', 'auto');
+        ga('send', 'pageview');
+    </script>    
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -99,6 +110,9 @@
 
     <header class="container-fluid no-padding">
         <div class="project-image">
+            <div class="back-to-work">
+                <a href="../index.html#work">&larr; Back To Projects</a>
+            </div>
             <div class="project-image-title">
                 <h1>Oh Hey</h1>
                 <h4>UX/UI Web &amp; Mobile</h4>
@@ -116,7 +130,7 @@
             </div>
             <div class="project-description">
                 <p>Tinder revolutionized the online dating world with swiping right, but some of us still think a swipe is rather aggressive.</br>
-                <br><strong><i>Oh Hey</i></strong> is the passive romantic's answer to online dating. Modeled to capture the wistful sentiment of a Cragislist Missed Connections, it's a romantic way to reach out into the vast sea of human hearts and see if anyone answers back.</br>
+                <br><strong><i>Oh Hey</i></strong> is the passive romantic's answer to online dating. Modeled to capture the wistful sentiment of a Cragislist Missed Connection, it's a romantic way to reach out into the vast sea of human hearts and see if anyone answers back.</br>
                 <br>The focus of the project was creating a web application as quickly as we could. We built the project primarily for an in-browser experience, but with a mobile-first strategy.
                 </p>
             </div>
@@ -169,7 +183,7 @@
                     </p>
                     <h4>Pre-Message Verification</h4>
                     <p>
-                        One of the user pain-points of tyipcal dating apps is the barrage of messages you can possibly recieve, especially if you're a liberal right-swiper.Oh-Hey is more specific. To initiate a conversation in Oh Hey, you first have to overcome a verification question and answer that is decided on by the inital poster. 
+                        One of the user pain-points of tyipcal dating apps is the barrage of messages you can possibly recieve, especially if you're a liberal right-swiper. Oh-Hey is more specific. To initiate a conversation in Oh Hey, you first have to overcome a verification question and answer that is decided on by the inital poster. 
                     </p>
                 </div>
             </div>
@@ -242,10 +256,10 @@
                             <div class="contact-section full">
                                 <ul class="block-nav">
                                     <li>
-                                        <a class="page-scroll" href="#about">About</a>
+                                        <a class="page-scroll" href="../index.html#about">About</a>
                                     </li>
                                     <li>
-                                        <a class="page-scroll" href="#work">Work</a>
+                                        <a class="page-scroll" href="../index.html#work">Work</a>
                                     </li>
                                     <li>
                                         <h3 class="no-margin">Contact</h3>
@@ -311,13 +325,9 @@
                             </div>
                         </div>
                 </section>
-                <section id="about" class='row'>
-                    <div class="about-section">
-                        <div class="project-description text-centered dark-grey-bg">
-                            <br><h2>This portfolio is an open-source project and can be found <a href="https://github.com/factoryhands/jenniferlspriggs" target="_blank">here</a>.</h2>
-                    </div>
+                <div class="row github-section text-centered dark-grey-bg">
+                    <br><h2>This portfolio is an open-source project and can be found <a href="https://github.com/factoryhands/jenniferlspriggs" target="_blank">here</a>.</h2>
                 </div>
-            </section>
             </footer>
         </div>
     </div>

@@ -6,6 +6,10 @@
 
 .dark-grey-bg {
 	background-color: #dbdbdb; 
+} 
+
+.resume-btn {
+  display: none;
 }
 
 .main-headline {
@@ -104,6 +108,10 @@
   margin: 5% auto;
 }
 
+.github-section {
+  padding: 0 15% 2% 15%;
+}
+
 /*SMALL SCREEN FIXES*/
 @media (max-width: 480px) {
 	 .main-headline {
@@ -131,4 +139,24 @@
   	.project-description {
   		padding: 1% 1% 8% 5%;
   	}
+
+  	.about-section {
+    	display: none;
+  	}
+
+  .work-section {
+    display: none;
+  }
+
+  .contact-section {
+    display: none;
+  }
+
+  .resume-btn {
+    display: block;
+  }
+
+  .github-section {
+    padding: 0 6% 2% 5%;
+  }
 }

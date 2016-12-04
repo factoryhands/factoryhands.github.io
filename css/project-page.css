@@ -1,5 +1,5 @@
 /*Custom Styles for Oh-Hey page*/
-.project-image-title {
+.project-image-title { 
     position: absolute; 
     z-index: 1;
     width: 580px; 
@@ -7,14 +7,22 @@
     right: 0;
     left: 0;
     margin: auto;
-} 
+}  
+
+.back-to-work {
+	position: absolute;
+    z-index: 1;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
 
 .project-image-title h1 {
 	font-weight: 900;
     font-size: 3em;
 }
 
-.oh-hey-img {
+.oh-hey-img { 
 	width: 100%;
 	position: relative;
 }
@@ -87,7 +95,7 @@ img.user-profile-image {
 }
 
 .blue-bg {
-	background-color: #0090cd;
+	background-color: #027dc2;
 }
 
 .project-img-description {
@@ -114,5 +122,13 @@ img.user-profile-image {
 
 	.smaller-photo {
 		max-width: 93%;
+	}
+
+	.user-profile {
+		margin: 2% 7% 2% 7%;
+	}
+
+	.project-description iframe {
+		display: none;
 	}
 }

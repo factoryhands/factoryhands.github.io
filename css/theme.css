@@ -1,7 +1,7 @@
 html,  
 body {
   height: 100%;
-  width: 100%;  
+  width: 100%;   
 }
 
 body {
@@ -11,7 +11,7 @@ body {
 
 h1 { 
   font-weight: 900;
-  font-size: 3em;
+  font-size: 3em; 
 }
 
 h2 {
@@ -52,6 +52,18 @@ a:hover {
 a:active {
   color: blue;
   text-decoration: none;
+}
+
+.btn {
+  color: blue;
+  border-color: blue;
+  background-color: white;
+}
+
+.btn:hover {
+  color: white;
+  border-color: blue;
+  background-color: blue;
 }
 
 .no-padding {
@@ -133,7 +145,11 @@ header {
 }
 
 .contact-section {
+<<<<<<< HEAD
   background-color: #0055ed;
+=======
+  background-color: blue;
+>>>>>>> 8d272ec923b3199d7a38f8e5983cdd32b8a61954
 }
 
 .contact-blurb-section .description {
