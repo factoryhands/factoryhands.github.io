@@ -27,12 +27,12 @@ h3 {
 h4 {
   font-weight: 600;
   font-size: 1.2em;
-  color: blue;
+  color: #0055ed;
 }
 
 h5 {
   font-size: 1em;
-  color: blue;
+  color: #0055ed;
 }
 
 p {
@@ -41,29 +41,29 @@ p {
 }
 
 a {
-  color: blue;
+  color: #0055ed;
   cursor: pointer;
 }
 
 a:hover {
-  color: blue;
+  color: #0055ed;
 }
 
 a:active {
-  color: blue;
+  color: #0055ed;
   text-decoration: none;
 }
 
 .btn {
-  color: blue;
-  border-color: blue;
+  color: #0055ed;
+  border-color: #0055ed;
   background-color: white;
 }
 
-.btn:hover {
+.btn:hover { 
   color: white;
-  border-color: blue;
-  background-color: blue;
+  border-color: #0055ed;
+  background-color: #0055ed;
 }
 
 .no-padding {
@@ -170,7 +170,7 @@ header {
 }
 
 a svg:hover {
-  fill: blue;
+  fill: #0055ed;
 }
 
 a svg { 
