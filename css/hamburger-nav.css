@@ -48,7 +48,7 @@
 
 /* When you mouse over the navigation links, change their color */
 .overlay a:hover, .overlay a:focus {
-    color: pink;
+    color: white;
     text-decoration: underline;
 }
 
