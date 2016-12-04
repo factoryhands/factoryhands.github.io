@@ -6,7 +6,7 @@ body {
 
 body {
   font-family: "sofia-pro",sans-serif;
-  color: rgb(68, 71, 69);
+  color: rgb(68, 71, 69); 
 }  
 
 h1 { 
@@ -133,7 +133,7 @@ header {
 }
 
 .contact-section {
-  background-color: #FFC8D0;
+  background-color: #0055ed;
 }
 
 .contact-blurb-section .description {
