@@ -2,7 +2,7 @@
 	background-color: #fff;
 	color: rgb(68, 71, 69);;
 	padding: 2% 16% 2% 16%;  
-}
+} 
 
 .dark-grey-bg {
 	background-color: #dbdbdb; 
@@ -72,15 +72,15 @@
 .work-image-section a.oh-hey {
 	background-image: url('../img/portfolio/oh_hey/Oh_Hey-Mockup-Small.jpg');
 	background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .seismic-hero {
 	background-image: url('../img/portfolio/seismic_hero/Seismic-Hero-Mockup-Small.jpg');
 	background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .gogo-travel {
@@ -93,14 +93,14 @@
 .logos {
 	background-image: url('../img/portfolio/logos_illustration/Logo-Illustration-Small.png');
 	background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .section-header .nav>li a {
 	list-style: none;
-    font-size: .5em;
-    color: white;
+  font-size: .5em;
+  color: white;
 }
 
 .hand-illustration {
@@ -129,20 +129,20 @@
 
 	.header-nav {
 		font-size: 1.5em;
-    	margin-top: 15%;
-  	}
+    margin-top: 15%;
+  }
 
-  	.work-image-section a.oh-hey, .seismic-hero, .logos {
-  		background-size: 130%;
-  	}
+  .work-image-section a.oh-hey, .seismic-hero, .logos {
+  	background-size: 130%;
+  }
 
-  	.project-description {
-  		padding: 1% 1% 8% 5%;
-  	}
+  .project-description {
+  	padding: 1% 1% 8% 5%;
+  }
 
-  	.about-section {
-    	display: none;
-  	}
+  .about-section {
+    display: none;
+  }
 
   .work-section {
     display: none;
@@ -158,5 +158,20 @@
 
   .github-section {
     padding: 0 6% 2% 5%;
+  }
+}
+
+/* Medium Screen Fixes */
+  @media only screen and (max-width : 992px) {
+  .about-section {
+    display: none;
+  }
+
+  .work-section {
+    display: none;
+  }
+
+  .contact-section {
+    display: none;
   }
 }
