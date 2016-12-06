@@ -1,6 +1,6 @@
 .hamburger-menu { 
     font-size: 3em;
-    position: fixed;
+    position: fixed; 
     top: 5px;
     right: 5px;
     color: #0055ed;  
@@ -63,6 +63,10 @@
     font-size: 6em;
 }
 
+.overlay .closebtn a:hover {
+    color: rgb(68, 71, 69);
+}
+
 /*Social Icon Styling*/
 .overlay-content .social-icons a {
     fill: #fff;
@@ -71,7 +75,7 @@
 }
 
 .overlay-content a svg:hover {
-  fill: white;
+  fill: rgb(68, 71, 69);
 }
 
 .overlay-content a svg { 
