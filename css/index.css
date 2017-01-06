@@ -14,6 +14,7 @@
 
 .main-headline {
 	margin-top: 1%; 
+  text-align: center;
 }
 
 .hand-illustration {
@@ -105,7 +106,7 @@
 
 .hand-illustration {
   max-width: 22%;
-  margin: 5% auto;
+  margin: 3% auto;
 }
 
 .github-section {
@@ -129,7 +130,7 @@
 
 	.header-nav {
 		font-size: 1.5em;
-    margin-top: 15%;
+    margin-top: 4%;
   }
 
   .work-image-section a.oh-hey, .seismic-hero, .logos {

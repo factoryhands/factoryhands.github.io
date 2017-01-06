@@ -10,7 +10,7 @@ body {
 }  
 
 h1 { 
-  font-weight: 900;
+  font-weight: 900; 
   font-size: 3em; 
 }
 
@@ -103,6 +103,7 @@ header {
   font-size: 1.7em;
   font-weight: 700;
   margin-top: 3%;
+  text-align: center;
 }
 
 .header-nav li {
