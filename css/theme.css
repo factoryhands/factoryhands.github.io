@@ -201,11 +201,15 @@ blockquote p {
   display: inline;
 }
 
-/*Hamburger Menu Small Screens*/
 /*SMALL SCREEN FIXES*/
 @media (max-width: 480px) {
   .hamburger-menu {
+    /*Hamburger Menu Small Screens*/
     right: 6px;
-    top: 6px;;
+    top: 6px;
+  }
+  .github-section h2 {
+    font-size: 1em;
+    width: 70%;
   }
 }

@@ -162,6 +162,10 @@
   }
 }
 
+.about-me-photo {
+  margin: 6% 4% 0% 0px;
+}
+
 /* Medium Screen Fixes */
   @media only screen and (max-width : 992px) {
   .about-section {
