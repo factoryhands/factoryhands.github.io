@@ -5,7 +5,7 @@
 } 
 
 .dark-grey-bg {
-	background-color: #dbdbdb; 
+	background-color: #dbdbdb;  
 } 
 
 .resume-btn {
@@ -163,7 +163,7 @@
 }
 
 .about-me-photo {
-  margin: 6% 4% 0% 0px;
+  margin: 5% 4% 0% 0%;
 }
 
 /* Medium Screen Fixes */
