@@ -1,8 +1,8 @@
 .project-description {
 	background-color: #fff;
 	color: rgb(68, 71, 69);;
-	padding: 2% 16% 2% 16%;  
-} 
+	padding: 2% 16% 2% 16%;   
+}  
 
 .dark-grey-bg {
 	background-color: #dbdbdb;  
@@ -23,6 +23,10 @@
 
 .about-section {
 	background-color: #0055ed;  
+}
+
+.about-description {
+  overflow: scroll;
 }
 
 .work-section {
