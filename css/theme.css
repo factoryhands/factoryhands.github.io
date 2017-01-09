@@ -7,7 +7,7 @@ body {
 body {
   font-family: "sofia-pro",sans-serif;
   color: rgb(68, 71, 69); 
-}  
+}   
 
 h1 { 
   font-weight: 900; 
@@ -80,6 +80,10 @@ a:active {
 
 .full-width {
   width: 100%;
+}
+
+.full {
+  height: 100vh;
 }
 
 .white {

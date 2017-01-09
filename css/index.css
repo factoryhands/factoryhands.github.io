@@ -164,6 +164,10 @@
   .github-section {
     padding: 0 6% 2% 5%;
   }
+
+  .about-description {
+    overflow: hidden;
+  }
 }
 
 .about-me-photo {
