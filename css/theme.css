@@ -126,7 +126,8 @@ header {
   text-align: center;
   font-size: 2em;
   margin: 0;
-  padding: 40% 0 0 0;
+  position: relative;
+  top: 34%;
 }
 
 .block-nav a {
