@@ -9,7 +9,7 @@ body {
   color: rgb(68, 71, 69); 
 }   
 
-h1 { 
+h1 {  
   font-weight: 900; 
   font-size: 3em; 
 }
@@ -58,6 +58,7 @@ a:active {
   color: #0055ed;
   border-color: #0055ed;
   background-color: white;
+  width: 70%;
 }
 
 .btn:hover { 
@@ -216,6 +217,7 @@ blockquote p {
   .github-section h2 {
     font-size: 1em;
     width: 70%;
+    font-weight: 400;
   }
 
   .full {
