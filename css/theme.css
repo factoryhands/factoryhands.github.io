@@ -205,7 +205,7 @@ blockquote p {
   display: inline;
 }
 
-/*SMALL SCREEN FIXES*/
+/*MOBILE*/
 @media (max-width: 480px) {
   .hamburger-menu {
     /*Hamburger Menu Small Screens*/
@@ -215,5 +215,12 @@ blockquote p {
   .github-section h2 {
     font-size: 1em;
     width: 70%;
+  }
+
+  .full {
+    height: 100%;
+  }
+  .work-image-section {
+    height: 100vh;
   }
 }
