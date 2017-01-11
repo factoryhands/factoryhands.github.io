@@ -103,12 +103,15 @@ header {
   }
 }
 
+.header-content {
+  text-align: center;
+}
+
 .header-nav {
   list-style: none;
   font-size: 1.7em;
   font-weight: 700;
   margin-top: 3%;
-  text-align: center;
 }
 
 .header-nav li {
