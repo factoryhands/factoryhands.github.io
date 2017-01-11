@@ -31,6 +31,7 @@
 
 .work-section {
 	background-color: #FFF;
+  border-right: solid #0055ed 1px;
 }
 
 .work-section .block-nav {
@@ -43,6 +44,14 @@
 
 .work-image-section h1 {
 	color: rgb(68, 71, 69);
+}
+
+.work-description {
+  padding: 1em;
+}
+
+.work-description p {
+  color: #0055ed;
 }
 
 .portfolio-images {
@@ -75,28 +84,34 @@
 }
 
 .work-image-section a.oh-hey {
-	background-image: url('../img/portfolio/oh_hey/Oh_Hey-Mockup-Small.jpg');
+	background-image: url('../img/work-section/Work-Section_Oh-Hey.png');
 	background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.oh-hey {
+  border-bottom: solid #0055ed 1px;
 }
 
 .seismic-hero {
-	background-image: url('../img/portfolio/seismic_hero/Seismic-Hero-Mockup-Small.jpg');
+	background-image: url('../img/work-section/Work-Section_Seismic Hero.png');
 	background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
+  border-bottom: solid #0055ed 1px;
 }
 
 .gogo-travel {
-	background-image: url('../img/portfolio/gogo_travel/GoGoTravel-Mockup-Small.jpg');
+	background-image: url('../img/work-section/Work-Section_GoGo Travel.png');
 	background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom: solid #0055ed 1px;
 }
 
 .logos {
-	background-image: url('../img/portfolio/logos_illustration/Logo-Illustration-Small.png');
+	background-image: url('../img/work-section/Work-Section_Visual Design.png');
 	background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
