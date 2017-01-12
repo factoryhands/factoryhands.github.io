@@ -125,7 +125,7 @@ header {
 
 .block-nav {
   list-style: none;
-  color: white;
+  color: rgb(68, 71, 69);
   display: block;
   text-align: center;
   font-size: 2em;
@@ -135,7 +135,7 @@ header {
 }
 
 .block-nav a {
-  color: white;
+  color: rgb(68, 71, 69);
 }
 
 .description {
@@ -155,7 +155,8 @@ header {
 }
 
 .contact-section {
-  background-color: #0055ed;
+  background-color: #fff;
+  border-right: solid #0055ed 3px;
 }
 
 .contact-blurb-section .description {
