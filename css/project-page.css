@@ -1,6 +1,13 @@
 /*Custom Styles for Oh-Hey page*/
-p {
-/*	margin: 0 auto;*/
+h4 {
+  font-weight: 600;
+  font-size: 1.2em;
+  color: #0055ed;
+}
+
+h5 {
+  font-size: 1em;
+  color: #0055ed;
 }
 
 .project-image-title { 
