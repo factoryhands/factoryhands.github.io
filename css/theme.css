@@ -27,12 +27,12 @@ h3 {
 h4 {
   font-weight: 600;
   font-size: 1.2em;
-  color: #0055ed;
+  /*color: #0055ed;*/
 }
 
 h5 {
   font-size: 1em;
-  color: #0055ed;
+  /*color: #0055ed;*/
 }
 
 p {
@@ -142,18 +142,6 @@ header {
   padding: 5% 12% 7% 10%;
 }
 
-.work-image-section a {
-  color: rgb(68, 71, 69);
-}
-
-.work-image-section h2 {
-  color: rgb(68, 71, 69);
-}
-
-.work-image-section h4 {
-  color: rgb(68, 71, 69);
-}
-
 .contact-section {
   background-color: #fff;
   border-right: solid #0055ed 3px;
@@ -222,6 +210,7 @@ blockquote p {
     font-size: 1em;
     width: 70%;
     font-weight: 400;
+    width: 100%;
   }
 
   .full {

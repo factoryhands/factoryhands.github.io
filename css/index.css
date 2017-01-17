@@ -1,5 +1,5 @@
 .header-section {
-  border-bottom: solid;
+  border-bottom: 3px solid;
 }
 
 .project-description {
@@ -8,11 +8,7 @@
 	padding: 2% 16% 2% 16%;    
 }  
 
-.dark-grey-bg { 
-	background-color: #dbdbdb;  
-} 
-
-.resume-btn {
+.contact-blurb-section .description h1, .work-image-section h1 {
   display: none;
 }
 
@@ -32,6 +28,8 @@
 
 .block-nav h3 {
   color: #0055ed;
+	background-color: #fff; 
+  border-right: solid #0055ed 3px; 
 }
 
 .about-description {
@@ -61,6 +59,10 @@
 	color: rgb(68, 71, 69);
 }
 
+.work-description {
+  padding: 1em;
+}
+
 .work-description p {
   color: #0055ed;
 }
@@ -73,29 +75,62 @@
 	display: flex;
 	list-style: none;
 	-webkit-flex-direction: column;
-   flex-direction: column;
-    -webkit-flex-wrap: wrap; /* NEW */
-    flex-wrap: wrap;
+  flex-direction: column;
+  -webkit-flex-wrap: wrap; /* NEW */
+  flex-wrap: wrap;
 }
 
-ul.work-image-section {
+/*WORK IMAGE SECTION*/
+.work-image-section {
   list-style: none;
   padding: 0 3em 0 3em;
+  margin: 0;
 }
 
-ul.work-image-section li {
-  min-height: 25%;
+.work-image-section p {
+  /*color: #0055ed;*/
 }
 
-ul.work-image-section a {
+.work-image-section li {
 	flex: 1 1 auto;
 	-webkit-box-flex: 1 1 auto;      /* OLD - iOS 6-, Safari 3.1-6 */
   -moz-box-flex: 1 1 auto;         /* OLD - Firefox 19- */
   -webkit-flex: 1;          /* Chrome */
   -ms-flex: 1 1 auto;              /* IE 10 */
   display: block;
+  height: 25vh;
+  min-height: 160px;
   text-decoration: none;
-  background-size: 100%;
+  margin: 0;
+}
+
+.work-image-section li:not(.logos) {
+  border-bottom: 3px solid #000;
+}
+
+.work-image-section a {
+  color: rgb(68, 71, 69);
+  display: block;
+  margin: -.3em -3em -4em -3em;
+  padding: 3em 3em 4em 3em;
+}
+
+.work-image-section .logos a {
+  padding: 3em 3em 6em 3em;
+}
+
+.work-image-section a:hover {
+  background-color: #0055ed;
+  text-decoration: none;
+}
+
+.work-image-section li a:hover {
+  color: #fff;
+}
+
+li.work-image-section a.oh-hey {
+/*	background-image: url('../img/work-section/Work-Section_Oh-Hey.png');*/
+	background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
   margin: 0 auto;
@@ -119,20 +154,25 @@ ul.work-image-section a {
 /*	background-image: url('../img/work-section/Work-Section_Oh-Hey.png');*/
 }
 
-.seismic-hero {
+li.seismic-hero {
 /*	background-image: url('../img/work-section/Work-Section_Seismic Hero.png');*/
+	background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.gogo-travel {
+li.gogo-travel {
 /*	background-image: url('../img/work-section/Work-Section_GoGo Travel.png');*/
+	background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.logos {
+li.logos {
 /*	background-image: url('../img/work-section/Work-Section_Visual Design.png');*/
-}
-
-ul.work-image-section li a:hover {
-  background-color: #0055ed;
+	background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .section-header .nav>li a {
@@ -148,6 +188,8 @@ ul.work-image-section li a:hover {
 
 .github-section {
   padding: 2% 15% 2% 15%;
+  background-color: #fff;
+  border-top: solid 3px;
 }
 
 /*SMALL SCREEN FIXES*/
@@ -158,12 +200,16 @@ ul.work-image-section li a:hover {
 
 	.hand-illustration {
 		max-width: 57%;
-    	margin: 15% auto 0;
+    margin: 15% auto 0;
 	}
 
 	header {
 		height: 100%;
 	}
+
+  .header-section{
+    padding-bottom: 10%;
+  }
 
 	.header-nav {
 		font-size: 1.5em;
@@ -190,7 +236,16 @@ ul.work-image-section li a:hover {
     display: none;
   }
 
-  .resume-btn {
+  .contact-blurb-section .description h1{
+    display: block;
+    margin-bottom: 15%;
+  }
+
+  .work-image-section {
+    padding-top: 10%;
+  }
+
+  .work-image-section h1 {
     display: block;
   }
 
@@ -200,6 +255,14 @@ ul.work-image-section li a:hover {
 
   .about-description {
     overflow: hidden;
+    border-bottom: solid 3px #0055ed;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+
+  .contact-blurb-section .description {
+    border-top: solid 3px #0055ed;
+    margin-top: 20%;
   }
 }
 
