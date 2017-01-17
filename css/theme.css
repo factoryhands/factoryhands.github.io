@@ -54,6 +54,10 @@ a:active {
   text-decoration: none;
 }
 
+.blue-text {
+  color: #0055ed;
+}
+
 .btn {
   color: #0055ed;
   border-color: #0055ed;
