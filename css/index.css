@@ -32,6 +32,7 @@
 
 .about-description {
   overflow: scroll;
+  position: relative;
 }
 
 .work-section {
@@ -187,9 +188,14 @@ li.logos {
 
 /*SMALL SCREEN FIXES*/
 @media (max-width: 480px) {
-	 .main-headline {
-    	margin-top: 12%;
-  	} 
+	.main-headline {
+    margin-top: 12%;
+  }
+
+  .description {
+    position: initial;
+    transform: none;
+  }
 
 	.hand-illustration {
 		max-width: 57%;
@@ -201,7 +207,7 @@ li.logos {
 	}
 
   .header-section{
-    padding-bottom: 10%;
+    padding-bottom: 20%;
   }
 
 	.header-nav {
@@ -248,13 +254,13 @@ li.logos {
 
   .about-description {
     overflow: hidden;
-    border-bottom: solid 3px #0055ed;
+    border-bottom: solid 3px rgb(68, 71, 69);
     padding-top: 10%;
     padding-bottom: 10%;
   }
 
   .contact-blurb-section .description {
-    border-top: solid 3px #0055ed;
+    border-top: solid 3px rgb(68, 71, 69);
     margin-top: 20%;
   }
 }

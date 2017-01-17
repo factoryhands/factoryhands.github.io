@@ -133,9 +133,13 @@ header {
   display: block;
   text-align: center;
   font-size: 2em;
-  margin: 0;
-  position: relative;
-  top: 34%;
+  margin-left: auto;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  margin-right: auto;
 }
 
 .block-nav a {
@@ -144,6 +148,9 @@ header {
 
 .description {
   padding: 5% 12% 7% 10%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .contact-section {
