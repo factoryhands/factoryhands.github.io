@@ -9,19 +9,17 @@
             scrollTop: ($($anchor.attr('href')).offset().top)
         }, 1250, 'easeInOutExpo'); 
         event.preventDefault();
-    });
+    }); 
 
-    // Scale div to be size of viewport
-    // function thirty_pc() {
-    //     var height = $(window).height();
-    //     var thirtypc = (100 * height) / 100 ;
-    //     thirtypc = parseInt(thirtypc) + 'px';
-    //     $(".full, .header-content").css('height',thirtypc);
-    // }
-
-    // $(document).ready(function() {
-    //     thirty_pc();
-    //     $(window).bind('resize', thirty_pc);
+    // var wrap = $(".block-nav");
+    //     wrap.on("scroll", function(e) {
+    //         console.log ('your-message')
+        
+    //         if (this.scrollTop > 147) {
+    //             wrap.addClass("position-fixed");
+    //         } else {
+    //             wrap.removeClass("position-fixed");
+    //         } 
     // });
 
 })(jQuery); // End of use strict
