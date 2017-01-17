@@ -23,24 +23,20 @@
 .about-section {
 	background-color: #ffffff; 
   border-right: solid #0055ed 3px; 
-  border-bottom: solid;
 }
 
 .block-nav h3 {
   color: #0055ed;
 	background-color: #fff; 
-  border-right: solid #0055ed 3px; 
 }
 
 .about-description {
   overflow: scroll;
-  border-bottom: solid;
 }
 
 .work-section {
 	background-color: #FFF;
   border-right: solid #0055ed 3px;
-  border-bottom: solid rgb(68, 71, 69) 3px;
 }
 
 .work-section .block-nav {
@@ -49,10 +45,6 @@
 
 .work-section .block-nav a {
   color: rgb(68, 71, 69);
-}
-
-.work-image-section {
-  border-bottom: solid rgb(68, 71, 69) 3px;
 }
 
 .work-image-section h1 {
@@ -83,7 +75,7 @@
 /*WORK IMAGE SECTION*/
 .work-image-section {
   list-style: none;
-  padding: 0 3em 0 3em;
+  padding: 7em 3em 3em 3em;
   margin: 0;
 }
 
@@ -102,6 +94,7 @@
   min-height: 160px;
   text-decoration: none;
   margin: 0;
+  max-height: 170px;
 }
 
 .work-image-section li:not(.logos) {
@@ -137,7 +130,7 @@ li.work-image-section a.oh-hey {
 }
 
 .work-image-section li:not(.logos) {
-  border-bottom: solid #0055ed 3px;
+  border-bottom: solid rgb(68, 71, 69) 3px;
 }
 
 .work-image-section li:not(.logos):first-child a {
