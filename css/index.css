@@ -76,7 +76,7 @@
 /*WORK IMAGE SECTION*/
 .work-image-section {
   list-style: none;
-  padding: 0em 3em 3em 3em;
+  padding: 2em 3em 3em 3em;
   margin: 0;
 }
 
@@ -140,7 +140,7 @@ li.work-image-section a.oh-hey {
 
 .work-image-section li a {
   display: block;
-  margin: 0 -3em;
+  margin: -3px -3em;
   padding: 3em 3em 4em 3em;
 }
 
