@@ -54,6 +54,10 @@ a:active {
   text-decoration: none;
 }
 
+.blue-text {
+  color: #0055ed;
+}
+
 .btn {
   color: #0055ed;
   border-color: #0055ed;
@@ -105,6 +109,7 @@ header {
 
 .header-content {
   text-align: center;
+  margin-top: 3em;
 }
 
 .header-nav {
@@ -125,10 +130,11 @@ header {
 
 .block-nav {
   list-style: none;
-  color: #444745;
+  color: rgb(68, 71, 69);
   display: block;
   text-align: center;
   font-size: 2em;
+<<<<<<< HEAD
   margin: 0;
   position: relative;
   top: 25%;
@@ -143,14 +149,26 @@ header {
   position: fixed;
   top: 14%;
   left: 14%;
+=======
+  margin-left: auto;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  margin-right: auto;
+>>>>>>> ec8ca9d4a2522fbd37e3ea793a424e849fda4d21
 }
 
 .block-nav a {
-  color: #444745;
+  color: rgb(68, 71, 69);
 }
 
 .description {
   padding: 5% 12% 7% 10%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .contact-section {

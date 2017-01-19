@@ -21,12 +21,18 @@
 }
 
 .about-section {
-	background-color: #fff; 
+	background-color: #ffffff; 
   border-right: solid #0055ed 3px; 
+}
+
+.block-nav h3 {
+  color: #0055ed;
+	background-color: #fff; 
 }
 
 .about-description {
   overflow: scroll;
+  position: relative;
 }
 
 .work-section {
@@ -40,6 +46,10 @@
 
 .work-section .block-nav a {
   color: rgb(68, 71, 69);
+}
+
+.work-image-section h1 {
+	color: rgb(68, 71, 69);
 }
 
 .work-description {
@@ -66,7 +76,7 @@
 /*WORK IMAGE SECTION*/
 .work-image-section {
   list-style: none;
-  padding: 0 3em 0 3em;
+  padding: 2em 3em 3em 3em;
   margin: 0;
 }
 
@@ -85,6 +95,7 @@
   min-height: 160px;
   text-decoration: none;
   margin: 0;
+  max-height: 170px;
 }
 
 .work-image-section li:not(.logos) {
@@ -116,10 +127,25 @@ li.work-image-section a.oh-hey {
 	background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
+  margin: 0 auto;
+}
+
+.work-image-section li:not(.logos) {
+  border-bottom: solid rgb(68, 71, 69) 3px;
+}
+
+.work-image-section li:not(.logos):first-child a {
+
+}
+
+.work-image-section li a {
+  display: block;
+  margin: -3px -3em;
+  padding: 3em 3em 4em 3em;
 }
 
 .oh-hey {
-  border-bottom: solid #0055ed 1px;
+/*	background-image: url('../img/work-section/Work-Section_Oh-Hey.png');*/
 }
 
 li.seismic-hero {
@@ -162,9 +188,14 @@ li.logos {
 
 /*SMALL SCREEN FIXES*/
 @media (max-width: 480px) {
-	 .main-headline {
-    	margin-top: 12%;
-  	} 
+	.main-headline {
+    margin-top: 12%;
+  }
+
+  .description {
+    position: initial;
+    transform: none;
+  }
 
 	.hand-illustration {
 		max-width: 57%;
@@ -176,7 +207,7 @@ li.logos {
 	}
 
   .header-section{
-    padding-bottom: 10%;
+    padding-bottom: 20%;
   }
 
 	.header-nav {
@@ -223,13 +254,13 @@ li.logos {
 
   .about-description {
     overflow: hidden;
-    border-bottom: solid 3px #0055ed;
+    border-bottom: solid 3px rgb(68, 71, 69);
     padding-top: 10%;
     padding-bottom: 10%;
   }
 
   .contact-blurb-section .description {
-    border-top: solid 3px #0055ed;
+    border-top: solid 3px rgb(68, 71, 69);
     margin-top: 20%;
   }
 }
