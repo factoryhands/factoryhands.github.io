@@ -11,15 +11,6 @@
         event.preventDefault();
     }); 
 
-    // var wrap = $(".block-nav");
-    //     wrap.on("scroll", function(e) {
-    //         console.log ('your-message')
-        
-    //         if (this.scrollTop > 147) {
-    //             wrap.addClass("position-fixed");
-    //         } else {
-    //             wrap.removeClass("position-fixed");
-    //         } 
-    // });
+    $("ul.block-nav").stick_in_parent();
 
 })(jQuery); // End of use strict

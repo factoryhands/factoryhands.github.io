@@ -1,13 +1,29 @@
+/************************************/
+/*                                  */
+/*      OVERALL THEME STYLING       */
+/*                                  */
+/************************************/
+
+/*PAGE STYLING*/
+
 html,  
 body {
-  height: 100%;
+  height: 100%; 
   width: 100%;   
 }
+
+/************************************/
+/*                                  */
+/*          TYPE STYLING            */
+/*                                  */
+/************************************/
 
 body {
   font-family: "sofia-pro",sans-serif;
   color: rgb(68, 71, 69); 
 }   
+
+/*HEADERS STYLING*/
 
 h1 {  
   font-weight: 900; 
@@ -27,19 +43,20 @@ h3 {
 h4 {
   font-weight: 600;
   font-size: 1.2em;
-  /*color: #0055ed;*/
 }
 
 h5 {
   font-size: 1em;
-  /*color: #0055ed;*/
 }
+
+/*PARAGRAPH STYLING*/
 
 p {
   font-size: 16px;
   line-height: 1.5;
 }
 
+/*LINK STYLING*/
 a {
   color: #0055ed;
   cursor: pointer;
@@ -58,6 +75,12 @@ a:active {
   color: #0055ed;
 }
 
+/************************************/
+/*                                  */
+/*        BUTTON STYLING            */
+/*                                  */
+/************************************/
+
 .btn {
   color: #0055ed;
   border-color: #0055ed;
@@ -70,6 +93,12 @@ a:active {
   border-color: #0055ed;
   background-color: #0055ed;
 }
+
+/************************************/
+/*                                  */
+/*        SPACES STYLING            */
+/*                                  */
+/************************************/
 
 .no-padding {
   padding: 0;
@@ -91,13 +120,14 @@ a:active {
   height: 100vh;
 }
 
+/************************************/
+/*                                  */
+/*        COLORS STYLING            */
+/*                                  */
+/************************************/
+
 .white {
   color: #fff;
-}
-
-header {
-  background-position: center;
-  text-align: center;
 }
 
 /* Portrait tablets and small desktops */
@@ -107,89 +137,15 @@ header {
   }
 }
 
-.header-content {
-  text-align: center;
-  margin-top: 3em;
-}
+/************************************/
+/*                                  */
+/*    SOCIAL ICON SVG STYLING       */
+/*                                  */
+/************************************/
 
-.header-nav {
-  list-style: none;
-  font-size: 1.7em;
-  font-weight: 700;
-  margin-top: 3%;
-}
-
-.header-nav li {
-  display: inline;
-  padding-right: 2%;
-}
-
-.header-nav a {
-  color: rgb(68, 71, 69);
-}
-
-.block-nav {
-  list-style: none;
-  color: rgb(68, 71, 69);
-  display: block;
-  text-align: center;
-  font-size: 2em;
-<<<<<<< HEAD
-  margin: 0;
-  position: relative;
-  top: 25%;
-  left: 25%;
-  border: 3px solid;
-  width: 230px;
-  padding: 5% 0 5% 0;
-  z-index: 1;
-}
-
-.position-fixed {
-  position: fixed;
-  top: 14%;
-  left: 14%;
-=======
-  margin-left: auto;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 0;
-  right: 0;
-  margin-right: auto;
->>>>>>> ec8ca9d4a2522fbd37e3ea793a424e849fda4d21
-}
-
-.block-nav a {
-  color: rgb(68, 71, 69);
-}
-
-.description {
-  padding: 5% 12% 7% 10%;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.contact-section {
-  background-color: #fff;
-  border-right: solid #0055ed 3px;
-}
-
-.contact-blurb-section .description {
-  padding: 11% 12% 7% 10%;
-}
-
-/*Future Contact Form*/
-.contact-form {
-  width: 75%;
-  margin: 0 auto;
-}
-
-/*Social Icons*/
-.social-icons svg {
+.social-icons img {
   margin-right: 3%;
-  width: 8%;
+  width: 5%;
 }
 
 .social-icons a {
@@ -207,6 +163,12 @@ a svg {
   -webkit-transition: 200ms;
   -webkit-transition-timing-function: ease-in-out;
 }
+
+/************************************/
+/*                                  */
+/*       BLOCKQUOTE STYLING         */
+/*                                  */
+/************************************/
 
 blockquote {
   background: #f9f9f9;
@@ -228,7 +190,12 @@ blockquote p {
   display: inline;
 }
 
-/*MOBILE*/
+/************************************/
+/*                                  */
+/*      MISC MOBILE STYLING         */
+/*                                  */
+/************************************/
+
 @media (max-width: 480px) {
   .hamburger-menu {
     /*Hamburger Menu Small Screens*/

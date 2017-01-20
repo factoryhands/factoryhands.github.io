@@ -1,92 +1,133 @@
-.header-section {
-  border-bottom: 3px solid;
+/************************************/
+/*                                  */
+/*      HEADER SECTION STYLING      */
+/*                                  */
+/************************************/
+
+header {
+  background-position: center;
+  text-align: center;
 }
 
-.project-description {
-	background-color: #fff;
-	color: rgb(68, 71, 69);;
-	padding: 2% 16% 2% 16%;    
-}  
-
-.contact-blurb-section .description h1, .work-image-section h1 {
-  display: none;
-}
-
-.main-headline {
-	margin-top: 1%; 
+.header-content {
+  text-align: center;
+  margin-top: 3em;
 }
 
 .hand-illustration {
-	margin: 2% 12% 0 0;
+  max-width: 22%;
+  margin: 3% auto;
+}
+
+.header-section {
+  border-bottom: 3px solid; 
+}
+
+.header-nav {
+  list-style: none;
+  font-size: 1.7em;
+  font-weight: 700;
+  margin-top: 3%;
+}
+
+.header-nav li {
+  display: inline;
+  padding-right: 2%;
+}
+
+.header-nav a {
+  color: rgb(68, 71, 69);
+}
+
+/************************************/
+/*                                  */
+/*      BELOW HEADING STYLING       */
+/*                                  */
+/************************************/
+
+/************************************/
+/*                                  */
+/*      LEFT SIDE NAV STYLING       */
+/*                                  */
+/************************************/
+
+/*Block Nav Normal State*/
+.block-nav {
+  list-style: none;
+  color: rgb(68, 71, 69);
+  display: block;
+  text-align: center;
+  font-size: 2em;
+  margin: 0;
+  position: relative;
+  top: 25%;
+  left: 25%;
+  border: 3px solid;
+  width: 230px;
+  padding: 5% 0 5% 0;
+  z-index: 1;
+}
+
+.block-nav a {
+  color: rgb(68, 71, 69);
+}
+
+/*Block Nav Fixed State*/
+.block-nav-fixed {
+  top: 30%;
+  left: 30%;
+  border: 3px solid;
+  width: 230px;
+  padding: 5% 0 5% 0;
+  z-index: 1;
+}
+
+/************************************/
+/*                                  */
+/*      About Section Styling       */
+/*                                  */
+/************************************/
+
+.about-section-fixed {
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  width: 50%;
 }
 
 .about-section {
-	background-color: #ffffff; 
+  background-color: #ffffff; 
   border-right: solid #0055ed 3px; 
 }
 
-.block-nav h3 {
-  color: #0055ed;
-	background-color: #fff; 
-}
-
 .about-description {
-  overflow: scroll;
   position: relative;
 }
 
-.work-section {
-	background-color: #FFF;
-  border-right: solid #0055ed 3px;
+.about-me-photo {
+  margin: 5% 4% 0% 0%;
 }
 
-.work-section .block-nav {
-  color: rgb(68, 71, 69);
+.description {
+  padding: 5% 12% 7% 10%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-.work-section .block-nav a {
-  color: rgb(68, 71, 69);
-}
+/************************************/
+/*                                  */
+/*      Work Section Styling        */
+/*                                  */
+/************************************/
 
-.work-image-section h1 {
-	color: rgb(68, 71, 69);
-}
-
-.work-description {
-  padding: 1em;
-}
-
-.work-description p {
-  color: #0055ed;
-}
-
-.portfolio-images {
-	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-	display: -ms-flexbox;      /* TWEENER - IE 10 */
-	display: -webkit-flex;
-	display: flex;
-	list-style: none;
-	-webkit-flex-direction: column;
-  flex-direction: column;
-  -webkit-flex-wrap: wrap; /* NEW */
-  flex-wrap: wrap;
-}
-
-/*WORK IMAGE SECTION*/
-.work-image-section {
-  list-style: none;
-  padding: 2em 3em 3em 3em;
-  margin: 0;
-}
-
-.work-image-section p {
-  /*color: #0055ed;*/
+.project-section {
+  position: relative;
 }
 
 .work-image-section li {
-	flex: 1 1 auto;
-	-webkit-box-flex: 1 1 auto;      /* OLD - iOS 6-, Safari 3.1-6 */
+  flex: 1 1 auto;
+  -webkit-box-flex: 1 1 auto;      /* OLD - iOS 6-, Safari 3.1-6 */
   -moz-box-flex: 1 1 auto;         /* OLD - Firefox 19- */
   -webkit-flex: 1;          /* Chrome */
   -ms-flex: 1 1 auto;              /* IE 10 */
@@ -96,10 +137,6 @@
   text-decoration: none;
   margin: 0;
   max-height: 170px;
-}
-
-.work-image-section li:not(.logos) {
-  border-bottom: 3px solid #000;
 }
 
 .work-image-section a {
@@ -122,20 +159,8 @@
   color: #fff;
 }
 
-li.work-image-section a.oh-hey {
-/*	background-image: url('../img/work-section/Work-Section_Oh-Hey.png');*/
-	background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: 0 auto;
-}
-
 .work-image-section li:not(.logos) {
   border-bottom: solid rgb(68, 71, 69) 3px;
-}
-
-.work-image-section li:not(.logos):first-child a {
-
 }
 
 .work-image-section li a {
@@ -144,41 +169,35 @@ li.work-image-section a.oh-hey {
   padding: 3em 3em 4em 3em;
 }
 
-.oh-hey {
-/*	background-image: url('../img/work-section/Work-Section_Oh-Hey.png');*/
+/************************************/
+/*                                  */
+/*   Contact Section Styling        */
+/*                                  */
+/************************************/
+
+.contact-blurb-section {
+  position: relative;
 }
 
-li.seismic-hero {
-/*	background-image: url('../img/work-section/Work-Section_Seismic Hero.png');*/
-	background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
+.contact-section {
+  background-color: #fff;
+  border-right: solid #0055ed 3px;
 }
 
-li.gogo-travel {
-/*	background-image: url('../img/work-section/Work-Section_GoGo Travel.png');*/
-	background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
+.contact-blurb-section .description {
+  padding: 11% 12% 7% 10%;
 }
 
-li.logos {
-/*	background-image: url('../img/work-section/Work-Section_Visual Design.png');*/
-	background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
+/*Hidden Contact Heading for Larger Screens*/
+.contact-blurb-section .description h1, .work-image-section h1 {
+  display: none;
 }
 
-.section-header .nav>li a {
-	list-style: none;
-  font-size: .5em;
-  color: white;
-}
-
-.hand-illustration {
-  max-width: 22%;
-  margin: 3% auto;
-}
+/************************************/
+/*                                  */
+/*    Github Section Styling        */
+/*                                  */
+/************************************/
 
 .github-section {
   padding: 2% 15% 2% 15%;
@@ -186,7 +205,12 @@ li.logos {
   border-top: solid 3px;
 }
 
-/*SMALL SCREEN FIXES*/
+/************************************/
+/*                                  */
+/*          Mobile Styling          */
+/*                                  */
+/************************************/
+
 @media (max-width: 480px) {
 	.main-headline {
     margin-top: 12%;
@@ -265,11 +289,12 @@ li.logos {
   }
 }
 
-.about-me-photo {
-  margin: 5% 4% 0% 0%;
-}
+/************************************/
+/*                                  */
+/*          Tablet Styling          */
+/*                                  */
+/************************************/
 
-/* Medium Screen Fixes */
   @media only screen and (max-width : 992px) {
   .about-section {
     display: none;
