@@ -19,11 +19,11 @@
 .hand-illustration {
 	margin: 3% auto;
   max-height: 700px;
-  max-width: 22%;
+  max-width: 20%;
 }
 
-.hand-illustration {
-  
+.hand-illustration img{
+  max-width: 100%;
 }
 
 .about-section {
