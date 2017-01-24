@@ -95,6 +95,12 @@ a:active {
   color: #fff;
 }
 
+.github-section {
+  padding: 2% 15% 2% 15%;
+  background-color: #fff;
+  border-top: solid 3px;
+}
+
 header {
   background-position: center;
   text-align: center;

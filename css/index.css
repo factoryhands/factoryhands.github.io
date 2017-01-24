@@ -181,12 +181,6 @@ li.logos {
   color: white;
 }
 
-.github-section {
-  padding: 2% 15% 2% 15%;
-  background-color: #fff;
-  border-top: solid 3px;
-}
-
 /*SMALL SCREEN FIXES*/
 @media (max-width: 480px) {
 	.main-headline {

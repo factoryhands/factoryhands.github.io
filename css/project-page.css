@@ -3,7 +3,7 @@ h4 {
   font-weight: 600;
   font-size: 1.2em;
   color: #0055ed;
-}
+} 
 
 h5 {
   font-size: 1em;
@@ -103,16 +103,16 @@ img.user-profile-image {
 	background-color: #F9F9F9;
 }
 
-.dark-grey-bg {
-	background-color: #dbdbdb;
-}
-
 .blue-bg {
 	background-color: #027dc2;
 }
 
 .project-img-description {
 	text-align: center;
+}
+
+#contact {
+	border-top: solid;
 }
 
 /*SMALL SCREEN FIXES*/
