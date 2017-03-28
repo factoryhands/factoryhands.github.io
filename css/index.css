@@ -1,5 +1,5 @@
 .header-section {
-  border-bottom: 3px solid;
+  border-bottom: 3px solid; 
 }
 
 .project-description {
@@ -82,12 +82,8 @@
 /*WORK IMAGE SECTION*/
 .work-image-section {
   list-style: none;
-  padding: 2em 3em 3em 3em;
   margin: 0;
-}
-
-.work-image-section p {
-  /*color: #0055ed;*/
+  padding: 0;
 }
 
 .work-image-section li {
@@ -98,87 +94,21 @@
   -ms-flex: 1 1 auto;              /* IE 10 */
   display: block;
   height: 25vh;
-  min-height: 150px;
   text-decoration: none;
   margin: 0;
-  max-height: 170px;
+  padding: 30px;
+  position: relative;
+/*  border-bottom: 2px #000000 solid;*/
 }
 
-.work-image-section li:not(.logos) {
-  border-bottom: 3px solid #000;
-}
-
-.work-image-section a {
-  color: rgb(68, 71, 69);
-  display: block;
-  margin: -.3em -3em -4em -3em;
-  padding: 3em 3em 4em 3em;
-}
-
-.work-image-section .logos a {
-  padding: 3em 3em 6em 3em;
-}
-
-.work-image-section a:hover {
-  background-color: #0055ed;
-  text-decoration: none;
-}
-
-.work-image-section li a:hover {
-  color: #fff;
-}
-
-li.work-image-section a.oh-hey {
-/*	background-image: url('../img/work-section/Work-Section_Oh-Hey.png');*/
-	background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: 0 auto;
-}
-
-.work-image-section li:not(.logos) {
-  border-bottom: solid rgb(68, 71, 69) 3px;
-}
-
-.work-image-section li:not(.logos):first-child a {
-
-}
-
-.work-image-section li a {
-  display: block;
-  margin: -3px -3em;
-  padding: 3em 3em 4em 3em;
-}
-
-.oh-hey {
-/*	background-image: url('../img/work-section/Work-Section_Oh-Hey.png');*/
-}
-
-li.seismic-hero {
-/*	background-image: url('../img/work-section/Work-Section_Seismic Hero.png');*/
-	background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-li.gogo-travel {
-/*	background-image: url('../img/work-section/Work-Section_GoGo Travel.png');*/
-	background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-li.logos {
-/*	background-image: url('../img/work-section/Work-Section_Visual Design.png');*/
-	background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.section-header .nav>li a {
-	list-style: none;
-  font-size: .5em;
-  color: white;
+.work-image-section li:after {
+  content: "";
+  position: absolute;
+  left: 50px;
+  bottom: 0;
+  height: 1px;
+  width: 80%;
+  border-bottom: 1px solid rgb(68, 71, 69);
 }
 
 /*SMALL SCREEN FIXES*/
