@@ -1,4 +1,4 @@
-/*Custom Styles for Oh-Hey page*/
+/*Custom Styles for Oh-Hey page*/ 
 h4 {
   font-weight: 600;
   font-size: 1.2em;
@@ -14,18 +14,28 @@ h5 {
     position: absolute; 
     z-index: 1;
     width: 580px; 
-    top: 2%;
+    top: 15%;
     right: 0;
     left: 0;
     margin: auto;
-}   
+}
+
+.project-image-title img {
+	max-height: 280px;
+}
 
 .back-to-work {
-	position: absolute;
+	font-size: 4em;
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    color: #0055ed;
     z-index: 1;
-    right: 0;
-    left: 0;
-    margin: auto;
+    padding: 0px 14px 6px 14px;
+}
+
+.back-to-work a:hover {
+	text-decoration: none;
 }
 
 .project-image-title h1 {
@@ -38,11 +48,6 @@ h5 {
 	position: relative;
 }
 
-.project-role{
-	padding: 2% 2% 2% 16%;
-	background-color: #F9F9F9;
-} 
-
 .project-role p {
 	font-size: 1em;
 	margin: 0 auto;
@@ -53,8 +58,16 @@ h5 {
 	background-color: #fff;
 	color: rgb(68, 71, 69);
     margin: 0 auto;
-	max-width: 50em;
+	max-width: 56em;
 	padding: 2.5em 0 2.5em 0;
+}
+
+.project-description h2 {
+	margin-top: 100px;
+}
+
+.concept-description {
+	margin-top: 60px;
 }
 
 img.user-profile-image {
