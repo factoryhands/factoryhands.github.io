@@ -1,4 +1,4 @@
-.header-section { 
+.header-section {  
   border-bottom: 3px solid; 
 }
 
@@ -205,6 +205,10 @@
   .contact-blurb-section .description {
     border-top: solid 3px rgb(68, 71, 69);
     margin-top: 20%;
+  }
+  
+  .work-image-section li:after {
+    display: none;
   }
 }
 
