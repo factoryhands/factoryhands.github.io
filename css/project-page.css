@@ -21,7 +21,7 @@ h5 {
 }
 
 .project-image-title img {
-	max-height: 280px;
+	max-height: 330px;
 }
 
 .back-to-work {
@@ -126,6 +126,13 @@ img.user-profile-image {
 
 #contact {
 	border-top: solid;
+}
+
+/*Oh Hey Header*/
+header h3 {
+	color: #fff;
+	font-weight: 100;
+	margin-top: 10%;
 }
 
 /*Oh Hey Color Section*/
