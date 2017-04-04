@@ -63,7 +63,7 @@ h5 {
 }
 
 .project-description h2, .project-screens h2 {
-	margin-top: 100px;
+	margin-top: 7%;
 }
 
 .concept-description, .screens {
@@ -256,6 +256,12 @@ header h3 {
 
 /*SMALL SCREEN FIXES*/
 @media (max-width: 480px) {
+	header h3 {
+    	color: #fff;
+    	font-weight: 100;
+    	margin-top: 4%;
+    	font-size: 1em;
+	}
 	.project-description {
 		padding: 5%;
 	}
@@ -264,8 +270,17 @@ header h3 {
 		padding: 5%;
 	}
 
+	.logo-block img {
+    	max-width: 300px;
+	}
+
 	.project-image-title {
+		top: 2%;
 		width: 180px;
+	}
+
+	.project-image-title img {
+    	max-height: 150px;
 	}
 
 	blockquote {
@@ -282,5 +297,33 @@ header h3 {
 
 	.project-description iframe {
 		display: none;
+	}
+
+	.contact-blurb-section .description h1{
+    	display: block;
+    	margin-bottom: 15%;
+  	}
+
+	.contact-blurb-section .description {
+    	border-top: solid 3px rgb(68, 71, 69);
+    	margin-top: 20%;
+  	}
+
+	.contact-section {
+		display: none;
+	}
+
+	#contact {
+		border-top: none;
+	}
+
+	.description {
+		padding: 0;
+		position: inherit;
+		transform: inherit;
+	}
+
+	.logo-block img {
+		margin-left: 0;
 	}
 }
