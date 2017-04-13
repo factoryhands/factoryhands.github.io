@@ -11,6 +11,14 @@
         event.preventDefault();
     });
 
+        $(document).ready(function(){
+
+        /*! Fades in page on load */
+        $('body').css('display', 'none');
+        $('body').fadeIn(500);
+
+        });
+
     // Scale div to be size of viewport
     // function thirty_pc() {
     //     var height = $(window).height();
