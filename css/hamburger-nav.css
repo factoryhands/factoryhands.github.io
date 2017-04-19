@@ -1,11 +1,12 @@
 .hamburger-menu { 
-    font-size: 2em;
+    font-size: 1.5em;
     position: fixed; 
     top: 5px;
     right: 5px;
     color: #0055ed;  
     z-index: 1;
     padding: 0px 14px 6px 14px;   
+    color: rgb(68, 71, 69); 
 }
 
 .hamburger-menu:hover {

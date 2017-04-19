@@ -25,11 +25,56 @@ a:active {
 }
 
 nav {
-  font-size: 2em;
+  font-size: 1.5em;
+  text-decoration: none;
 }
 
 nav a {
-  margin: 0 2% 0 0;
+  margin: 0px 20px 0 0;
+  color: rgb(68, 71, 69); 
+}
+
+nav .home {
+  margin-right: 10%;
+}
+
+nav .active {
+  text-decoration: underline;
+  color: #0055ed;
+}
+
+.work-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.work-links a {
+  font-size: 1.3em;
+}
+
+.work-summary {
+  margin-top: 3%;
+}
+
+.content img {
+  max-height: 460px;
+  margin: 0 auto;
+  display: block;
+}
+
+.work-block {
+  width: 150px;
+  height: 150px;
+  background-color: purple;
+  display: inline-block;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.content {
+  margin-top: 15%;
 }
 
 .btn {
