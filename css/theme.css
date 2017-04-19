@@ -54,6 +54,27 @@ a:active {
   text-decoration: none;
 }
 
+nav {
+  font-size: 2em;
+  text-decoration: none;
+}
+
+nav a {
+  margin: 0px 20px 0 0;
+}
+
+nav .active {
+  text-decoration: underline;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.content {
+  margin-top: 15%;
+}
+
 .blue-text {
   color: #0055ed;
 }
