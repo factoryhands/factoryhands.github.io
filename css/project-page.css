@@ -29,9 +29,13 @@ h5 {
     position: fixed;
     top: 5px;
     left: 5px;
-    color: #0055ed;
+    color: rgb(68, 71, 69); 
     z-index: 1;
     padding: 0px 14px 6px 14px;
+}
+
+.back-to-work a {
+	color: rgb(68, 71, 69); 
 }
 
 .back-to-work a:hover {
