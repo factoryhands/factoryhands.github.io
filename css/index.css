@@ -8,7 +8,7 @@
   display: inline-block;
   position: absolute;
   left: 45%;
-  top: 40%;
+  top: 40%; 
 }
 
 .project-description {
@@ -227,15 +227,11 @@
 
 /* Medium Screen Fixes */
   @media only screen and (max-width : 992px) {
-  .about-section {
+  nav {
     display: none;
   }
 
-  .work-section {
-    display: none;
-  }
-
-  .contact-section {
-    display: none;
+  .content img {
+    max-height: 250px;
   }
 }
