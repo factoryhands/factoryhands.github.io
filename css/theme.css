@@ -9,37 +9,6 @@ body {
   color: rgb(68, 71, 69); 
 }   
 
-h1 {  
-  font-weight: 900; 
-  font-size: 3em; 
-}
-
-h2 {
-  font-size: 2em;
-  font-weight: 700;
-}
-
-h3 {
-  font-size: 1.5em;
-  font-weight: 600;
-}
-
-h4 {
-  font-weight: 600;
-  font-size: 1.2em;
-  /*color: #0055ed;*/
-}
-
-h5 {
-  font-size: 1em;
-  /*color: #0055ed;*/
-}
-
-p {
-  font-size: 16px;
-  line-height: 1.5;
-}
-
 a {
   color: #0055ed;
   cursor: pointer;
@@ -47,6 +16,7 @@ a {
 
 a:hover {
   color: #0055ed;
+  cursor: pointer;
 }
 
 a:active {
@@ -54,8 +24,12 @@ a:active {
   text-decoration: none;
 }
 
-.blue-text {
-  color: #0055ed;
+nav {
+  font-size: 2em;
+}
+
+nav a {
+  margin: 0 2% 0 0;
 }
 
 .btn {
@@ -95,12 +69,6 @@ a:active {
   color: #fff;
 }
 
-.github-section {
-  padding: 2% 15% 2% 15%;
-  background-color: #fff;
-  border-top: solid 3px;
-}
-
 header {
   background-position: center;
   text-align: center;
@@ -113,16 +81,9 @@ header {
   }
 }
 
-.header-content {
-  text-align: center;
-  margin-top: 3em;
-}
-
 .header-nav {
   list-style: none;
-  font-size: 1.7em;
-  font-weight: 700;
-  margin-top: 3%;
+  font-size: 1.5em;
 }
 
 .header-nav li {
@@ -132,21 +93,6 @@ header {
 
 .header-nav a {
   color: rgb(68, 71, 69);
-}
-
-.block-nav {
-  list-style: none;
-  color: rgb(68, 71, 69);
-  display: block;
-  text-align: center;
-  font-size: 2em;
-  margin-left: auto;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 0;
-  right: 0;
-  margin-right: auto;
 }
 
 .block-nav a {
@@ -160,19 +106,8 @@ header {
   transform: translateY(-50%);
 }
 
-.contact-section {
-  background-color: #fff;
-  border-right: solid #0055ed 3px;
-}
-
 .contact-blurb-section .description {
   padding: 11% 12% 7% 10%;
-}
-
-/*Future Contact Form*/
-.contact-form {
-  width: 75%;
-  margin: 0 auto;
 }
 
 /*Social Icons*/

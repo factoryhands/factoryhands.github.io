@@ -1,5 +1,5 @@
 .hamburger-menu { 
-    font-size: 3em;
+    font-size: 2em;
     position: fixed; 
     top: 5px;
     right: 5px;
@@ -10,6 +10,7 @@
 
 .hamburger-menu:hover {
     cursor: pointer;
+    text-decoration: underline;
 }
 
 /* The Overlay (background) */

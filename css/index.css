@@ -1,5 +1,14 @@
-.header-section {  
-  border-bottom: 3px solid;  
+.portfolio-heading img {
+  max-width: 300px;
+  margin-left: 20%;
+  margin-top: 10%;
+}
+
+.portfolio-title {
+  display: inline-block;
+  position: absolute;
+  left: 40%;
+  top: 40%;
 }
 
 .project-description {
