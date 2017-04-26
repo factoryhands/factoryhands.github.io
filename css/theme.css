@@ -7,7 +7,8 @@ body {
 body {
   font-family: "sofia-pro",sans-serif;
   color: rgb(68, 71, 69); 
-}   
+  overflow: hidden;
+}    
 
 a {
   color: #0055ed;
@@ -195,6 +196,22 @@ blockquote:before {
 }
 blockquote p {
   display: inline;
+}
+
+/* preloader */
+#preloader {
+    position: fixed;
+    top:0; left:0;
+    right:0; bottom:0;
+    background: #fff;
+    z-index: 100;
+}
+#loader {
+    width: 280px;
+    height: 280px;
+    position: absolute;
+    left:40%; top:30%;
+    background:url('../img/site/Loading-Animation.gif') no-repeat center center rgba(0,0,0,0);
 }
 
 /*MOBILE*/
