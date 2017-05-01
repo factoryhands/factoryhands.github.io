@@ -20,6 +20,14 @@ h5 {
     margin: auto;
 }
 
+.seismic-hero-header {
+    position: absolute;
+    z-index: 1;
+    top: 20%;
+    right: 770px;
+    left: 240px;
+}
+
 .project-image-title img {
 	max-height: 330px;
 }
