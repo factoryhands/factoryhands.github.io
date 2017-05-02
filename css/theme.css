@@ -115,6 +115,10 @@ nav .active {
   color: #fff;
 }
 
+img.about-photo {
+  margin: 0px 10px 1px 0px;
+}
+
 header {
   background-position: center;
   text-align: center;
@@ -200,18 +204,20 @@ blockquote p {
 
 /* preloader */
 #preloader {
-    position: fixed;
-    top:0; left:0;
-    right:0; bottom:0;
-    background: #fff;
-    z-index: 100;
+  position: fixed;
+  top:0; left:0;
+  right:0; bottom:0;
+  background: #fff;
+  z-index: 100;
 }
+
 #loader {
-    width: 280px;
-    height: 280px;
-    position: absolute;
-    left:40%; top:30%;
-    background:url('../img/site/Loading-Animation.gif') no-repeat center center rgba(0,0,0,0);
+  width: 280px;
+  height: 280px;
+  position: absolute;
+  left:40%; top:30%;
+  background:url('../img/site/Blue-Hands.gif');
+  background-size: 280px 280px;
 }
 
 /*MOBILE*/
