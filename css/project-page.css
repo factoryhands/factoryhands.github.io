@@ -306,7 +306,10 @@ header h3 {
 	max-width: 66em;
 	margin: 0 auto;
 }
-
+.escrow-screen {
+    width: 90%;
+    margin: 0 auto;
+}
 
 /*SMALL SCREEN FIXES*/
 @media (max-width: 480px) {
