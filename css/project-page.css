@@ -1,6 +1,6 @@
 /*Custom Styles for Oh-Hey page*/ 
 h4 {
-  font-weight: 600;
+  font-weight: 600; 
   font-size: 1.2em;
   color: #0055ed;
 } 
@@ -26,6 +26,15 @@ h5 {
     top: 20%;
     right: 770px;
     left: 240px;
+}
+.escrow-hero-title {
+    position: absolute;
+    z-index: 1;
+    width: 580px;
+    top: 5%;
+    right: 0;
+    left: 0;
+    margin: auto;
 }
 
 .project-image-title img {
@@ -159,6 +168,26 @@ header h3 {
 	width: 150px;
 	height: 150px;
 }
+.color-circle {
+	width: 150px;
+	height: 150px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 100px;
+}
+.color-circle-white {
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 100px;
+	position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 23%;
+    left: 27%;
+    background-color: #fff;
+    width: 70px;
+    height: 70px;
+}
 .white {
 	position: absolute;
     margin-left: auto;
@@ -210,7 +239,18 @@ header h3 {
  	background : linear-gradient(180deg, rgba(56, 56, 56, 1) 0%, rgba(49, 49, 49, 1) 24.27%, rgba(31, 31, 31, 1) 58.81%, rgba(0, 0, 0, 1) 99.33%, rgba(0, 0, 0, 1) 99.5%);
  	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#383838',endColorstr='#000000' , GradientType=0);
 }
-
+.navy-circle {
+	background-color: #0b1745;
+}
+.green-circle {
+	background-color: #12e896;
+}
+.blue-circle {
+	background-color: #436ffd;
+}
+.red-circle {
+	background-color: #f57d78;
+}
 /*Oh Hey Typography Section*/
 .type-headline h1 {
 	font-weight: 500;
@@ -238,6 +278,9 @@ header h3 {
 	width: 100px;
 	margin-right: 15%;
 	margin-top: 10%;
+}
+.icon.timer {
+	width: 56px;
 }
 .icon.map-flag {
 	width: 150px;
