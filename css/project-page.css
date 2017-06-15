@@ -1,8 +1,7 @@
 /*Custom Styles for Oh-Hey page*/ 
 h4 {
-  font-weight: 600; 
+  font-weight: 200;
   font-size: 1.2em;
-  color: #fff;
 } 
 
 h5 {
@@ -28,10 +27,14 @@ header img.gogo-mockup {
     top: 35rem;
 }
 
+.jumbotron .gogo-travel {
+	color: #fff;
+}
+
 img.gogo-mockup {
     	max-width: 630px;
     	margin: 0 auto;
-	}
+}
 
 .white-text {
 	color: #fff;
