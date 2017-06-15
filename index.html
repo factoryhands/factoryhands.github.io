@@ -102,17 +102,13 @@
         </div>
         <!-- End Hamburger Menu --> 
 
-
-
-        <div class="container">
-            <nav>
-                <a class="home active" href="about.html">Jennifer Spriggs</a>
-                <a href="about.html">About</a>
-                <a href="work.html">Work</a>
-                <a href="contact.html">Contact</a>
-                <a href="http://factoryhands.design/" target="_blank">Blog</a>
-            </nav>
-        </div>
+        <nav>
+            <a class="home active" href="about.html">Jennifer Spriggs</a>
+            <a href="about.html">About</a>
+            <a href="work.html">Work</a>
+            <a href="contact.html">Contact</a>
+            <a href="http://factoryhands.design/" target="_blank">Blog</a>
+        </nav>
 
         <div class="portfolio-section">
             <div class="row">
@@ -126,6 +122,9 @@
                     </div>
                 </div>
             </div>  
+            <div class="row">
+                <a href="#overview" class="scroll">Scroll for more</a>
+            </div>
         </div>
 
         <div class="portfolio-section">
@@ -292,8 +291,22 @@
 <script>
     $(function() {
         $.scrollify({
-            section : ".portfolio-section",
-        });
+        section : ".portfolio-section",
+        interstitialSection : "",
+        easing: "easeOutExpo",
+        scrollSpeed: 1100,
+        offset : 0,
+        scrollbars: true,
+        standardScrollElements: "",
+        setHeights: true,
+        overflowScroll: true,
+        updateHash: true,
+        touchScroll:true,
+        before:function() {},
+        after:function() {},
+        afterResize:function() {},
+        afterRender:function() {}
+    });
     });
 </script>
 

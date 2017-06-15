@@ -27,7 +27,10 @@ a:active {
 
 nav {
   font-size: 1.5em;
+  position: fixed;
   text-decoration: none;
+  z-index: 1;
+  width: 1000px;
 }
 
 nav a {

@@ -225,6 +225,42 @@
   margin: 5% 4% 0% 0%;
 }
 
+.scroll {
+  position: relative;
+  font-size: 1.3em;
+  margin-top: 20px;
+  display: block;
+  height: 100px;
+  margin: 0 auto;
+  text-align: center;
+  margin: 60px auto;
+}
+.scroll:hover {
+  text-decoration:none;
+}
+
+.scroll:after {
+  content:'';
+  width:40px;
+  height:40px;
+  position:absolute;
+  margin:auto;
+  top:10px;
+  right:0;
+  left:0;
+  -webkit-animation:3s arrow infinite ease;
+  animation:3s arrow infinite ease;
+}
+
+.scroll:after {
+  border-right:2px solid #0055ed;
+  border-bottom:2px solid #0055ed;
+  -ms-transform:rotate(45deg);
+  -webkit-transform:rotate(45deg);
+  transform:rotate(45deg);
+
+}
+
 /* Medium Screen Fixes */
   @media only screen and (max-width : 992px) {
   nav {
