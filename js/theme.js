@@ -3,11 +3,35 @@ $(window).on('load', function() {
     $('body').css({'overflow':'visible'}); 
 })
 
-	$(".scroll,.scroll-btn").click(function(e) {
-		e.preventDefault();
+$(".home").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#home").offset().top
+    }, 600);
+    $('nav a.active').removeClass('active');
+    $(this).addClass('active');
+});
 
-		$.scrollify.next();
+$(".about").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#about").offset().top
+    }, 600);
+    $('nav a.active').removeClass('active');
+    $(this).addClass('active');
+});
 
+$(".work").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#work").offset().top
+    }, 600);
+    $('nav a.active').removeClass('active');
+    $(this).addClass('active');
+});
 
+$(".contact").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#contact").offset().top
+    }, 600);
+    $('nav a.active').removeClass('active');
+    $(this).addClass('active');
+});
 
-	});
