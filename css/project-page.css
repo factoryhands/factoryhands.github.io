@@ -46,6 +46,14 @@ h5 {
 	margin-top: 20%;
 }
 
+.project-image-title.oh-hey img {
+    max-height: 250px;
+}
+
+.oh-hey h3 {
+	color: #fff;
+}
+
 .back-to-work {
 	font-size: 4em;
     position: fixed;
