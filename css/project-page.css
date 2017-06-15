@@ -41,6 +41,12 @@ h5 {
     margin: auto;
 }
 
+.header-image img {
+	max-height: 550px;
+    position: absolute;
+    top: 20%;
+}
+
 .project-image-title img {
 	max-height: 550px;
 	margin-top: 20%;
@@ -58,7 +64,6 @@ h5 {
 	font-size: 4em;
     position: fixed;
     top: 5px;
-    left: 5px;
     color: rgb(68, 71, 69); 
     z-index: 1;
     padding: 0px 14px 6px 14px;
@@ -395,5 +400,13 @@ header h3 {
 
 	.logo-block img {
 		margin-left: 0;
+	}
+
+	.back-to-work {
+		font-size: 2em;
+	}
+
+	.project-image-title.oh-hey img {
+		max-height: 120px;
 	}
 }
