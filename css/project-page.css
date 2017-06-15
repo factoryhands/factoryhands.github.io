@@ -2,12 +2,16 @@
 h4 {
   font-weight: 600; 
   font-size: 1.2em;
-  color: #0055ed;
+  color: #fff;
 } 
 
 h5 {
   font-size: 1em;
   color: #0055ed;
+}
+
+.white-text {
+	color: #fff;
 }
 
 .project-image-title { 
@@ -38,7 +42,8 @@ h5 {
 }
 
 .project-image-title img {
-	max-height: 330px;
+	max-height: 550px;
+	margin-top: 20%;
 }
 
 .back-to-work {
