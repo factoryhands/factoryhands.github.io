@@ -10,6 +10,22 @@ h5 {
   color: #0055ed;
 }
 
+header .background-image {
+	position: absolute;
+}
+
+header img {
+	position: relative;
+	height: 100%
+	width: 100%;
+}
+
+header img.gogo-mockup {
+	max-width: 700px;
+    margin: auto;
+    top: 35rem;
+}
+
 .white-text {
 	color: #fff;
 }
@@ -337,6 +353,9 @@ header h3 {
     	margin-top: 4%;
     	font-size: 1em;
 	}
+	h4 {
+    	font-size: 1em;
+	}
 	.project-description {
 		padding: 5%;
 	}
@@ -406,7 +425,16 @@ header h3 {
 		font-size: 2em;
 	}
 
+	.project-image-title h1 {
+    	font-size: 2em;
+	}
+
 	.project-image-title.oh-hey img {
 		max-height: 120px;
+	}
+
+	header img.gogo-mockup {
+    	max-width: 250px;
+    	top: 12rem;
 	}
 }

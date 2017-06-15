@@ -122,11 +122,6 @@ img.about-photo {
   margin: 0px 10px 1px 0px;
 }
 
-header {
-  background-position: center;
-  text-align: center;
-}
-
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) {
   header {
