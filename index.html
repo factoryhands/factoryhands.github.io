@@ -52,6 +52,28 @@
     <!-- favicon -->
     <link rel="shortcut icon" type="image/png" href="/img/site/favicon.png"/>
 
+        <script>
+        $(function() {
+            $.scrollify({
+                section : ".portfolio-section",
+                interstitialSection : "",
+                easing: "easeOutExpo",
+                scrollSpeed: 1100,
+                offset : 0,
+                scrollbars: true,
+                standardScrollElements: "",
+                setHeights: true,
+                overflowScroll: true,
+                updateHash: true,
+                touchScroll:true,
+                before:function() {},
+                after:function() {},
+                afterResize:function() {},
+                afterRender:function() {}
+            });
+        });
+    </script>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -60,6 +82,7 @@
         <![endif]-->
 
         <title>Jennifer Spriggs</title> 
+
     </head>
 
     <body>
@@ -133,17 +156,41 @@
                         <a href="contact.html">Contact</a>
                         <a href="http://factoryhands.design/" target="_blank">Blog</a>
                     </nav>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="portfolio-heading">
-                                <div class="portfolio-title">
-                                    <h3 class="no-padding">the portfolio of</h3>
-                                    <h1 class="no-padding">Jennifer Spriggs</h1>  
-                                </div>     
-                                <img src="img/site/snap-hand.svg" style="width:auto">
+
+                    <div class="portfolio-section">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="portfolio-heading">
+                                    <div class="portfolio-title">
+                                        <h3 class="no-padding">the portfolio of</h3>
+                                        <h1 class="no-padding">Jennifer Spriggs</h1>  
+                                    </div>     
+                                    <img src="img/site/snap-hand.svg" style="width:auto">
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+
+                    <div class="portfolio-section">
+                        <div class="row">
+                            <div class="content">
+                                <div class="col-md-6">
+                                    <img src="img/site/hand-rulers.svg">
+                                </div>
+                                <div class="col-md-6">
+                                    <h2>Hey! What's up? Hello!</h2>
+                                    <img src="img/about/Ugh_its_me-01.jpg" class="about-photo" align="left"><p>I'm Jenn! I'm a Visual UX Designer and Illustrator living in Seattle, Washington.</p>
+                                    <br>
+                                    <p>Trained deep in the exotic Ohio Valley at the University of Cincinnati’s <a href="https://daap.uc.edu/" target="_blank">DAAP Design program</a> with a focus in fashion, I discovered my passion for graphic and surface design. A healthy interest in interactive and web design, drawing from my dark past as a webmaster for a teen boyband fansite, has contributed to my ability to take on a variety of projects and  challenges.</p>
+                                    <br>
+                                    <p>I've worked for big companies like <a href="http://us.pg.com/" target="_blank">Procter &amp; Gamble</a>, <a href="https://www.lpk.com/" target="_blank">LPK</a>, <a href="https://www.ae.com/" target="_blank">American Eagle</a> and <a href="https://www.abercrombie.com/shop/us" target="_blank">Abercrombie and Fitch</a>. I've spent time consulting with small companies and startups like <a href="http://www.lulabop.com/" target="_blank">Lulabop</a> and <a href="http://www.dokonoko.com/" target="_blank">Dokonoko</a> trying on all of their hats. If you have a good hat to wear, I'd like to try it on! I'm open for new projects and experiences so if you think you have something cool, you can contact me <a href="mailto:jenniferlspriggs@gmail.com">here</a>.</p> 
+                                </div>
                             </div>
                         </div>
-                    </div>  
+                    </div>
+
+
+
                 </div>
             </div>
         </div>
