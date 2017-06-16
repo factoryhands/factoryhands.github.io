@@ -88,6 +88,14 @@ nav .active {
   width: 70%;
 }
 
+.white-space {
+  margin-top: 4rem;
+}
+
+.white-space-large {
+  margin-top: 14rem;
+}
+
 .btn:hover { 
   color: white;
   border-color: #0055ed;
