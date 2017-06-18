@@ -35,3 +35,12 @@ $(".contact").click(function() {
     $(this).addClass('active');
 });
 
+    $(".scroll,.scroll-btn").click(function(e) {
+        e.preventDefault();
+
+        $.scrollify.next();
+
+
+
+    });
+
