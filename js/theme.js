@@ -3,44 +3,21 @@ $(window).on('load', function() {
     $('body').css({'overflow':'visible'}); 
 })
 
-$(".home").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#home").offset().top
-    }, 600);
-    $('nav a.active').removeClass('active');
-    $(this).addClass('active');
+
+$('section').mouseenter(function() {
+    $('nav a[href="#'+$(this).attr('id')+'"]').addClass('active').siblings('nav a').removeClass('active');
 });
 
-$(".about").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#about").offset().top
-    }, 600);
-    $('nav a.active').removeClass('active');
-    $(this).addClass('active');
+$('nav a').click(function() {
+    $(this).addClass('active').siblings('nav a').removeClass('active');
+    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top + 'px' }, 800, 'linear');    
 });
 
-$(".work").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#work").offset().top
-    }, 600);
-    $('nav a.active').removeClass('active');
-    $(this).addClass('active');
+
+
+$(".scroll,.scroll-btn").click(function(e) {
+    e.preventDefault();
+
+    $.scrollify.next();
 });
-
-$(".contact").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#contact").offset().top
-    }, 600);
-    $('nav a.active').removeClass('active');
-    $(this).addClass('active');
-});
-
-    $(".scroll,.scroll-btn").click(function(e) {
-        e.preventDefault();
-
-        $.scrollify.next();
-
-
-
-    });
 
