@@ -41,7 +41,7 @@
     <link href="css/theme.css" rel="stylesheet">
 
     <!-- Hamburger Nav CSS -->
-    <link href="css/hamburger-nav.css" rel="stylesheet">
+    <link href="css/new-nav.css" rel="stylesheet">
 
     <!-- Page CSS -->
     <link href="css/index.css" rel="stylesheet">
@@ -54,61 +54,66 @@
 </head>
 
 <body>
-    <div id="preloader">
-        <div id="loader">
-        </div>
-    </div>
 
+    <!-- loading gif -->
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+    <!-- end loading gif -->
 
     <div class="container-fluid">
-        <!-- Start Hamburger Menu -->
-        <!-- The overlay -->
-        <div id="myNav" class="overlay">    
 
-            <!-- Button to close the overlay navigation -->
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>  
 
-            <!-- Overlay content -->
-            <div class="overlay-content">
-                <div class="overlay-content-links">
-                    <a href="index.html#home" onclick="closeNav()">Home</a>
-                    <a href="index.html#about" onclick="closeNav()">About</a>
-                    <a href="index.html#work" onclick="closeNav()">Work</a>
-                    <a href="index.html#contact" onclick="closeNav()">Contact</a>
-                    <a href="resume/jennferlspriggs_visual-ux-resume.pdf" target="_blank">Resume</a>
-                    <a href="http://factoryhands.design/blog" target="_blank">Blog</a>
-                </div>
-
-                <div class="social-icons">
-                    <a href="https://dribbble.com/factoryhands" target="_blank">
-                        <img src="img/site/dribbble.svg">
-                    </a>
-                    <a href="https://www.instagram.com/factoryhands/" target="_blank">
-                        <img src="img/site/instagram.svg">
-                    </a>
-                    <a href="https://github.com/factoryhands" target="_blank">
-                        <img src="img/site/github.svg">
-                    </a>
-                    <a href="https://www.linkedin.com/in/jenniferlspriggs" target="_blank">
-                        <img src="img/site/linkedin.svg">
-                    </a>
-                </div>
-            </div>
-        </div>  
-
-        <!-- Use any element to open/show the overlay navigation menu -->
-        <div class="hamburger-menu">
-            <span onclick="openNav()">Menu</span>
+        <!-- menu -->
+        <div class="menu">
+            <span class="menu-circle"></span>
+            <a href="#" class="menu-link">
+                <span class="menu-icon">
+                    <span class="menu-line menu-line-1"></span>
+                    <span class="menu-line menu-line-2"></span>
+                    <span class="menu-line menu-line-3"></span>
+                </span>
+            </a>
         </div>
-        <!-- End Hamburger Menu --> 
+        <!-- end menu --> 
 
+
+        <!-- menu overlay -->
+        <div class="menu-overlay">
+            <h1 class="overlay-info">
+                Hi!
+            </h1>
+
+            <h2>
+                 Nice to see you.
+            </h2>
+
+            <div class="white-space"></div>
+
+            <p>If you're looking for more information about me you can find my resume <a href="resume/jennferlspriggs_visual-ux-resume.pdf" target="_blank">here</a>.</p>
+            <p>I'm also probably too active on social media.</p>
+            <p>You can follow me on</p>   
+            <a href="https://dribbble.com/factoryhands" target="_blank">- Dribbble</a>
+            <a href="https://www.linkedin.com/in/jenniferlspriggs/" target="_blank">- LinkedIn</a>
+            <a href="https://twitter.com/jennlspriggs" target="_blank">- Twitter</a>
+        </div>
+        <!-- end menu overlay -->
+
+
+        <!-- nav-->
         <nav>
             <a href="#home">Jennifer Spriggs</a>
             <a href="#about">About</a>
             <a href="#work">Work</a>
             <a href="#contact">Contact</a>
         </nav>
+        <!-- end nav-->
 
+
+        <!-- begin portfolio content -->
+
+
+        <!-- portfolio header section -->
         <section class="portfolio-section" id="home">
             <div class="row">
                 <div class="col-md-12">
@@ -125,7 +130,10 @@
                 <a href="#overview" class="scroll">Scroll for more</a>
             </div>
         </section>
+        <!-- end portfolio header section -->
 
+
+        <!-- about section -->
         <section class="portfolio-section" id="about">
             <div class="row">
                 <div class="content">
@@ -143,7 +151,10 @@
                 </div>
             </div>
         </section>
+        <!-- end about section -->
 
+
+        <!-- work section -->
         <section class="portfolio-section" id="work">
             <div class="row">
                 <div class="content">
@@ -242,7 +253,10 @@
                 </div>
             </div>
         </section>
+        <!-- end work section -->
 
+
+        <!-- contact section -->
         <section class="portfolio-section" id="contact">
             <div class="row">
                 <div class="content">
@@ -267,6 +281,7 @@
                 </div>
             </div>
         </section>
+        <!-- end contact section -->
     </div>
 </div>
 

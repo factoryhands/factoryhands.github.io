@@ -1,3 +1,11 @@
+#preloader {
+  z-index: 1;
+}
+
+.white-space {
+  margin-top: 3rem;
+}
+
 .portfolio-heading img {
   max-width: 250px;
   margin-left: 20%;
@@ -16,7 +24,7 @@
 	color: rgb(68, 71, 69);;
 	padding: 2% 16% 2% 16%;    
 }  
-
+ 
 .contact-blurb-section .description h1, .work-image-section h1 {
   display: none;
 }
