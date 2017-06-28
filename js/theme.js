@@ -3,41 +3,45 @@ $(window).on('load', function() {
     $('body').css({'overflow':'visible'});
 });
 
-    $(".menu-link").click(function(e) {
-        e.preventDefault();
-    
-        $(".menu-overlay").toggleClass("open");
-        $(".menu").toggleClass("open");
-    });
 
-    $('section').mouseenter(function() {
-        $('nav a[href="#'+$(this).attr('id')+'"]').addClass('active').siblings('nav a').removeClass('active');
-    });
+  $.scrollify({
+        section:".portfolio-section",
+    scrollbars:false,
+    before:function(i,panels) {
 
-    $('nav a').click(function() {
-        $(this).addClass('active').siblings('nav a').removeClass('active');
-        $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top + 'px' }, 800, 'linear');    
-    });
+      var ref = panels[i].attr("data-section-name");
 
-$(function() {
-    $.scrollify({
-        section : ".portfolio-section",
-        interstitialSection : "",
-        easing: "easeOutExpo",
-        scrollSpeed: 1100,
-        offset : 0,
-        scrollbars: true,
-        standardScrollElements: "",
-        setHeights: true,
-        overflowScroll: true,
-        updateHash: true,
-        touchScroll:true,
-        before:function() {},
-        after:function() {},
-        afterResize:function() {},
-        afterRender:function() {}
-    }); 
-});
+      $(".pagination .active").removeClass("active");
+
+      $(".pagination").find("a[href=\"#" + ref + "\"]").addClass("active");
+    },
+    afterRender:function() {
+      var pagination = "<ul class=\"pagination\">";
+      var activeClass = "";
+      $(".panel").each(function(i) {
+        activeClass = "";
+        if(i===0) {
+          activeClass = "active";
+        }
+        pagination += "<li><a class=\"" + activeClass + "\" href=\"#" + $(this).attr("data-section-name") + "\"><span class=\"hover-text\">" + $(this).attr("data-section-name").charAt(0).toUpperCase() + $(this).attr("data-section-name").slice(1) + "</span></a></li>";
+      });
+
+      pagination += "</ul>";
+
+      $(".home").append(pagination);
+      /*
+
+      Tip: The two click events below are the same:
+
+      $(".pagination a").on("click",function() {
+        $.scrollify.move($(this).attr("href"));
+      });
+
+      */
+      $(".pagination a").on("click",$.scrollify.move);
+    }
+  });
+
 
 
 
