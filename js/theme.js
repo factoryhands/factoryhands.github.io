@@ -3,6 +3,23 @@ $(window).on('load', function() {
     $('body').css({'overflow':'visible'});
 });
 
+    $(".menu-link").click(function(e) {
+        e.preventDefault();
+    
+        $(".menu-overlay").toggleClass("open");
+        $(".menu").toggleClass("open");
+        $("body").toggleClass("no-scroll");
+    });
+
+    $('section').mouseenter(function() {
+        $('nav a[href="#'+$(this).attr('id')+'"]').addClass('active').siblings('nav a').removeClass('active');
+    });
+
+    $('nav a').click(function() {
+        $(this).addClass('active').siblings('nav a').removeClass('active');
+        $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top + 'px' }, 800, 'linear');    
+    });
+
 
   $.scrollify({
         section:".portfolio-section",
