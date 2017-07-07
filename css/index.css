@@ -248,4 +248,7 @@ img.about-photo {
   .content img {
     display: none;
   }
+  [data-section-name="work"] img {
+    width: 180px;
+  }
 }
