@@ -1,3 +1,46 @@
+html,  
+body {
+  height: 100%;
+  width: 100%;    
+}
+
+body {
+  font-family: "sofia-pro",sans-serif;
+  color: rgb(68, 71, 69); 
+  overflow: hidden;
+}    
+
+a {
+  color: #0055ed;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #0055ed;
+  cursor: pointer;
+}
+
+a:active {
+  color: #0055ed;
+  text-decoration: none;
+}
+
+
+
+nav a {
+  margin: 0px 20px 0 0;
+  color: rgb(68, 71, 69); 
+}
+
+
+
+nav .active {
+  text-decoration: underline;
+  color: #0055ed;
+}
+img.about-photo {
+  margin: 0px 10px 1px 0px;
+}
 #preloader {
   z-index: 1;
 }
@@ -28,6 +71,14 @@ section {
 
 [data-section-name="work"] img {
       width: 250px;
+}
+
+[data-section-name="contact"] .content {
+      display: flex;
+}
+
+[data-section-name="contact"] .content-copy {
+      margin-left: 3rem;
 }
 
 .white-space {
@@ -363,6 +414,7 @@ nav {
   font-size:1.4em;
   display: inline-block;
   margin-right: 1rem;
+  color: #0f5be8;
 }
 .nav-logo p {
   display: inline-block;
@@ -374,7 +426,7 @@ nav {
 }
 
 .pagination {
-  font-size:1.4em;
+  font-size: 1.3em;
   z-index: 10;
 
 }
@@ -404,24 +456,24 @@ nav {
   opacity: 1;
 }
 .pagination a:after {
-  -webkit-transition:box-shadow 0.5s ease;
-  transition:box-shadow 0.5s ease;
-  width:10px;
-  height:10px;
-  display: block;
-  border:1px solid;
-  border-radius:50%;
-  content:'';
-  position: absolute;
-  margin:auto;
-  top:0;
-  right:4px;
-  bottom:0;
+      -webkit-transition: box-shadow 0.5s ease;
+    transition: box-shadow 0.5s ease;
+    width: 10px;
+    height: 10px;
+    display: block;
+    border: 1px solid;
+    content: '';
+    position: absolute;
+    margin: auto;
+    top: 21px;
+    right: -5px;
+    bottom: 0;
+    color: #0f5be8;
 }
 
 .pagination>li>a, .pagination>li>span {
   border: none;
-  color: #0f5be8;
+  color: #333;
 }
 
 .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
@@ -457,13 +509,3 @@ nav {
 
 
 
-/* Medium Screen Fixes */
-  @media only screen and (max-width : 992px) {
-  nav {
-    display: none;
-  }
-
-  .content img {
-    max-height: 250px;
-  }
-}
