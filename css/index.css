@@ -19,10 +19,15 @@ section {
       display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 [data-section-name="about"] {
       flex-flow: column;
+}
+
+[data-section-name="work"] img {
+      width: 300px;
 }
 
 .white-space {
@@ -416,14 +421,7 @@ nav {
 
 
 
-.container {
-  display: -webkit-flex; 
-  display: -ms-flexbox; 
-  display: flex;
-  -webkit-flex-flow: column; 
-  -ms-flex-direction: column; 
-  flex-flow: column;
-}
+
 
 
 
