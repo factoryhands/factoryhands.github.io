@@ -27,7 +27,7 @@ section {
 }
 
 [data-section-name="work"] img {
-      width: 300px;
+      width: 250px;
 }
 
 .white-space {
@@ -171,6 +171,32 @@ img.about-illustration  {
   top: -10rem;
 }
 
+
+/* relevant styles */
+.img__wrap {
+  position: relative;
+  margin-right: 8rem;
+}
+
+.img__description {
+position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.72);
+    color: #333;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .2s;
+    text-align: center;
+}
+
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
+
 /*SMALL SCREEN FIXES*/
 @media (max-width: 480px) {
 	.main-headline {
@@ -194,6 +220,8 @@ img.about-illustration  {
   .header-section{
     padding-bottom: 20%;
   }
+
+
 
 	.header-nav {
 		font-size: 1.5em;
@@ -334,6 +362,7 @@ nav {
 .nav-logo h1 {
   font-size:1.4em;
   display: inline-block;
+  margin-right: 1rem;
 }
 .nav-logo p {
   display: inline-block;
