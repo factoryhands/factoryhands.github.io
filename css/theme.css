@@ -25,23 +25,14 @@ a:active {
   text-decoration: none;
 }
 
-nav {
-  font-size: 1.5em;
-  position: fixed;
-  text-decoration: none;
-  z-index: 1;
-  width: 1000px;
-  top: 7px;
-}
+
 
 nav a {
   margin: 0px 20px 0 0;
   color: rgb(68, 71, 69); 
 }
 
-nav .home {
-  margin-right: 10%;
-}
+
 
 nav .active {
   text-decoration: underline;
@@ -76,10 +67,6 @@ nav .active {
 
 .center {
   margin: 0 auto;
-}
-
-.content {
-  margin-top: 10%;
 }
 
 .btn {
