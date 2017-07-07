@@ -5,7 +5,7 @@ $(window).on('load', function() {
 
 
   $.scrollify({
-        section:".portfolio-section",
+    section:".portfolio-section",
     scrollbars:false,
     before:function(i,panels) {
 

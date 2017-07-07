@@ -15,6 +15,16 @@ header {
    flex: 0 0 auto;
 }
 
+section {
+      display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+[data-section-name="about"] {
+      flex-flow: column;
+}
+
 .white-space {
   margin-top: 3rem;
 }
@@ -45,9 +55,6 @@ header {
   max-width: 20%;
 }
 
-.hand-illustration img{
-  max-width: 100%;
-}
 
 .about-section {
 	background-color: #ffffff; 
@@ -152,8 +159,11 @@ header {
   border-bottom: 1px solid rgb(68, 71, 69);
 }
 
-.portfolio-section img {
+img.about-illustration  {
   max-width: 320px;
+  position: absolute;
+  z-index: -1;
+  top: -10rem;
 }
 
 /*SMALL SCREEN FIXES*/
@@ -304,6 +314,7 @@ header {
 }
 
 nav {
+  z-index: 1;
   position: fixed;
   top: 0;
   left: 0;
@@ -317,6 +328,10 @@ nav {
 }
 .nav-logo h1 {
   font-size:1.4em;
+  display: inline-block;
+}
+.nav-logo p {
+  display: inline-block;
 }
 .nav-content {
     display: flex;
@@ -376,16 +391,29 @@ nav {
 }
 
 .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
-    z-index: 2;
-    color: #0f5be8;
-    background-color: #fff;
-    border-color: #fff;
+  z-index: 2;
+  color: #0f5be8;
+  background-color: #fff;
+  border-color: #fff;
 }
 
-.about-content {
-  border: 2px solid #333;
-  padding: 5rem;
+.about-wrapper {
+  display: flex;
 }
+.about-illustration img {
+  flex-basis: 100%;
+  flex-grow: 3;
+  z-index: -1;
+  position: absolute;
+  top: -150px;
+}
+.about-content {
+  position: relative;
+}
+.about-copy {
+  margin-left: 31rem;
+}
+
 
 
 .container {
@@ -395,14 +423,9 @@ nav {
   -webkit-flex-flow: column; 
   -ms-flex-direction: column; 
   flex-flow: column;
-  margin:0 auto;
-  padding: 0% 1%;
 }
 
-.container > * {
-  padding: 10px;
-  flex: 1 100%;
-}
+
 
 
 

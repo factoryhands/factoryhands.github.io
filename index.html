@@ -55,106 +55,87 @@
 
 <body> 
 
-        <div class="container-fluid">
+    <!-- loading gif -->
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+    <!-- end loading gif -->
 
-            <!-- loading gif -->
-            <div id="preloader">
-                <div id="loader"></div>
+
+
+    <!-- menu overlay -->
+    <div class="menu-overlay">
+        <h1 class="overlay-info">
+            Hi!
+        </h1>
+        <h2>
+            Nice to see you.
+        </h2>
+        <div class="white-space"></div>
+        <p>If you're looking for more information about me you can find my resume <a href="resume/jennferlspriggs_visual-ux-resume.pdf" target="_blank">here</a>.</p>
+        <p>I'm also probably too active on social media.</p>
+        <p>You can follow me on</p>   
+        <a href="https://dribbble.com/factoryhands" target="_blank">- Dribbble</a>
+        <a href="https://www.linkedin.com/in/jenniferlspriggs/" target="_blank">- LinkedIn</a>
+        <a href="https://twitter.com/jennlspriggs" target="_blank">- Twitter</a>
+        <a href="https://github.com/factoryhands" target="_blank">- Github</a>
+    </div>
+    <!-- end menu overlay -->
+
+
+
+    <!-- nav-->
+    <nav>
+        <div class="nav-content">
+            <div class="nav-logo">
+                <h1>Jennifer Spriggs</h1>
+                <p>ux &amp; visual design</p>
             </div>
-            <!-- end loading gif -->
-
-
-            <!-- menu overlay -->
-            <div class="menu-overlay">
-                <h1 class="overlay-info">
-                    Hi!
-                </h1>
-    
-                <h2>
-                    Nice to see you.
-                </h2>
-    
-                <div class="white-space"></div>
-    
-                <p>If you're looking for more information about me you can find my resume <a href="resume/jennferlspriggs_visual-ux-resume.pdf" target="_blank">here</a>.</p>
-                <p>I'm also probably too active on social media.</p>
-                <p>You can follow me on</p>   
-                <a href="https://dribbble.com/factoryhands" target="_blank">- Dribbble</a>
-                <a href="https://www.linkedin.com/in/jenniferlspriggs/" target="_blank">- LinkedIn</a>
-                <a href="https://twitter.com/jennlspriggs" target="_blank">- Twitter</a>
-                <a href="https://github.com/factoryhands" target="_blank">- Github</a>
+            <div class="pagination">
+                <li>
+                    <a class="active" href="#about">
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a class="" href="#work">
+                        Work
+                    </a>
+                </li>
+                <li>
+                    <a class="" href="#contact">
+                        Contact
+                    </a>
+                </li>
             </div>
-            <!-- end menu overlay -->
-
-
-            <!-- nav-->
-            <nav>
-                <div class="nav-content">
-                    <div class="nav-logo">
-                        <h1>Jennifer Spriggs</h1>
-                    </div>
-                    <div class="pagination">
-                        <li>
-                            <a class="active" href="#home">
-                                Home
-                            </a>
-                        </li>
-                        <li>
-                            <a class="" href="#about">
-                                About
-                            </a>
-                        </li>
-                        <li>
-                            <a class="" href="#work">
-                                Work
-                            </a>
-                        </li>
-                        <li>
-                            <a class="" href="#contact">
-                                Contact
-                            </a>
-                        </li>
-                    </div>
-                </div>
-            </nav>
-            <!-- end nav-->
         </div>
-        <!-- begin portfolio content -->
+    </nav>
+    <!-- end nav-->
+
+
+
+    <!-- begin portfolio content -->
+
 
         <div class="container">
 
-
-            <!-- portfolio header section -->
-            <section class="portfolio-section" data-section-name="home">
-                <header>
-                <div class="row">
-                        <div class="portfolio-heading">
-                            <div class="portfolio-title">
-                                <h1>Jennifer Spriggs</h1>
-                                <h3>visual &amp; ux design</h3>
-                                <img src="img/site/snap-hand.svg"> 
-                                <a href="#overview" class="scroll"></a> 
-                            </div>
-                        </div>
-                </div>  
-                </header>
-            </section>
-            <!-- end portfolio header section -->
-
-
             <!-- about section -->
             <section class="portfolio-section" data-section-name="about">
-                <div class="row">
-
-                        <div class="about-content">
-                            <h2>Hey! What's up? Hello!</h2>
-                            <img src="img/about/Ugh_its_me-01.jpg" class="about-photo" align="left"><p>I'm Jenn! I'm a Visual UX Designer and Illustrator living in Seattle, Washington.</p>
-                            <br>
-                            <p>Trained deep in the exotic Ohio Valley at the University of Cincinnati’s <a href="https://daap.uc.edu/" target="_blank">DAAP Design program</a> with a focus in fashion, I discovered my passion for graphic and surface design. A healthy interest in interactive and web design, drawing from my dark past as a webmaster for a teen boyband fansite, has contributed to my ability to take on a variety of projects and  challenges.</p>
-                            <br>
-                            <p>I've worked for big companies like <a href="http://us.pg.com/" target="_blank">Procter &amp; Gamble</a>, <a href="https://www.lpk.com/" target="_blank">LPK</a>, <a href="https://www.ae.com/" target="_blank">American Eagle</a> and <a href="https://www.abercrombie.com/shop/us" target="_blank">Abercrombie and Fitch</a>. I've spent time consulting with small companies and startups like <a href="http://www.lulabop.com/" target="_blank">Lulabop</a> and <a href="http://www.dokonoko.com/" target="_blank">Dokonoko</a> trying on all of their hats. If you have a good hat to wear, I'd like to try it on! I'm open for new projects and experiences so if you think you have something cool, you can contact me <a href="mailto:jenniferlspriggs@gmail.com">here</a>.</p> 
-                        </div>
+                <div class="about-wrapper"> 
+                    <div class="about-content">
+                            <img class="about-illustration" src="img/site/snap-hand.svg">
+                            <div class="about-copy">
+                                <h1>Hey! What's up? Hello!</h1>
+                                <br>
+                                <img src="img/about/Ugh_its_me-01.jpg" class="about-photo" align="left"><p>I'm Jenn! I'm a Visual UX Designer and Illustrator living in Seattle, Washington.</p>
+                                <br>
+                                <p>Trained deep in the exotic Ohio Valley at the University of Cincinnati’s <a href="https://daap.uc.edu/" target="_blank">DAAP Design program</a> with a focus in fashion, I discovered my passion for graphic and surface design. A healthy interest in interactive and web design, drawing from my dark past as a webmaster for a teen boyband fansite, has contributed to my ability to take on a variety of projects and  challenges.</p>
+                                <br>
+                                <p>I've worked for big companies like <a href="http://us.pg.com/" target="_blank">Procter &amp; Gamble</a>, <a href="https://www.lpk.com/" target="_blank">LPK</a>, <a href="https://www.ae.com/" target="_blank">American Eagle</a> and <a href="https://www.abercrombie.com/shop/us" target="_blank">Abercrombie and Fitch</a>. I've spent time consulting with small companies and startups like <a href="http://www.lulabop.com/" target="_blank">Lulabop   </a> and <a href="http://www.dokonoko.com/" target="_blank">Dokonoko</a> trying on all of their hats. If you have a good hat to wear, I'd like to try it on! I'm open for new projects and experiences so if you think you have something cool, you can contact me <a href="mailto:jenniferlspriggs@gmail.com">here</a>.</p> 
+                            </div>
+                    </div>
                 </div>
+                <a href="#overview" class="scroll"></a> 
             </section>
             <!-- end about section -->
 
@@ -163,93 +144,11 @@
             <section class="portfolio-section" data-section-name="work">
                 <div class="row">
                     <div class="content">
-                            <h2>My Work</h2>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <ul class="work-links">
-                                        <li class="work-summary">
-                                            <a href="digital-escrow.html">Stratuscore Digital Escrow</a>
-                                            <ul>
-                                                <li>
-                                                    Desktop application
-                                                </li>
-                                                <li>
-                                                    UX Design
-                                                </li>
-                                                <li>
-                                                    UI Design
-                                                </li>
-                                                <li>
-                                                    Visual Design
-                                                </li>
-                                                <li>
-                                                    Front-End-Development
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="work-summary">
-                                            <a href="oh-hey.html">Oh Hey</a>
-                                            <ul>
-                                                <li>
-                                                    Mobile Application Design
-                                                </li>
-                                                <li>
-                                                    Web App Application
-                                                </li>
-                                                <li>
-                                                    UX Design
-                                                </li>
-                                                <li>
-                                                    UI Design
-                                                </li>
-                                                <li>
-                                                    Visual Design
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="col-md-6">
-                                    <ul class="work-links">
-                                        <li class="work-summary">
-                                            <a href="seismic-hero.html">Seismic Hero</a>
-                                            <ul>
-                                                <li>
-                                                    Game Mechanics Design
-                                                </li>
-                                                <li>
-                                                    Mobile Game Design
-                                                </li>
-                                                <li>
-                                                    UX Design
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="work-summary">
-                                            <a href="gogo-travel.html">Go Go Travel</a>
-                                            <ul>
-                                                <li>
-                                                    UX Design
-                                                </li>
-                                                <li>
-                                                    Visual Design
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="work-summary">
-                                            <a href="logos.html">Logos &amp; Various Projects</a>
-                                            <ul>
-                                                <li>
-                                                    Visual Design
-                                                </li>
-                                                <li>
-                                                    Brand &amp; Identity Design
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+                        <img src="img/work-section/StratusCore-Laptop.png">
+                        <img src="img/work-section/StratusCore-Laptop.png">
+                        <img src="img/work-section/StratusCore-Laptop.png">
+                        <img src="img/work-section/StratusCore-Laptop.png">
+                        <img src="img/work-section/StratusCore-Laptop.png">
                     </div>
                 </div>
             </section>
