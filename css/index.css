@@ -238,4 +238,14 @@ img.about-photo {
   .pagination {
     display: none;
   }
+  .about-illustration {
+    display: none;
+  }
+  .about-copy {
+    margin-left: 0;
+    margin-top: 9rem;
+  }
+  .content img {
+    display: none;
+  }
 }
