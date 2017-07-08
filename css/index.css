@@ -266,6 +266,9 @@ img.about-photo {
   .about-wrapper {
     margin-top: 0;
   }
+  .scroll {
+    display: none;
+  }
   .about-copy {
     margin-left: 0;
     margin-top: 9rem;
