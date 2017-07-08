@@ -16,7 +16,6 @@ $(window).on('load', function() {
   $.scrollify({
     section:".portfolio-section",
     scrollbars:false,
-
     before:function(i,panels) {
 
       var ref = panels[i].attr("data-section-name");
@@ -49,8 +48,11 @@ $(window).on('load', function() {
 
       */
       $(".pagination a").on("click",$.scrollify.move);
-    }
+    },
+
   });
+
+
 
 
 

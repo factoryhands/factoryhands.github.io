@@ -263,6 +263,9 @@ img.about-photo {
   .about-illustration {
     display: none;
   }
+  .about-wrapper {
+    margin-top: 0;
+  }
   .about-copy {
     margin-left: 0;
     margin-top: 9rem;
