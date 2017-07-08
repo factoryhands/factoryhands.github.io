@@ -14,8 +14,9 @@ $(window).on('load', function() {
 
 
   $.scrollify({
-        section:".portfolio-section",
+    section:".portfolio-section",
     scrollbars:false,
+    offset: -50,
     before:function(i,panels) {
 
       var ref = panels[i].attr("data-section-name");
