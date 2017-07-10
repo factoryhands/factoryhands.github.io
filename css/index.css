@@ -256,8 +256,36 @@ img.about-photo {
 }
 
 
-/*SMALL SCREEN FIXES*/
+
+
+
+/* Small devices (landscape phones, 576px and up)*/
 @media (max-width: 480px) {
+  nav {
+    display: none;
+  }
+  header {
+    background: #0056eb;
+    width: 100%;
+  }
+  header h1.hey {
+    top: 1rem;
+    left: 1rem;
+    font-size: 8em;
+  }
+  header .right-header {
+    top: 18rem;
+    right: 1rem;
+  }
+  .landing-hand {
+    display: none;
+  }
+  .img__wrap {
+    margin: 3rem 0 3rem 0;
+  }
+  .header-blue-background {
+    display: none;
+  }
   .pagination {
     display: none;
   }
@@ -271,7 +299,48 @@ img.about-photo {
   .content img {
     display: none;
   }
-  [data-section-name="work"] img {
-    width: 180px;
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+  nav {
+    display: none;
+  } 
+  header .right-header {
+    top: 40rem;
+    right: 17rem;
+}
+  header h1.hey {
+    font-size: 11em;
+  }
+  img.landing-hand.left {
+    display: none;
+  }
+  img.landing-hand.right-hand {
+    left: 75rem;
+    top: 5rem;
+  }
+}
+
+@media only screen 
+and (min-device-width : 480px) 
+and (max-device-width : 768px)  { 
+  nav {
+    display: none;
+  } 
+  header .right-header {
+    top: 40rem;
+    right: 17rem;
+}
+  header h1.hey {
+    font-size: 11em;
+  }
+  img.landing-hand.left {
+    display: none;
+  }
+  img.landing-hand.right-hand {
+    left: 75rem;
+    top: 5rem;
   }
 }
