@@ -146,7 +146,7 @@ header .right-header {
   position: absolute;
   z-index: 1;
   top: 30rem;
-  right: 20rem;
+  right: 2rem;
 }
 .right-header h2 {
   font-size: 4em;
