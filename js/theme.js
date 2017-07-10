@@ -3,6 +3,15 @@ $(window).on('load', function() {
     $('body').css({'overflow':'visible'});
 });
 
+    $(".menu-link").click(function(e) {
+        e.preventDefault();
+    
+        $(".menu-overlay").toggleClass("open");
+        $(".menu").toggleClass("open");
+        $("body").toggleClass("no-scroll");
+    });
+
+
 
   $.scrollify({
     section:".portfolio-section",
@@ -39,8 +48,11 @@ $(window).on('load', function() {
 
       */
       $(".pagination a").on("click",$.scrollify.move);
-    }
+    },
+
   });
+
+
 
 
 

@@ -11,11 +11,23 @@ body {
 #preloader {
   z-index: 1;
 }   
+.container {
+    display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;  
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  position: relative;
+  top: 100px;
+}
 section {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  top: 262px;
 }
 a {
   color: #0055ed;
@@ -30,15 +42,13 @@ a:active {
   text-decoration: none;
 }
 nav {
- display:block;
- -webkit-flex: 0 0 auto; 
- -ms-flex: 0 0 auto; 
- flex: 0 0 auto;
-  z-index: 1;
+  list-style: none;
+  margin: 0; 
   position: fixed;
   top: 0;
-  left: 0;
-  margin: auto;
+  z-index: 99;
+  background: #fff;
+  border-bottom: #333 solid 1px;
   width: 100%;
   background-color: #fff;
 }
@@ -175,6 +185,7 @@ img.landing-hand.right-hand {
 }
 .about-wrapper {
   display: flex;
+  margin-top: 200px;
 }
 .about-illustration img {
   flex-basis: 100%;
@@ -188,6 +199,7 @@ img.landing-hand.right-hand {
 }
 .about-copy {
   margin-left: 31rem;
+  margin-top: -60px;
 }
 img.about-illustration  {
   max-width: 320px;
@@ -249,8 +261,16 @@ img.about-photo {
 }
 [data-section-name="contact"] .content-copy {
   margin-left: 3rem;
+<<<<<<< HEAD
+=======
 }
-
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+  z-index: 2;
+  color: #0f5be8;
+  background-color: transparent;
+  border-color: transparent;
+>>>>>>> 9db1f9573dc47e439b8282de96bd7f9b261702f0
+}
 .white-space {
   margin-top: 3rem;
 }
@@ -291,6 +311,16 @@ img.about-photo {
   }
   .about-illustration {
     display: none;
+  }
+  .about-wrapper {
+    margin-top: 0;
+  }
+  .scroll {
+    display: none;
+  }
+  .img__wrap {
+    margin-right: 0;
+    margin-top: 8rem;
   }
   .about-copy {
     margin-left: 0;
