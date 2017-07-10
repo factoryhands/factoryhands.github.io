@@ -175,10 +175,10 @@ img.landing-hand {
   z-index: 1;
   max-height: 600px;
   top: 19rem;
-  left: 6rem;
+  left: 24rem;
 }
 img.landing-hand.right-hand {
-  left: 53rem;
+  left: 66rem;
 }
 [data-section-name="about"] {
   flex-flow: column;
@@ -260,19 +260,30 @@ img.about-photo {
 }
 [data-section-name="contact"] .content-copy {
   margin-left: 3rem;
-<<<<<<< HEAD
-=======
 }
 .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
   z-index: 2;
   color: #0f5be8;
   background-color: transparent;
   border-color: transparent;
->>>>>>> 9db1f9573dc47e439b8282de96bd7f9b261702f0
-}
 .white-space {
   margin-top: 3rem;
 }
+
+
+@media only screen  and (min-width : 1224px) {
+  img.landing-hand.right-hand {
+    left: 93rem;
+}
+}
+
+
+@media only screen  and (min-width : 1824px) {
+  img.landing-hand.right-hand {
+    left: 93rem;
+}
+}
+
 
 
 
