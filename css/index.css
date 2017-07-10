@@ -137,15 +137,15 @@ header {
 header h1.hey {
   position: absolute;
   z-index: 1;
-  top: 2rem;
-  left: 15rem;
-  font-size: 16em;
+  top: 4rem;
+  left: 6rem;
+  font-size: 13em;
   color: #fff;
 }
 header .right-header {
   position: absolute;
   z-index: 1;
-  top: 50rem;
+  top: 30rem;
   right: 20rem;
 }
 .right-header h2 {
@@ -174,18 +174,17 @@ header .right-header {
 img.landing-hand {
   z-index: 1;
   max-height: 600px;
-  top: 32rem;
-  left: 20rem;
+  top: 19rem;
+  left: 6rem;
 }
 img.landing-hand.right-hand {
-  left: 63rem;
+  left: 53rem;
 }
 [data-section-name="about"] {
   flex-flow: column;
 }
 .about-wrapper {
   display: flex;
-  margin-top: 200px;
 }
 .about-illustration img {
   flex-basis: 100%;
