@@ -175,10 +175,10 @@ img.landing-hand {
   z-index: 1;
   max-height: 600px;
   top: 19rem;
-  left: 6rem;
+  left: 24rem;
 }
 img.landing-hand.right-hand {
-  left: 53rem;
+  left: 66rem;
 }
 [data-section-name="about"] {
   flex-flow: column;
