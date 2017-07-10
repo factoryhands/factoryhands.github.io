@@ -41,7 +41,6 @@ nav {
   margin: auto;
   width: 100%;
   background-color: #fff;
-  border-bottom: 1px solid;
 }
 nav a {
   margin: 0px 20px 0 0;
@@ -128,8 +127,8 @@ header {
 header h1.hey {
   position: absolute;
   z-index: 1;
-  top: 9rem;
-  left: 21rem;
+  top: 2rem;
+  left: 15rem;
   font-size: 16em;
   color: #fff;
 }
@@ -165,7 +164,7 @@ header .right-header {
 img.landing-hand {
   z-index: 1;
   max-height: 600px;
-  top: 38rem;
+  top: 32rem;
   left: 20rem;
 }
 img.landing-hand.right-hand {
@@ -222,7 +221,7 @@ img.about-photo {
   animation:3s arrow infinite ease;
 }
 [data-section-name="work"] img {
-  width: 250px;
+  height: 170px;
 }
 .img__wrap {
   position: relative;
@@ -246,10 +245,10 @@ img.about-photo {
   opacity: 1;
 }
 [data-section-name="contact"] .content {
-      display: flex;
+  display: flex;
 }
 [data-section-name="contact"] .content-copy {
-      margin-left: 3rem;
+  margin-left: 3rem;
 }
 
 .white-space {
