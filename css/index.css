@@ -2,7 +2,7 @@ html,
 body {
   height: 100%;
   width: 100%;    
-}
+} 
 body {
   font-family: "sofia-pro",sans-serif;
   color: rgb(68, 71, 69); 
@@ -170,7 +170,7 @@ img.landing-hand.right-hand {
   left: 70rem;
 }
 img.landing-hand.left {
-  left: 20rem;
+  left: 10rem;
 }
 .right-header .copy {
   position: absolute;
