@@ -156,7 +156,7 @@ header .right-header {
 }
 .right-header .copy img.scroll-arrow {
   height: 12rem;
-  margin-top: 20rem;
+  margin-top: 19rem;
 }
 .hand-illustrations {
   position: absolute;
@@ -241,11 +241,16 @@ img.about-photo {
     top:30px;
   }
 }
-img.scroll-arrow {
+.scroll-animation {
+
+}
+.scroll-arrow {
   content:'';
+  position: relative;
   margin:auto;
   -webkit-animation:3s arrow infinite ease;
   animation:3s arrow infinite ease;
+
 }
 [data-section-name="work"] img {
   height: 170px;
