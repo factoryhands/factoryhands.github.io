@@ -137,9 +137,9 @@ header {
 header h1.hey {
   position: absolute;
   z-index: 1;
-  top: 4rem;
+  top: 6rem;
   left: 6rem;
-  font-size: 13em;
+  font-size: 11em;
   color: #fff;
 }
 header .right-header {
@@ -153,8 +153,9 @@ header .right-header {
 }
 .right-header h3 {
   font-size: 3em;
+  margin: 4rem 0rem 0rem 0rem;
 }
-.right-header .copy p .greeting {
+p.greeting {
   margin: 6rem 0rem 4rem 0rem;
 }
 .right-header .copy img.scroll-arrow {
