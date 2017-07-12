@@ -154,9 +154,12 @@ header .right-header {
 .right-header h3 {
   font-size: 3em;
 }
+.right-header .copy p .greeting {
+  margin: 6rem 0rem 4rem 0rem;
+}
 .right-header .copy img.scroll-arrow {
-  height: 12rem;
-  margin-top: 19rem;
+  height: 15rem;
+  margin-top: 0rem;
 }
 .hand-illustrations {
   position: absolute;
