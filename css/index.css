@@ -179,7 +179,7 @@ img.landing-hand.left {
 }
 .right-header .copy {
   position: absolute;
-  top: -14rem;
+  top: -18rem;
   right: 0rem;
   width: 42rem;
   background-color: #fff;
@@ -225,6 +225,7 @@ img.landing-hand.left {
 img.about-illustration  {
   max-width: 320px;
   position: absolute;
+  top: -16rem;
   z-index: -1;
   top: -10rem;
 }
