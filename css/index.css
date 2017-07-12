@@ -175,6 +175,7 @@ img.landing-hand.right-hand {
 }
 img.landing-hand.left {
   left: 10rem;
+  opacity: .9;
 }
 .right-header .copy {
   position: absolute;
