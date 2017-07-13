@@ -12,8 +12,9 @@ $(".menu-link").click(function(e) {
 });
 
 
+if(!(/Android|webOS|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i.test(navigator.userAgent) )) { //if not these devices(userAgents)
 
-$.scrollify({
+  $.scrollify({
   section:".portfolio-section",
   scrollbars:false,
   offset: -50,
@@ -43,6 +44,8 @@ $.scrollify({
     $(".pagination a").on("click",$.scrollify.move);
   },
 });
+
+}
 
 
 

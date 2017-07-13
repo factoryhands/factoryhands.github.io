@@ -347,6 +347,12 @@ and (max-device-width : 768px)  {
   nav {
     display: none;
   }
+  section {
+    margin-top: 10rem;
+  }
+  [data-section-name="work"] {
+    margin-top: 40rem;
+  }
   .nav-content {
     display: none;
   }
@@ -358,6 +364,7 @@ and (max-device-width : 768px)  {
     top: 1rem;
     left: 1rem;
     font-size: 8em;
+    color: #0056eb;
   }
   header .right-header {
     top: 18rem;
@@ -371,13 +378,13 @@ and (max-device-width : 768px)  {
     border: none;
     position: relative;
     top: -2rem;
-    color: #fff;
+    color: #333;
     padding: 0;
     width: 32rem;
   }
   .right-header .copy img.scroll-arrow {
-    height: 12rem;
-    margin-top: 6rem;
+    height: 14rem;
+    margin-top: 0rem;
   }
   .img__wrap {
     margin: 3rem 0 3rem 0;
@@ -406,5 +413,8 @@ and (max-device-width : 768px)  {
   }
   .content img {
     display: none;
+  }
+  [data-section-name="contact"] .content-copy {
+    margin-left: 0;
   }
 }
