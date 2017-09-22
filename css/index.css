@@ -363,7 +363,7 @@ and (max-device-width : 768px)  {
   header h1.hey {
     top: 1rem;
     left: 1rem;
-    font-size: 8em;
+    font-size: 6em;
     color: #0056eb;
   }
   header .right-header {
@@ -377,7 +377,7 @@ and (max-device-width : 768px)  {
     background: transparent;
     border: none;
     position: relative;
-    top: -2rem;
+    top: -5rem;
     color: #333;
     padding: 0;
     width: 32rem;
