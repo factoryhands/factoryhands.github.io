@@ -369,6 +369,11 @@ header h3 {
 	margin-right: 15%;
 	margin-top: 10%;
 }
+.icon-illustration {
+    width: 230px;
+    margin-right: 20%;
+    margin-top: 10%;
+}
 .icon.timer {
 	width: 56px;
 }
