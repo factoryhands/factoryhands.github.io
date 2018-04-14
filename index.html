@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content=""> 
-
+  
     <!-- Facebook Scraper -->
     <meta property="og:url"                content="http://www.jenniferlspriggs.com" />
     <meta property="og:type"               content="portfolio" />
@@ -55,12 +55,14 @@
     <script src="https://use.typekit.net/gzm3kkz.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
-
     <!-- Hamburger Nav CSS -->
     <link href="css/new-nav.css" rel="stylesheet">
 
     <!-- Page CSS -->
     <link href="css/index.css" rel="stylesheet">
+
+    <!-- JQuery UI -->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
 
     <!-- favicon -->
     <!-- <link rel="shortcut icon" type="image/png" href="/img/site/favicon.png"/> -->
@@ -104,51 +106,61 @@
     <nav>
         <div class="nav-content">
             <div class="nav-logo">
-                <h1>Jennifer Spriggs</h1>
-                <p>ux &amp; visual design</p>
-            </div>
-            <div class="pagination">
-                <li>
-                    <a class="" href="#work">
-                        Work
+                    <a class="" href="#landing">
+                        <h1>Jennifer Spriggs</h1>
                     </a>
-                </li>
-                <li>
-                    <a class="" href="#about">
-                        About
-                    </a>
-                </li>
-                <li>
-                    <a class="" href="#contact">
-                        Contact
-                    </a>
-                </li>
             </div>
         </div>
     </nav>
     <!-- end nav-->
 
+    <!-- pagination -->
+    <div class="pagination">
+        <li>
+            <a class="" href="#google-clips">
+                Projects<sup>4</sup>
+            </a>
+        </li>
+        <li>
+            <ul class="project-list">
+                    <a class="" href="#google-clips"><li>Clips</li></a>
+                    <a class="" href="#azure"><li>Azure</li></a>
+                    <a class="" href="#digital-escrow"><li>Digital Escrow</li></a>
+                    <a class="" href="#oh-hey"><li>Oh hey</li></a>
+                    <a class="" href="#skintcinnati"><li>Skintcinnati</li></a>
+            </ul>
+        </li>
+        <li>
+            <a class="" href="#about">
+                Info
+            </a>
+        </li>
+        <li>
+            <a class="" href="#contact">
+                Contact
+            </a>
+        </li>
+        <li>
+            <a class="" href="http://www.heyitsjenns.life" target="_blank">
+                Blog
+            </a>
+        </li>
+    </div>
+    <!-- end pagination -->
+
 
     <section class="portfolio-section" data-section-name="landing">
-        <header>
-            <div class="right-header">  
-                <div class="copy">
-                    <h1 class="hey">Hey.</h1>
-                    <h2>What's up?</h2>
-                    <h3><i>Hello.</i></h3>
-                    <p class="greeting">I’m <strong>Jennifer Spriggs</strong> and I’m a visual and UX Designer.</p>
-                    <div class="scroll-animation">
-                        <img class="scroll-arrow" src="img/site/scroll-arrow.svg">
-                        <p class="scroll-small">scroll</p>
-                    </div>
-                </div>
+        <img src="img/site/snaphand.svg"> 
+        <div class="copy">
+            <h1>Hey.</h1>
+            <h1>What's up?</h1>
+            <h1>Hello.</h1>
+            <p class="greeting">I’m <strong>Jennifer Spriggs.</strong> I bring digital projects to life and help them grow.</p>
+            <div class="scroll-animation">
+                <img class="scroll-arrow" src="img/site/scroll-arrow.svg">
+                <p class="scroll-small">scroll</p>
             </div>
-            <div class="header-background">
-                <img class="landing-hand right-hand" src="img/site/white-ruler.svg">
-                <img class="landing-hand left" src="img/site/white-arc.svg">
-                <img class="header-blue-background" src="img/site/header-blue.svg">
-            </div>
-        </header>
+        </div>
     </section>
 
 
@@ -158,97 +170,83 @@
         <div class="container">
 
             <!-- work section -->
-            <section class="portfolio-section" data-section-name="work">
-                <div class="img__wrap">
-                    <a href="microsoft-pricing.html">
-                        <img src="img/work-section/pricing-calulator.png">
-                        <div class="img__description">
-                            <h3>Microsoft</h3>
-                            <p>Azure Pricing &amp; Calculator</p>
-                        </div>
-                    </a>
+            <section class="portfolio-section" data-section-name="google-clips">
+                <a href="">
+                    <div class="project-image md google-clips">
+                    </div>
+                </a>
+                <div class="project-info">
+                    <p>01-5</p>
+                    <h1>Clips</h1>
+                    <h2>Google</h2>
+                    <p>2018</p>
                 </div>
-                <div class="img__wrap">
-                    <a href="digital-escrow.html">
-                        <img src="img/work-section/StratusCore-Laptop.png">
-                        <div class="img__description">
-                            <h3>StratusCore</h3>
-                            <p>Digital Escrow</p>
-                        </div>
-                    </a>
+            </section>
+
+            <section class="portfolio-section" data-section-name="azure">
+                <a href="microsoft-pricing.html">
+                    <div class="project-image md">
+                    </div>
+                </a>
+                <div class="project-info">
+                    <p>02-5</p>
+                    <h1>Azure</h1>
+                    <h2>Microsoft</h2>
+                    <p>2017</p>
                 </div>
-                <div class="img__wrap">
-                    <a href="gogo-travel.html">
-                        <img src="img/work-section/Go-Go-Mockup.png">
-                        <div class="img__description">
-                            <h3>Go Go Travel Portal</h3>
-                            <p>Web Application</p>
-                        </div>
-                    </a>
+            </section>
+
+            <section class="portfolio-section" data-section-name="digital-escrow">
+                <a href="digital-escrow.html">
+                    <div class="project-image md">
+                    </div>
+                </a>
+                <div class="project-info">
+                    <p>03-5</p>
+                    <h1>Digital Escrow</h1>
+                    <h2>StratusCore</h2>
+                    <p>2017</p>
                 </div>
-<!--                 <div class="img__wrap">
-                    <a href="gogo-travel.html">
-                        <img src="img/work-section/Lulabop-Laptop.png">
-                        <div class="img__description">
-                            <h3>Lulabop</h3>
-                            <p>Online Store</p>
-                        </div>
-                    </a>
-                </div> -->
-                <div class="img__wrap">
-                    <a href="seismic-hero.html">
-                        <img src="img/work-section/Seismic-Hero-Mockup.png">
-                        <div class="img__description">
-                            <h3>Seismic Hero</h3>
-                            <p>iOS Game</p>
-                        </div>
-                    </a>
+            </section>
+
+            <section class="portfolio-section" data-section-name="oh-hey">
+                <a href="oh-hey.html">
+                    <div class="project-image md">
                 </div>
-                <div class="img__wrap">
-                    <a href="oh-hey.html">
-                        <img src="img/work-section/Oh-Hey-Iphone.png">
-                        <div class="img__description">
-                            <h3>Oh Hey</h3>
-                            <p>iOS &amp; Web Application</p>
-                        </div>
-                    </a>
+                </a>
+                <div class="project-info">
+                    <p>04-5</p>
+                    <h1>Oh hey</h1>
+                    <h2>Personal</h2>
+                    <p>Ongoing</p>
                 </div>
-                <div class="img__wrap">
-                    <a href="almanac-metrics.html">
-                        <img src="img/portfolio/almanac-metrics/almanac-logo.svg">
-                        <div class="img__description">
-                            <h3>Almanac Metrics</h3>
-                            <p>Identity Development</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="img__wrap">
-                    <a href="tele-tap.html">
-                        <img src="img/portfolio/tele-tap/tele-tap-logo.svg">
-                        <div class="img__description">
-                            <h3>Tele-Tap</h3>
-                            <p>Holistic Identity Development</p>
-                        </div>
-                    </a>
+            </section>
+
+            <section class="portfolio-section" data-section-name="skintcinnati">
+                <a href="">
+                    <div class="project-image md">
+                    </div>
+                </a>
+                <div class="project-info">
+                    <p>05-5</p>
+                    <h1>Skintcinnati</h1>
+                    <h2>Personal</h2>
+                    <p>Ongoing</p>
                 </div>
             </section>
             <!-- end work section -->
 
 
             <!-- about section -->
+
             <section class="portfolio-section" data-section-name="about">
-                <div class="about-wrapper"> 
-                    <div class="about-content">
-                            <img class="about-illustration" src="img/site/snap-hand.svg">
-                            <div class="about-copy">
-                                <h2>About me.</h2>
-                                <img src="img/about/Ugh_its_me-01.jpg" class="about-photo" align="left"><p>I'm Jenn! I'm a Visual UX Designer and Illustrator living in Seattle, Washington.</p>
-                                <br>
-                                <p>Trained deep in the exotic Ohio Valley at the University of Cincinnati’s <a href="https://daap.uc.edu/" target="_blank">DAAP Design program</a> with a focus in fashion, I discovered my passion for graphic and surface design. A healthy interest in interactive and web design, drawing from my dark past as a webmaster for a teen boyband fansite, has contributed to my ability to take on a variety of projects and  challenges.</p>
-                                <br>
-                                <p>I've worked for big companies like <a href="http://us.pg.com/" target="_blank">Procter &amp; Gamble</a>, <a href="https://www.lpk.com/" target="_blank">LPK</a>, <a href="https://www.ae.com/" target="_blank">American Eagle</a> and <a href="https://www.abercrombie.com/shop/us" target="_blank">Abercrombie and Fitch</a>. I've spent time consulting with small companies and startups like <a href="http://www.lulabop.com/" target="_blank">Lulabop   </a> and <a href="http://www.dokonoko.com/" target="_blank">Dokonoko</a> trying on all of their hats. If you have a good hat to wear, I'd like to try it on! I'm open for new projects and experiences so if you think you have something cool, you can contact me <a href="mailto:jenniferlspriggs@gmail.com">here</a>.</p> 
-                            </div>
+                    <div class="project-image">
                     </div>
+                <div class="project-info">
+                    <h1>I'm Jenn.</h1>
+                    <h3>I'm a visual UX designer and illustrator living in Seattle, Washington.</h3>
+                    <p>Trained deep in the exotic Ohio Valley at the University of Cincinnati’s <a href="https://daap.uc.edu/" target="_blank">DAAP Design program</a> with a focus in fashion, I discovered my passion for graphic and surface design. A healthy interest in interactive and web design, drawing from my dark past as a webmaster for a teen boyband fansite, has contributed to my ability to take on a variety of projects and  challenges.</p>
+                    <p>I've worked for big companies like <a href="http://us.pg.com/" target="_blank">Procter &amp; Gamble</a>, <a href="https://www.lpk.com/" target="_blank">LPK</a>, <a href="https://www.ae.com/" target="_blank">American Eagle</a> and <a href="https://www.abercrombie.com/shop/us" target="_blank">Abercrombie and Fitch</a>. I've spent time consulting with small companies and startups like <a href="http://www.lulabop.com/" target="_blank">Lulabop</a>, <a href="http://www.stratuscore.com/" target="_blank">StratusCore</a> and <a href="http://www.dokonoko.com/" target="_blank">Dokonoko</a>.</p> 
                 </div>
             </section>
             <!-- end about section -->
@@ -259,9 +257,9 @@
             <section class="portfolio-section" data-section-name="contact">
                     <div class="content">
                         <img src="img/site/hand-pen.svg">
-                        <div class="content-copy">
-                            <h2>Contact Me.</h2>
-                            <p>I am working for <a href="http://google.com" target=_blank>Google</a>, helping them design human-centered experiences and interactions with artificial intelligence for the <a href="https://store.google.com/us/product/google_clips?hl=en-US" target=_blank>Clips</a> team. If you’d like to contact me you can e-mail me at:
+                        <div class="project-info">
+                            <h1>Contact Me.</h1>
+                            <p>I am working for <a href="http://google.com" target=_blank>Google</a>, helping them design human-centered experiences and interactions for products with artificial intelligence for the <a href="https://store.google.com/us/product/google_clips?hl=en-US" target=_blank>Clips</a> team. If you’d like to contact me you can e-mail me at:
                             <a href="mailto:jenniferlspriggs@gmail.com">jenniferlspriggs@gmail.com</a>.</br>
                             <br>You can find my resume <a href="resume/jennferlspriggs_visual-ux-resume.pdf" target="_blank">here.</a></p>
                             </br>
@@ -282,6 +280,9 @@
 
 <!-- jQuery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- jQuery UI -->
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
 <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
