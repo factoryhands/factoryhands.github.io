@@ -1,7 +1,7 @@
 /*Custom Styles for Oh-Hey page*/ 
 h4 {
   font-weight: 200;
-  font-size: 1.2em;
+  font-size: 1.2em; 
 } 
  
 h5 {
@@ -105,8 +105,10 @@ img.gogo-mockup {
 }
 
 .back-to-work {
-	font-size: 4em;
+	font-size: 1.5em;
     position: fixed;
+    top: 1em;
+    left: 1em;
     top: 5px;
     color: rgb(68, 71, 69); 
     z-index: 1;
@@ -118,7 +120,8 @@ img.gogo-mockup {
 }
 
 .back-to-work a:hover {
-	text-decoration: none;
+	text-decoration: underline;
+	color: #59B240;
 }
 
 .project-image-title h1 {

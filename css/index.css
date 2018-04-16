@@ -3,17 +3,25 @@ body {
   height: 100%;
   width: 100%;    
 } 
+@keyframes grow-down {
+  100% {
+    bottom: -16em;
+  }
+}
+@keyframes grow-up {
+  100% {
+    bottom: 5em;
+  }
+}
 .show {
   display: block;
 }
+
 body {
   font-family: "sofia-pro",sans-serif;
   color: rgb(68, 71, 69); 
   overflow: hidden;
 } 
-.hide {
-  display: none;
-}
 .md {
   z-index:0;
   position:relative;
@@ -135,25 +143,28 @@ nav .active {
 }
 .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
   z-index: 2;
-  color: #0f5be8;
+  color: #383838;
   background-color: #fff;
   border-color: #fff;
 }
 ul.project-list {
   list-style-type: none;
 }
-
+ul.project-list li {
+  list-style-type: none;
+}
 .project-list a {
   margin-bottom: 24px;
 }
-ul.project-list:before {
+ul.project-list::before {
   content: '';
   position: absolute;
   left: 2em;
   top: 3em;
-  bottom: -16em;
+  bottom: 5em;
   width: 1px;
   background-color: black;
+  animation: grow-down 1s forwards;
 }
 header {
   min-height: 100%;

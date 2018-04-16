@@ -29,19 +29,12 @@ if(!(/Android|webOS|BlackBerry|iPhone|iPod|Opera Mini|IEMobile/i.test(navigator.
 
 
       if($.scrollify.current().attr('data-section-name') == 'google-clips', 'azure', 'digital-escrow', 'oh-hey', 'skintcinnati'){
-        $(".project-list").addClass("show");
+        $(".project-list, .project-list li").each(function(i) {
+          $(this).delay(100 * i).fadeIn(500);
+        });
       } else {
-        $(".project-list").removeClass("show");
+        $(".project-list").hide();
       } 
-
-      // $( ".project-list" ).toggleClass(function() {
-      //     if($.scrollify.current().attr('data-section-name') == 'google-clips', 'azure', 'digital-escrow', 'oh-hey', 'skintcinnati'){ {
-      //     return "happy";
-      //   } else {
-      //     return "sad";
-      //   }
-      // });
-
     },
     afterRender:function() {
       var pagination = "<ul class=\"pagination\">";
@@ -57,16 +50,6 @@ if(!(/Android|webOS|BlackBerry|iPhone|iPod|Opera Mini|IEMobile/i.test(navigator.
       pagination += "</ul>";
 
       $(".home").append(pagination);
-      /*
-
-      Tip: The two click events below are the same:
-
-      $(".pagination a").on("click",function() {
-        $.scrollify.move($(this).attr("href"));
-        $(".pagination a").addClass("active")
-      });
-
-      */
       $(".pagination a").on("click",$.scrollify.move);
       $(".nav-logo a").on("click",$.scrollify.move);
     }
