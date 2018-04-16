@@ -39,7 +39,7 @@ if(!(/Android|webOS|BlackBerry|iPhone|iPod|Opera Mini|IEMobile/i.test(navigator.
     afterRender:function() {
       var pagination = "<ul class=\"pagination\">";
       var activeClass = "";
-      $(".portfolio-sectio").each(function(i) {
+      $(".portfolio-section").each(function(i) {
         activeClass = "";
         if(i===0) {
           activeClass = "active";
