@@ -9,6 +9,9 @@ body {
   }
 }
 @keyframes grow-up {
+  0% {
+    bottom: -16em;
+  }
   100% {
     bottom: 5em;
   }
@@ -165,6 +168,9 @@ ul.project-list::before {
   width: 1px;
   background-color: black;
   animation: grow-down 1s forwards;
+}
+ul.project-list.up::before {
+  animation: grow-up 1s forwards;
 }
 header {
   min-height: 100%;
