@@ -27,6 +27,8 @@ if(!(/Android|webOS|BlackBerry|iPhone|iPod|Opera Mini|IEMobile/i.test(navigator.
 
       $(".pagination").find("a[href=\"#" + ref + "\"]").addClass("active");
 
+      var dname = $.scrollify.current().attr('data-section-name');
+
       if($.inArray($.scrollify.current().attr('data-section-name') , ['google-clips', 'azure', 'digital-escrow', 'oh-hey', 'skintcinnati']) != -1){
                 
         $(".project-list, .project-list li").each(function(i) {
