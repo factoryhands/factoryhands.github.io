@@ -32,11 +32,11 @@ if(!(/Android|webOS|BlackBerry|iPhone|iPod|Opera Mini|IEMobile/i.test(navigator.
       if($.inArray($.scrollify.current().attr('data-section-name') , ['google-clips', 'azure', 'digital-escrow', 'oh-hey', 'skintcinnati']) != -1){
                 
         $(".project-list, .project-list li").each(function(i) {
-          $(this).delay(100 * i).fadeIn(500);
+          $(this).fadeIn(200);
         });
       } else {
         $($(".project-list, .project-list li").get().reverse()).each(function(i) {
-          $(this).delay(100 * i).fadeOut(500);
+          $(this).fadeOut(200);
         });
       } 
     },

@@ -111,6 +111,7 @@ nav .active {
   top: 10%;
   margin-top: -50px;
   height: 100px;
+  width: 200px;
   z-index: 999;
   position: fixed;
 }
@@ -393,6 +394,9 @@ and (max-device-width : 1024px)  {
     top: 40rem;
     right: 17rem;
   }
+  .pagination {
+    display: none;
+  }
   header h1.hey {
     font-size: 11em;
   }
@@ -411,6 +415,9 @@ and (max-device-width : 768px)  {
   nav {
     display: none;
   } 
+  .pagination {
+    display: none;
+  }
   header .right-header {
     top: 40rem;
     right: 17rem;
