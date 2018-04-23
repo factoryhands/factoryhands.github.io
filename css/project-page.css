@@ -17,8 +17,37 @@ h5 {
   color: #0055ed;
 }
 
-header .background-image {
+.project-heading h1 {
+	margin-top: 1em;
+	font-family: "minion-pro";
+	font-weight: 700;
+	font-size: 6em;
+}
 
+.azure h1 {
+	font-size: 4em;
+}
+
+.project-heading p {
+	margin-top: 4em;
+}
+
+.project-info h3 {
+	font-size: 1em;
+	color: #909090;
+}
+
+.project-info h2 {
+	font-size: 1em;
+}
+
+.project-info {
+	padding-top: 2em;
+}
+
+.project-description h2 {
+	font-family: "minion-pro";
+	font-weight: 700;
 }
 
 .paint-point {
@@ -150,9 +179,11 @@ img.gogo-mockup {
 .project-description {
 	background-color: #fff;
 	color: rgb(68, 71, 69);
-    margin: 0 auto;
-	max-width: 56em;
 	padding: 2.5em 0 2.5em 0;
+}
+
+.project-description img {
+	margin-top: 4em;
 }
 
 .project-description h2, .project-screens h2 {
@@ -382,8 +413,6 @@ header h3 {
 }
 .icon-illustration {
     width: 230px;
-    margin-right: 20%;
-    margin-top: 10%;
 }
 .icon.timer {
 	width: 56px;
