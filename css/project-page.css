@@ -6,7 +6,6 @@ h4 {
 
 section {
   display: flex;
-  align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   top: 262px;
@@ -50,6 +49,11 @@ h5 {
 	font-weight: 700;
 }
 
+.project-description.azure img {
+	height: 163px;
+	margin-right: 7em;
+}
+
 .paint-point {
 	margin: 2rem;
 	display: inline-block;
@@ -91,6 +95,10 @@ img.gogo-mockup {
 
 .white-text {
 	color: #fff;
+}
+
+.colors {
+	margin-top: 5em;
 }
 
 .project-image-title { 
@@ -189,8 +197,12 @@ img.gogo-mockup {
 	margin-top: 4em;
 }
 
+.project-description h2 {
+	margin-bottom: 1em;
+}
+
 .project-description h2, .project-screens h2 {
-	margin-top: 7%;
+	margin-top: 16%;
 }
 
 .concept-description, .screens {
