@@ -280,6 +280,9 @@ p.greeting {
 }
 [data-section-name="about"] .project-info h3 {
   padding-bottom: .5em;
+  padding-bottom: .5em;
+  font-size: 1.5em;
+  line-height: inherit;
 }
 .project-info {
   padding-left: 2em;
