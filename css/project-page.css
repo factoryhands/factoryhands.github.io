@@ -15,6 +15,11 @@ h5 {
   font-size: 1em;
 }
 
+video {
+    width: 100%;
+    height: auto;
+}
+
 .link {
 	margin-top: 8em;
 }
@@ -629,5 +634,12 @@ header h3 {
 	}
 	.col.small-header-image {
 		display: block;
+	}
+	.back-to-work span {
+		display: none;
+	}
+	.back-to-work p {
+		font-size: 2em;
+    	color: blue;
 	}
 }
