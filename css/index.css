@@ -267,8 +267,6 @@ p.greeting {
   background-color: #F6F6F6;
 }
 [data-section-name="about"] .project-image {
-  height: 581px;
-  width: 500px;
   background-image: url("../img/about/ugh_its_me-02.png");
   background-size: 100%;
   background-color: #fff;
@@ -444,9 +442,6 @@ and (max-device-width : 768px)  {
   nav {
     display: none;
   }
-  section {
-    margin-top: 10rem;
-  }
   [data-section-name="work"] {
     margin-top: 40rem;
   }
@@ -516,5 +511,19 @@ and (max-device-width : 768px)  {
   }
   [data-section-name="landing"] img {
     display: none;
+  }
+  section {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    top: 262px;
+  }
+  .scroll-animation {
+    display: none;
+  }
+  .project-image {
+    width: 395px;
+    height: 300px;
   }
 }
