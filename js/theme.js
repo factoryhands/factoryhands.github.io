@@ -1,7 +1,7 @@
-$(window).on('load', function() {
-    $('#preloader').fadeOut( 1000 );
-    $('body').css({'overflow':'visible'});
-});
+// $(window).on('load', function() {
+//     $('#preloader').fadeOut( 1000 );
+//     $('body').css({'overflow':'visible'});
+// });
 
 $(".project-list").hide();
 
@@ -61,6 +61,8 @@ if(!(/Android|webOS|BlackBerry|iPhone|iPod|iPad|Opera Mini|IEMobile/i.test(navig
 });
 
 }
+
+
 
 
 
