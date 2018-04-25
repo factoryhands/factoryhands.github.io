@@ -514,4 +514,7 @@ and (max-device-width : 768px)  {
   [data-section-name="contact"] .content-copy {
     margin-left: 0;
   }
+  [data-section-name="landing"] img {
+    display: none;
+  }
 }
