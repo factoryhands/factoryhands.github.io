@@ -57,17 +57,11 @@
     <script src="https://use.typekit.net/gzm3kkz.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
-    <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-
     <!-- Theme CSS -->
     <link href="css/theme.css" rel="stylesheet">
 
     <!-- Page CSS -->
     <link href="css/project-page.css" rel="stylesheet">
-
-    <!-- Hamburger Nav CSS -->
-    <link href="css/hamburger-nav.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -88,13 +82,13 @@
 
     <!-- Start Hamburger Menu -->
     <!-- The overlay -->
-    <div id="myNav" class="overlay">
+    <!-- <div id="myNav" class="overlay"> -->
 
         <!-- Button to close the overlay navigation -->
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
 
         <!-- Overlay content -->
-        <div class="overlay-content">
+        <!-- <div class="overlay-content">
             <div class="overlay-content-links">
                 <a href="index.html#home" onclick="closeNav()">Home</a>
                 <a href="index.html#about" onclick="closeNav()">About</a>
@@ -102,10 +96,10 @@
                 <a href="index.html#contact" onclick="closeNav()">Contact</a>
                 <a href="resume/jennferlspriggs_visual-ux-resume.pdf" target="_blank">Resume</a>
                 <a href="http://factoryhands.design/blog" target="_blank">Blog</a>
-            </div>
+            </div> -->
             
             <!-- Social Icons Overlay Nav -->
-            <div class="social-icons">
+            <!-- <div class="social-icons">
                 <a href="https://dribbble.com/factoryhands" target="_blank">
                     <img src="img/site/dribbble.svg">
                 </a>
@@ -120,7 +114,7 @@
                 </a>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <div class="container-fluid">
         <section class="project-heading azure">
@@ -375,17 +369,33 @@
         </section>
     </div>
 
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+<!-- jQuery UI -->
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 
-    <!-- Hamburger Menu JavaScript -->
-    <script type="text/javascript" src="js/hamburger-menu.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- Theme JavaScript -->
-    <script type="text/javascript" src="js/theme.js"></script>
+<!-- Scrollify JS -->
+<script type="text/javascript" src="vendor/Scrollify-master/jquery.scrollify.min.js"></script>
+
+<!-- Theme JavaScript -->
+<script type="text/javascript" src="js/theme.js"></script>
+
+<!-- Reload cache -->
+<script type="text/javascript">
+$(document).ready(function(){
+  $('img').each(function(){
+
+      var date = new Date;
+      // add the current unix timestamp in microseconds to the the image src as a query string
+      this.src = this.src + '?' + date.getTime();
+   });
+
+});
+</script>
 
 </body>
 
