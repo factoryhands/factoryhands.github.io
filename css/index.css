@@ -61,15 +61,15 @@ section {
   top: 262px;
 }
 a {
-  color: #59B240;
+  color: #0055ed;
   cursor: pointer;
 }
 a:hover {
-  color: #59B240;
+  color: #0055ed;
   cursor: pointer;
 }
 a:active {
-  color: #59B240;
+  color: #0055ed;
   text-decoration: none;
 }
 nav {
@@ -127,7 +127,7 @@ nav .active {
   align-items: flex-start;
 }
 .pagination a.active {
-  color: #59B240;
+  color: #0055ed;
 }
 .pagination a .hover-text {
   position:absolute;
@@ -379,7 +379,7 @@ p.greeting {
 }
 .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
   z-index: 2;
-  color: #59B240;
+  color: #0055ed;
   background-color: transparent;
   border-color: transparent;
 }
