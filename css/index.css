@@ -512,6 +512,16 @@ and (max-device-width : 768px)  {
   [data-section-name="landing"] img {
     display: none;
   }
+
+  [data-section-name="landing"] .copy {
+    margin: 2em;
+    font-size: .7em;
+  }
+
+  [data-section-name="landing"] .greeting {
+    font-size: 3em;
+  }
+
   section {
     display: block;
     align-items: center;
@@ -525,5 +535,13 @@ and (max-device-width : 768px)  {
   .project-image {
     width: 395px;
     height: 300px;
+    margin: .5em 0px 0px .5em;
+  }
+  .project-info {
+    margin: 3em 0em 5em 0;
+    padding-bottom: 2em;
+  }
+  .project-info h1 {
+    padding-bottom: 0em;
   }
 }
