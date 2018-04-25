@@ -19,6 +19,14 @@ h5 {
 	margin-top: 8em;
 }
 
+.small-screen-link {
+	display: none;
+}
+
+.col.small-header-image {
+	display: none;
+}
+
 .project-heading h1 {
 	margin-top: 1em;
 	font-family: "minion-pro";
@@ -608,5 +616,18 @@ header h3 {
 	img.gogo-mockup {
     	max-width: 250px;
     	margin: 0 auto;
+	}
+	.link {
+		display: none;
+	}
+	.small-screen-link {
+		display: block;
+		margin-top: 3em;
+	}
+	.large-header-image {
+		display: none;
+	}
+	.col.small-header-image {
+		display: block;
 	}
 }
