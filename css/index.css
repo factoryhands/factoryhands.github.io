@@ -61,15 +61,15 @@ section {
   top: 262px;
 }
 a {
-  color: #59B240;
+  color: #0055ed;
   cursor: pointer;
 }
 a:hover {
-  color: #59B240;
+  color: #0055ed;
   cursor: pointer;
 }
 a:active {
-  color: #59B240;
+  color: #0055ed;
   text-decoration: none;
 }
 nav {
@@ -127,7 +127,7 @@ nav .active {
   align-items: flex-start;
 }
 .pagination a.active {
-  color: #59B240;
+  color: #0055ed;
 }
 .pagination a .hover-text {
   position:absolute;
@@ -267,8 +267,6 @@ p.greeting {
   background-color: #F6F6F6;
 }
 [data-section-name="about"] .project-image {
-  height: 581px;
-  width: 500px;
   background-image: url("../img/about/ugh_its_me-02.png");
   background-size: 100%;
   background-color: #fff;
@@ -282,6 +280,9 @@ p.greeting {
 }
 [data-section-name="about"] .project-info h3 {
   padding-bottom: .5em;
+  padding-bottom: .5em;
+  font-size: 1.5em;
+  line-height: inherit;
 }
 .project-info {
   padding-left: 2em;
@@ -378,7 +379,7 @@ p.greeting {
 }
 .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
   z-index: 2;
-  color: #59B240;
+  color: #0055ed;
   background-color: transparent;
   border-color: transparent;
 }
@@ -443,9 +444,6 @@ and (max-device-width : 768px)  {
 @media only screen and (max-device-width: 480px) {
   nav {
     display: none;
-  }
-  section {
-    margin-top: 10rem;
   }
   [data-section-name="work"] {
     margin-top: 40rem;
@@ -513,5 +511,40 @@ and (max-device-width : 768px)  {
   }
   [data-section-name="contact"] .content-copy {
     margin-left: 0;
+  }
+  [data-section-name="landing"] img {
+    display: none;
+  }
+
+  [data-section-name="landing"] .copy {
+    margin: 2em;
+    font-size: .7em;
+  }
+
+  [data-section-name="landing"] .greeting {
+    font-size: 3em;
+  }
+
+  section {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    top: 262px;
+  }
+  .scroll-animation {
+    display: none;
+  }
+  .project-image {
+    width: 395px;
+    height: 300px;
+    margin: .5em 0px 0px .5em;
+  }
+  .project-info {
+    margin: 3em 0em 5em 0;
+    padding-bottom: 2em;
+  }
+  .project-info h1 {
+    padding-bottom: 0em;
   }
 }

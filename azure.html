@@ -9,6 +9,11 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <!-- prevent caching -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+
     <title>Microsoft Azure</title>   
 
     <!-- Facebook Scraper -->
@@ -56,9 +61,6 @@
     <!-- Typekit Lato Font -->
     <script src="https://use.typekit.net/gzm3kkz.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
-
-    <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
     <!-- Theme CSS -->
     <link href="css/theme.css" rel="stylesheet">
@@ -125,13 +127,14 @@
     <div class="container-fluid">
         <section class="project-heading azure">
             <div class="row">
-                <div class="col small-header-image no-gutters">
-                    <img src="img/portfolio/microsoft/azure-header.png" class="img-fluid">
-                </div>
-                <div class="col-md-4 offset-md-2 col-sm-12">
+                
+                <div class="col-md-6 col-sm-12">
                     <div class="row">
                         <div class="col col-sm-12">
                             <h1>Azure Virtual machine Pricing Pages &amp; Calculator</h1>
+                            <div class="col small-header-image no-gutters">
+                                <img src="img/portfolio/microsoft/azure-header.png" class="img-fluid">
+                            </div>
                             <p>Microsoft's Azure product is the focus and forefront of their cloud computing market strategy, and the pricing page is the user's way in. The Azure Communication team handles all marketing and user-facing informational content for the Azure products, balancing the user's need of precise and directed communication with the internal business needs. The pricing pages and pricing calculator filter and direct the user to build economic cloud-based   solutions for their applications.</p>
                         </div>
                     </div>
@@ -157,9 +160,10 @@
                                 <h3>Year</h3>
                                 <h2>2017</h2>
                             </div>
-                            <div class="link">
-                                <h2><a href="https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/" target="_blank">Link to page ↗</a></h2>
-                            </div>
+                            
+                        </div>
+                        <div class="link" style="margin-top: 10px;">
+                            <h2><a href="https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/" target="_blank">Link to page ↗</a></h2>
                         </div>
                     </div>
                     <div class="row small-screen-link">
@@ -176,21 +180,21 @@
     </div>
 
     <section id="" class="row">
-        <div class="col offset-md-2">
+        <div class="col">
             <div class="project-description">
                 <h2>Upfront and navigable pricing</h2>
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <p>One of the biggest and most urgent goals for this project was to rethink how our users navigate and discover prices for a vast menu of different virtual machine products. Cloud products can be incredibly complex and widely diverse, and there’s a special challenge to clearly communicating so much information without feeling too dense.</p>
 
                         <p>With this release, Azure was introducing a new way to pay for their virtual machines through reservation, a huge development for the product.</p>
                     </div>
-                    <div class="col-md-4 col-offset-1">
+                    <div class="col-md-6">
                         <p>The introduction of the pricing columns was brought about to give our users a clear and interactive way to easily surf through prices. It also gave Azure a clear way to highlight value on featured VM’s, allowing our users to quickly compare prices across our assortment and to our competitors. </p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-8">
+                    <div class="col-md-12">
                         <video loop class="microsoft-pricing" autoplay="autoplay">
                             <source src="img/portfolio/microsoft/EasyPriceNavigation.mov" type="video/mp4" />
                         </video>
@@ -202,11 +206,11 @@
 
 
     <section id="" class='row'>
-        <div class="col offset-md-2">
+        <div class="col">
             <div class="project-description azure">
                 <h2>Product illustration</h2>
                 <div class="row">
-                    <div class="col-md-5">
+                    <div class="col-md-6">
                         <p>One of the most exciting parts of my job was working closely with an amazing group of engineers. We moved swiftly, and I wanted to help us move even faster. As a team we were interested in upping the quality of the imagery sprinkled across the Azure pages, and we saw SVG as the way. In order to work in our build, SVG's had to be optimized in a very specific way. While rapidly redesigning web pages for a giant launch, I worked closely with the documentation team to capture our learnings in a series of SVG guidelines that we used to finally set standards and practices around how we handled imagery for the site.</p>
                     </div>
                 </div>
@@ -223,28 +227,28 @@
     </section>
 
     <section id="" class="row">
-        <div class="col offset-md-2">
+        <div class="col">
             <div class="project-description">
                 <h2>Calculator integration</h2>
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <p>Azure’s mission is to become the leader in the cloud services market, and arguably one of the biggest tools of conversion lies in the cloud product calculator. It’s a massive part of their conversion strategy, and in testing is usually the first place user’s land ot really wrap their heads around what building on Azure will cost them. It’s incredibly interactive and at one point was silo’d unti itself. The redesign of the virtual machines pricing page changed that. </p>
 
                         <p>The redesign of the virtual machines pricing page changed that. </p>
                     </div>
-                    <div class="col-md-4 col-offset-1">
+                    <div class="col-md-6">
                         <p>The new pricing page features spots the user can immediately add virtual machines to their calculator. Using the shopping-cart metaphor we were able to build an experience that allows the user to cherry-pick items and immediately push it to their calculator. Our users can then go right into the calculator experience where they make their final calculations and decisions.</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-12 col-md-8">
+                    <div class="col-sm-12 col-md-12">
                         <video loop class="microsoft-pricing" autoplay="autoplay">
                             <source src="img/portfolio/microsoft/AddToEstimate.mov" type="video/mp4" />
                         </video>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-12 col-md-8">
+                    <div class="col-sm-12 col-md-12">
                         <video loop class="microsoft-pricing" autoplay="autoplay">
                             <source src="img/portfolio/microsoft/AddToEstimateFeatured.mov" type="video/mp4" />
                         </video>
@@ -256,7 +260,7 @@
 
     <div class="container-fluid">
         <section id="see-more-projects" class='row'>
-            <div class="col offset-md-2">
+            <div class="col">
                 <div class="project-description">
                     <h2>Other projects</h2>
                     <hr>
@@ -311,11 +315,11 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
-    <!-- Hamburger Menu JavaScript -->
-    <script type="text/javascript" src="js/hamburger-menu.js"></script>
-
     <!-- Theme JavaScript -->
     <script type="text/javascript" src="js/theme.js"></script>
+
+    <!-- Scrollify JS -->
+    <script type="text/javascript" src="vendor/Scrollify-master/jquery.scrollify.min.js"></script>
 
 </body>
 
