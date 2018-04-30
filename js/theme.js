@@ -14,7 +14,7 @@ $(".menu-link").click(function(e) {
 });
 
 
-if(!(/Android|webOS|BlackBerry|iPhone|iPod|iPad|Opera Mini|IEMobile/i.test(navigator.userAgent) )) { //if not these devices(userAgents)
+if(!(/Android|webOS|BlackBerry|iPhone|iPod|Opera Mini|IEMobile/i.test(navigator.userAgent) )) { //if not these devices(userAgents)
 
   $.scrollify({
     section:".portfolio-section",
