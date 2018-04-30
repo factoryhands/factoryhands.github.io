@@ -206,6 +206,9 @@ header .copy {
 }
 p.greeting {
   margin: 6rem 0rem 4rem 0rem;
+  margin: 6rem 0rem 4rem 0rem;
+  font-size: 2em;
+  max-width: 600px;
 }
 .right-header .copy img.scroll-arrow {
   height: 15rem;
@@ -273,8 +276,8 @@ p.greeting {
   opacity: 1;
 }
 [data-section-name="about"] .project-info h1 {
-  font-size: 5em;
-  padding-bottom: .5em;
+  font-size: 3em;
+  padding-bottom: .1em;
   font-family: "minion-pro";
   font-weight: 700;
 }

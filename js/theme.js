@@ -29,8 +29,7 @@ if(!(/Android|webOS|BlackBerry|iPhone|iPod|iPad|Opera Mini|IEMobile/i.test(navig
 
       var dname = $.scrollify.current().attr('data-section-name');
 
-      if($.inArray($.scrollify.current().attr('data-section-name') , ['google-clips', 'azure', 'digital-escrow', 'oh-hey', 'skintcinnati']) != -1){
-                
+      if($.inArray($.scrollify.current().attr('data-section-name') , ['google-clips', 'azure', 'digital-escrow', 'oh-hey', 'skintcinnati']) != -1){  
         $(".project-list, .project-list li").each(function(i) {
           $(this).fadeIn(200);
         });
@@ -39,6 +38,7 @@ if(!(/Android|webOS|BlackBerry|iPhone|iPod|iPad|Opera Mini|IEMobile/i.test(navig
           $(this).fadeOut(200);
         });
       } 
+
     },
     afterRender:function() {
       var pagination = "<ul class=\"pagination\">";
@@ -57,10 +57,10 @@ if(!(/Android|webOS|BlackBerry|iPhone|iPod|iPad|Opera Mini|IEMobile/i.test(navig
       $(".pagination a").on("click",$.scrollify.move);
       $(".nav-logo a").on("click",$.scrollify.move);
     }
+  });
+}; 
 
-});
 
-}
 
 
 
