@@ -33,11 +33,21 @@ if(!(/Android|webOS|BlackBerry|iPhone|iPod|iPad|Opera Mini|IEMobile/i.test(navig
         $(".project-list, .project-list li").each(function(i) {
           $(this).fadeIn(200);
         });
+        $(".projects").addClass("active");
+        $(".carat").addClass("carat-active");
       } else {
         $($(".project-list, .project-list li").get().reverse()).each(function(i) {
           $(this).fadeOut(200);
+          $(".carat").removeClass("carat-active");
         });
       } 
+
+      $(".projects.active").on('click', function(){
+        if($(".projects").hasClass('active')) {
+          $.scrollify.move('#landing');
+          ($(this).removeClass('active'));
+        }
+      });
 
     },
     afterRender:function() {
@@ -59,6 +69,8 @@ if(!(/Android|webOS|BlackBerry|iPhone|iPod|iPad|Opera Mini|IEMobile/i.test(navig
     }
   });
 }; 
+
+
 
 
 
