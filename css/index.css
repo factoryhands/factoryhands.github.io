@@ -399,6 +399,9 @@ and (max-device-width : 1024px)  {
   nav {
     display: none;
   } 
+  .pagination {
+    display: none;
+  }
   header .right-header {
     top: 40rem;
     right: 17rem;
@@ -415,6 +418,15 @@ and (max-device-width : 1024px)  {
   img.landing-hand.right-hand {
     left: 75rem;
     top: 5rem;
+  }
+  .portfolio-section img {
+    display: none;
+  }
+  .scroll {
+    display: none;
+  }
+  .scroll-small {
+    display: none;
   }
 }
 
@@ -441,6 +453,15 @@ and (max-device-width : 768px)  {
     left: 75rem;
     top: 5rem;
   }
+  .portfolio-section img {
+    display: none;
+  }
+  .scroll {
+    display: none;
+  }
+  .scroll-small {
+    display: none;
+  } 
 }
 
 /* Small devices (landscape phones, 576px and up)*/
