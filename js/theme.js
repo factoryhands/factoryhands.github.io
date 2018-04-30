@@ -5,14 +5,6 @@ $(window).on('load', function() {
 
 $(".project-list").hide();
 
-$(".menu-link").click(function(e) {
-  e.preventDefault();
-    
-  $(".menu-overlay").toggleClass("open");
-  $(".menu").toggleClass("open");
-  $("body").toggleClass("no-scroll");
-});
-
 
 if(!(/Android|webOS|BlackBerry|iPhone|iPod|iPad|Opera Mini|IEMobile/i.test(navigator.userAgent) )) { //if not these devices(userAgents)
 
@@ -29,6 +21,14 @@ if(!(/Android|webOS|BlackBerry|iPhone|iPod|iPad|Opera Mini|IEMobile/i.test(navig
 
       var dname = $.scrollify.current().attr('data-section-name');
 
+      $(".projects").on('click', function(){
+        if($(".projects").hasClass('active')) {
+          $.scrollify.move('#landing');
+          ($(this).removeClass('active'));
+          console.log("hey");
+        }
+      });
+
       if($.inArray($.scrollify.current().attr('data-section-name') , ['google-clips', 'azure', 'digital-escrow', 'oh-hey', 'skintcinnati']) != -1){  
         $(".project-list, .project-list li").each(function(i) {
           $(this).fadeIn(200);
@@ -42,12 +42,7 @@ if(!(/Android|webOS|BlackBerry|iPhone|iPod|iPad|Opera Mini|IEMobile/i.test(navig
         });
       } 
 
-      $(".projects.active").on('click', function(){
-        if($(".projects").hasClass('active')) {
-          $.scrollify.move('#landing');
-          ($(this).removeClass('active'));
-        }
-      });
+      
 
     },
     afterRender:function() {
