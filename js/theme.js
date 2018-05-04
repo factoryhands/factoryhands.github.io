@@ -5,16 +5,21 @@ $(window).on('load', function() {
 
 $(".project-list").hide();
 
-$(".menu-link").click(function(e) {
-  e.preventDefault();
-    
-  $(".menu-overlay").toggleClass("open");
-  $(".menu").toggleClass("open");
-  $("body").toggleClass("no-scroll");
-});
-
 
 if(!(/Android|webOS|BlackBerry|iPhone|iPod|iPad|Opera Mini|IEMobile/i.test(navigator.userAgent) )) { //if not these devices(userAgents)
+
+  $(".projects").on('click', function(){
+    if($(".projects").hasClass('active')) {
+      ($(this).removeClass('active'));
+      setTimeout(
+        function() 
+        {
+          $.scrollify.move('#landing');
+        }, 100);
+      console.log("hey");
+    }
+  });
+
 
   $.scrollify({
     section:".portfolio-section",
@@ -29,15 +34,21 @@ if(!(/Android|webOS|BlackBerry|iPhone|iPod|iPad|Opera Mini|IEMobile/i.test(navig
 
       var dname = $.scrollify.current().attr('data-section-name');
 
+
       if($.inArray($.scrollify.current().attr('data-section-name') , ['google-clips', 'azure', 'digital-escrow', 'oh-hey', 'skintcinnati']) != -1){  
         $(".project-list, .project-list li").each(function(i) {
           $(this).fadeIn(200);
         });
+          $(".projects").addClass("active");
+        $(".carat").addClass("carat-active");
       } else {
         $($(".project-list, .project-list li").get().reverse()).each(function(i) {
           $(this).fadeOut(200);
         });
+        $(".carat").removeClass("carat-active");
       } 
+
+      
 
     },
     afterRender:function() {
@@ -69,6 +80,8 @@ var lineDrawing = anime({
   direction: 'alternate',
   loop: false
 });
+
+
 
 
 

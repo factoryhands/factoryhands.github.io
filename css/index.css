@@ -287,6 +287,14 @@ p.greeting {
   font-size: 1.5em;
   line-height: inherit;
 }
+.projects span {
+  margin-left: 2em;
+}
+
+.carat-active {
+  transform: rotate(180deg);
+}
+
 .project-info {
   padding-left: 2em;
   max-width: 444px;
