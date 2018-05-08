@@ -237,11 +237,24 @@ p.greeting {
   background-color: #86EE6A;
   background-repeat: no-repeat;
 }
-
+[data-section-name="landing"] h1 {
+  -webkit-animation-duration: 5s;
+}
+[data-section-name="landing"] h2 {
+  -webkit-animation-duration: 7s;
+}
+[data-section-name="landing"] h3 {
+  -webkit-animation-duration: 10s;
+}
+[data-section-name="landing"] .greeting {
+  -webkit-animation-duration: 12s;
+}
 [data-section-name="landing"] img {
   margin-right: 8em;
 }
-
+p.scroll-small {
+  color: #0055ed;
+}
 [data-section-name="google-clips"] .project-image {
   background-image: url("../img/site/googleclips.png");
   background-size: 150%;
