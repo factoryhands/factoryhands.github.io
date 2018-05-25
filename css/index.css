@@ -518,6 +518,9 @@ and (max-device-width : 768px)  {
     top: 18rem;
     right: 1rem;
   }
+  #lineDrawing {
+    display: none;
+  }
   .landing-hand {
     display: none;
   }
