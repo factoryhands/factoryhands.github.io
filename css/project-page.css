@@ -206,11 +206,10 @@ img.gogo-mockup {
 	font-size: 1.5em;
     position: fixed;
     top: 1em;
-    left: 1em;
     top: 5px;
     color: rgb(68, 71, 69); 
     z-index: 1;
-    padding: 0px 14px 6px 14px;
+    padding: 20px 14px 6px 14px;;
 }
 
 .back-to-work a {
