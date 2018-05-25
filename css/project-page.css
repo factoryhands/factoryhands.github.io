@@ -214,7 +214,7 @@ img.gogo-mockup {
 }
 
 .back-to-work a {
-	color: rgb(68, 71, 69); 
+	color: #0255ED;
 }
 
 .back-to-work a:hover {
@@ -660,7 +660,7 @@ header h3 {
 	font-size: 30px;
 	}
 	.back-to-work p {
-		font-size: 2em;
+		font-size: 1em;
     	color: blue;
 	}
 	.back-to-work{
