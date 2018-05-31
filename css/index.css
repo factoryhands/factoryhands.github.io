@@ -580,7 +580,15 @@ and (max-device-width : 768px)  {
     right: 1rem;
   }
   #lineDrawing {
-    display: none;
+    margin-top: 4em;
+    margin-left: 4em;
+    margin-bottom: 1em;
+  }
+  p.greeting {
+    font-size: 1em;
+  }
+  .icon-scroll {
+    margin-top: 5em;
   }
   .landing-hand {
     display: none;
