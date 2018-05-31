@@ -585,7 +585,8 @@ and (max-device-width : 768px)  {
     margin-bottom: 1em;
   }
   p.greeting {
-    font-size: 1em;
+    font-size: .6em;
+    margin: 4rem 0rem 4rem 0rem;
   }
   .icon-scroll {
     margin-top: 5em;
@@ -647,7 +648,7 @@ and (max-device-width : 768px)  {
   }
 
   [data-section-name="landing"] .greeting {
-    font-size: 3em;
+    font-size: 2.3em;
   }
 
   section {
