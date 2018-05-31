@@ -293,10 +293,12 @@ p.scroll-small {
   background-color: #F6F6F6;
 }
 [data-section-name="about"] .project-image {
-  background-image: url("../img/about/ugh_its_me-02.png");
+  background-image: url("../img/site/selfie.gif");
   background-size: 100%;
   background-color: #fff;
   opacity: 1;
+  background-size: 121%;
+  height: 360px;
 }
 [data-section-name="about"] .project-info h1 {
   font-size: 3em;
@@ -404,7 +406,7 @@ p.scroll-small {
   z-index: -1;
 }
 [data-section-name="about"] .about-me-image {
-  background-image: url("../img/about/ugh_its_me-02.png");
+  background-image: url("../img/site/selfie.gif");
   border-radius: 4px;
   height: 381px;
   width: 300px;
