@@ -643,14 +643,15 @@ and (max-device-width : 768px)  {
   [data-section-name="landing"] img {
     display: none;
   }
-
   [data-section-name="landing"] .copy {
     margin: 2em;
     font-size: .7em;
   }
-
   [data-section-name="landing"] .greeting {
     font-size: 2.3em;
+  }
+  [data-section-name="about"] .project-image {
+    background-size: 151%;
   }
 
   section {
