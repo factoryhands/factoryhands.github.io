@@ -25,7 +25,10 @@ a:active {
   text-decoration: none;
 }
 
-
+a:focus, a:hover {
+  color: #0055ed;
+  text-decoration: underline;
+}
 
 nav a {
   margin: 0px 20px 0 0;

@@ -72,6 +72,10 @@ a:active {
   color: #0055ed;
   text-decoration: none;
 }
+a:focus, a:hover {
+  color: #0055ed;
+  text-decoration: underline;
+}
 nav {
   list-style: none;
   margin: 0; 
@@ -364,8 +368,8 @@ p.scroll-small {
   margin-left: -2px;
   top: 8px;
   border-radius: 4px;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
   -webkit-animation-name: scroll;
