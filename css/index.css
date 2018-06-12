@@ -111,7 +111,7 @@ nav .active {
   justify-content: flex-start;
 }
 .pagination {
-  right: 5%;
+  right: 0%;
   top: 10%;
   margin-top: -50px;
   height: 100px;
@@ -198,7 +198,8 @@ header .copy {
 }
 #lineDrawing {
   margin-left: 6em;
-  margin-bottom: 6em;
+  margin-bottom: 3em;
+  margin-top: 8em;
 }
 .copy h1{
   font-family: "minion-pro";
@@ -214,8 +215,7 @@ header .copy {
   margin: 4rem 0rem 0rem 0rem;
 }
 p.greeting {
-  margin: 6rem 0rem 4rem 0rem;
-  margin: 6rem 0rem 4rem 0rem;
+  margin: 2rem 0rem 4rem 0rem;
   font-size: 1.5em;
   max-width: 600px;
   text-align: center;
@@ -353,7 +353,7 @@ p.scroll-small {
   height: 50px;
   margin-left: -20px;
   top: 50%;
-  margin-top: 10em;
+  margin-top: 1em;
   box-shadow: inset 0 0 0 2px #3F3F3F;
   border-radius: 25px;
   position: relative;
