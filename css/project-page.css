@@ -21,7 +21,7 @@ video {
 }
 
 .link {
-	margin-top: 8em;
+	margin-top: 1em;
 }
 
 .small-screen-link {
@@ -670,10 +670,6 @@ header h3 {
 .row.google-clips .col-md-12 img{
 	margin: 0px 5px !important;
 	width: 31%;
-}
-.container-fluid{
-	padding-left: 5%;
-	padding-right: 5%;
 }
 .cont-flu{
 	padding-left: 5%;
