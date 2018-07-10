@@ -33,6 +33,12 @@ body {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+.mobile-description {
+  display: none;
+}
+.project-arrow {
+  display: none;
+}
 .md:hover {
   z-index:999;
   box-shadow:rgba(0, 0, 0, 0.4) 0 10px 20px 0;
@@ -323,6 +329,7 @@ p.scroll-small {
 .project-info {
   padding-left: 2em;
   max-width: 444px;
+  padding-right: 2em;
 }
 .project-info h1 {
   font-size: 5em;
@@ -332,6 +339,7 @@ p.scroll-small {
 }
 .project-info h2 {
   font-size: 2em;
+  margin-top: 1em;
 }
 .project-info p {
   font-size: 1em;
@@ -470,9 +478,13 @@ p.scroll-small {
   background-color: transparent;
   border-color: transparent;
 }
-.white-space {
+.white-space-3 {
   margin-top: 3rem;
 }
+.white-space-6 {
+  margin-top: 6rem;
+}
+
 
 
 
@@ -554,6 +566,57 @@ and (max-device-width : 768px)  {
   .scroll-small {
     display: none;
   } 
+  .project-image {
+    display: none;
+  }
+  .icon-scroll {
+    display: none;
+  }
+    .project-info {
+    margin: 8em 0em 5em 0;
+    padding-bottom: 2em;
+  }
+  .project-info h1 {
+    padding-bottom: 0em;
+  }
+    .project-arrow {
+    margin-top: 3em;
+  }
+  .project-arrow p {
+    font-weight: 700;
+    font-size: 1em;
+  }
+  .mobile-description {
+    display: block;
+  }
+  .project-arrow {
+    display: block;
+  }
+  .mobile-description p {
+    display: block;
+  }
+  .arrow {
+    width: 200px;
+    height: 2px;
+    margin-right: 5px;
+    background: blue;
+    position: absolute;
+  }
+  .arrow::before {
+    content:"";
+    border-bottom: 5px solid transparent;  /* left arrow slant */
+    border-top: 5px solid transparent; /* right arrow slant */
+    border-left: 5px solid blue; /* bottom, add background color here */
+    font-size: 0;
+    line-height: 0;
+    color: blue;
+    position: absolute;
+    top: -4px;
+    right: -4px;
+  }
+  [data-section-name="about"] .project-image {
+    display: block;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -631,11 +694,52 @@ and (max-device-width : 768px)  {
     margin-right: 0;
     margin-top: 8rem;
   }
+  .icon-scroll {
+    display: none;
+  }
+  .project-image {
+    display:;
+  }
   .about-copy {
     margin-left: 0;
   }
   .content img {
     display: none;
+  }
+  .project-arrow {
+    margin-top: 3em;
+  }
+  .project-arrow p {
+    font-weight: 700;
+    font-size: 1em;
+  }
+  .mobile-description {
+    display: block;
+  }
+  .project-arrow {
+    display: block;
+  }
+  .mobile-description p {
+    display: block;
+  }
+  .arrow {
+    width: 200px;
+    height: 2px;
+    margin-right: 5px;
+    background: blue;
+    position: absolute;
+  }
+  .arrow::before {
+    content:"";
+    border-bottom: 5px solid transparent;  /* left arrow slant */
+    border-top: 5px solid transparent; /* right arrow slant */
+    border-left: 5px solid blue; /* bottom, add background color here */
+    font-size: 0;
+    line-height: 0;
+    color: blue;
+    position: absolute;
+    top: -4px;
+    right: -4px;
   }
   [data-section-name="contact"] .content-copy {
     margin-left: 0;
@@ -644,7 +748,7 @@ and (max-device-width : 768px)  {
     display: none;
   }
   [data-section-name="landing"] .copy {
-    margin: 2em;
+    margin: 6em 2em 2em 2em;
     font-size: .7em;
   }
   [data-section-name="landing"] .greeting {
@@ -653,7 +757,6 @@ and (max-device-width : 768px)  {
   [data-section-name="about"] .project-image {
     background-size: 151%;
   }
-
   section {
     display: block;
     align-items: center;
@@ -665,15 +768,25 @@ and (max-device-width : 768px)  {
     display: none;
   }
   .project-image {
-    width: 395px;
-    height: 300px;
-    margin: .5em 0px 0px .5em;
+    display: none;
   }
   .project-info {
-    margin: 3em 0em 5em 0;
+    margin: 8em 0em 5em 0;
     padding-bottom: 2em;
   }
   .project-info h1 {
     padding-bottom: 0em;
+  }
+  [data-section-name="about"] {
+    margin-top: 8em;
+  }
+  [data-section-name="about"] .project-image {
+    display: block;
+    height: 290px;
+    width: 390px;
+    margin-left: 10px;
+  }
+  [data-section-name="about"] .project-info {
+    margin-top: 2em;
   }
 }

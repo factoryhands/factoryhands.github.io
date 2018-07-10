@@ -19,27 +19,42 @@ video {
     width: 100%;
     height: auto;
 }
-
+.white-space-3 {
+  margin-top: 3rem;
+}
+.white-space-6 {
+  margin-top: 6rem;
+}
 .link {
 	margin-top: 1em;
 }
-
-.small-screen-link {
-	display: none;
+.large-header-image::after {
+  display: block;
+  position: relative;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
+  margin-top: -150px;
+  height: 150px;
+  width: 100%;
+  content: '';
 }
-
-.col.small-header-image {
-	display: none;
-}
-
-.project-heading h1 {
+#project-header h1 {
 	margin-top: 1em;
 	font-family: "minion-pro";
 	font-weight: 700;
 	font-size: 6em;
 }
-
-
+#project-header p {
+	margin-top: 3em;
+}
+.google-play-image img {
+	width: 250px;
+}
+.small-screen-link {
+	display: none;
+}
+.col.small-header-image {
+	display: none;
+}
 .azure h1 {
 	font-size: 4em;
 }
@@ -239,13 +254,7 @@ img.gogo-mockup {
 .project-description {
 	background-color: #fff;
 	color: rgb(68, 71, 69);
-	padding: 2.5em 0 2.5em 0;
 }
-
-.project-description img {
-	margin-top: 4em;
-}
-
 .project-description h2 {
 	margin-bottom: 1em;
 }
@@ -564,7 +573,9 @@ header h3 {
 	.project-description {
 		padding: 5%;
 	}
-
+	.project-arrow {
+		display: block;
+	}
 	.project-role {
 		padding: 5%;
 	}
@@ -665,6 +676,9 @@ header h3 {
 	.back-to-work{
 		display: block;
 	}
+	.project-description img {
+		margin-top: 3em;
+	}
 }
 @media only screen and (min-width:1000px){
 .row.google-clips .col-md-12 img{
@@ -680,11 +694,8 @@ header h3 {
 	.back-to-work{
 		display: block;
 	}
-	.project-heading{
-		width: 50%;
-		display: inline-block;	}
 	.project-heading h1 {
-	font-size: 50px;
+		font-size: 50px;
 		margin-top: 100px;
 	}
 	.col.tab-header-image{
@@ -693,9 +704,7 @@ header h3 {
 		float: right;
 		height: 100%;
 		overflow: hidden;
-		
 	}
-
 	.row.google-clips .col-md-12 img{
 		margin: 10px;
 	}
