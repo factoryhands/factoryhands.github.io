@@ -126,7 +126,7 @@ nav .active {
   position: fixed;
 }
 .pagination>li {
-  display: -webkit-box;
+  display: flex;
 }
 .pagination a {
   margin-bottom: 65px;
