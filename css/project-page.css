@@ -18,12 +18,17 @@ h5 {
 video {
     width: 100%;
     height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
 }
 .white-space-3 {
   margin-top: 3rem;
 }
 .white-space-6 {
   margin-top: 6rem;
+}
+.white-space-12 {
+  margin-top: 12rem;
 }
 .link {
 	margin-top: 1em;
@@ -46,11 +51,18 @@ video {
 #project-header p {
 	margin-top: 3em;
 }
+img.azure-wireframe {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+}
 .google-play-image img {
 	width: 250px;
 }
 .small-screen-link {
 	display: none;
+}
+.navigating-pricing {
+	margin-top: 15em;
 }
 .col.small-header-image {
 	display: none;
@@ -70,6 +82,10 @@ video {
 
 .project-info h2 {
 	font-size: 1em;
+}
+
+.azure-persona {
+    width: 766px;
 }
 
 .project-info {
@@ -258,13 +274,6 @@ img.gogo-mockup {
 .project-description {
 	background-color: #fff;
 	color: rgb(68, 71, 69);
-}
-.project-description h2 {
-	margin-bottom: 1em;
-}
-
-.project-description h2, .project-screens h2 {
-	margin-top: 16%;
 }
 
 .press-clipping h3 {
